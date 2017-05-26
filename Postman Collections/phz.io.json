@@ -6871,7 +6871,7 @@
             }
           ],
           "request": {
-            "url": "{{api_url}}/gamification/?token=",
+            "url": "{{api_url}}/purchase/?token=",
             "method": "POST",
             "header": [
               {
@@ -6882,7 +6882,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"cancelled\": 0,\r\n  \"emailenabled\": 0,\r\n  \"enddate\": \"2016-09-25\",\r\n  \"facebookenabled\": 0,\r\n  \"instagramenabled\": 0,\r\n  \"mobileenabled\": 0,\r\n  \"name\": \"Win the Things!\",\r\n  \"processing\": 0,\r\n  \"selectedallwinners\": 0,\r\n  \"smsenabled\": 0,\r\n  \"startdate\": \"2016-09-24T16:32:00.000Z\",\r\n  \"twitterenabled\": 1,\r\n  \"type\": \"Manual\",\r\n  \"winnermessage\": \"woohoo. you win!\"\r\n}"
+              "raw": "{\n  \"amount\": \"16710.20\",\n  \"category\": \"Food\",\n  \"client_id\": \"110226b0-b663-11e6-b98b-cd9945ae5583\",\n  \"description\": \"Food Purchase\",\n  \"fan_id\": \"b4c5df7d-d3ab-4aa1-93a3-73594b7e5c23\",\n  \"lastmodifieddate\": \"2017-02-09T03:39:30Z\",\n  \"purchasedate\": \"2016-02-07T00:00:00.000Z\",\n  \"quantity\": \"1\",\n  \"sku\": \"SKU--44122112\",\n  \"subcategory\": \"Food\"\n}"
             },
             "description": "Inserts a Contest"
           },
