@@ -5719,6 +5719,48 @@
     "/engagement/{listening_engagement}/photos/year": {
       "get": {
         "description": "TODO: Add Description",
+        "summary": "Photos - Get Female",
+        "tags": [
+          "engagement"
+        ],
+        "operationId": "Photos - Get Female",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "listening_engagement",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "security": [],
+        "x-unitTests": [],
+        "x-operation-settings": {
+          "CollectParameters": false,
+          "AllowDynamicQueryParameters": false,
+          "AllowDynamicFormParameters": false,
+          "IsMultiContentStreaming": false
+        }
+      }
+    },
+    "/engagement/{listening_engagement}/sentiment": {
+      "get": {
+        "description": "TODO: Add Description",
         "summary": "Sentiment - Get",
         "tags": [
           "engagement"
