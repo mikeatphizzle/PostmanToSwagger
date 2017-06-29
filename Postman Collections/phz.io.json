@@ -3024,7 +3024,7 @@
         }
       }
     },
-    "/engagement/{listening_engagement}/activity/day/positive": {
+    "/engagement/{ENGAGEMENT_ID}/activity/day/positive": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Day Positive",
@@ -3044,7 +3044,7 @@
             "description": ""
           },
           {
-            "name": "listening_engagement",
+            "name": "ENGAGEMENT_ID",
             "in": "path",
             "required": true,
             "type": "string",
@@ -3402,7 +3402,7 @@
         }
       }
     },
-    "/engagement/{listening_engagement}/activity/sentiment/positive/detail": {
+    "/engagement/{ENGAGEMENT_ID}/activity/sentiment/positive/detail": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Activity - Get Positive Sentiment Detail",
@@ -3422,7 +3422,7 @@
             "description": ""
           },
           {
-            "name": "listening_engagement",
+            "name": "ENGAGEMENT_ID",
             "in": "path",
             "required": true,
             "type": "string",
@@ -6578,7 +6578,7 @@
         }
       }
     },
-    "/fan/detail/{fan_id}/activity": {
+    "/fan/detail/{FAN_ID}/activity": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Activity - Get",
@@ -6598,7 +6598,7 @@
             "description": ""
           },
           {
-            "name": "fan_id",
+            "name": "FAN_ID",
             "in": "path",
             "required": true,
             "type": "string",
