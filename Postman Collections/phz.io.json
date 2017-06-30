@@ -492,7 +492,7 @@
         }
       }
     },
-    "/authentication/": {
+    "/authentication": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Login User",
@@ -532,7 +532,29 @@
           }
         },
         "security": [],
-        "x-unitTests": [],
+        "x-unitTests": [
+          {
+            "request": {
+              "method": "GET",
+              "uri": "/authentication?username={{USERNAME}}&password={{PASSWORD}}",
+              "headers": {
+                "Content-Type": "application/json"
+              }
+            },
+            "expectedResponse": {
+              "x-allowExtraHeaders": true,
+              "x-bodyMatchMode": "NONE",
+              "x-arrayOrderedMatching": false,
+              "x-arrayCheckCount": false,
+              "x-matchResponseSchema": true,
+              "headers": {}
+            },
+            "x-testShouldPass": true,
+            "x-testEnabled": true,
+            "x-testName": "Login User",
+            "x-testDescription": "TODO: Add Description"
+          }
+        ],
         "x-operation-settings": {
           "CollectParameters": false,
           "AllowDynamicQueryParameters": false,
