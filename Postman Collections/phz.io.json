@@ -9266,6 +9266,41 @@
     "/system/ping": {
       "get": {
         "description": "TODO: Add Description",
+        "summary": "Ping - Get",
+        "tags": [
+          "system"
+        ],
+        "operationId": "Ping - Get",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "security": [],
+        "x-unitTests": [],
+        "x-operation-settings": {
+          "CollectParameters": false,
+          "AllowDynamicQueryParameters": false,
+          "AllowDynamicFormParameters": false,
+          "IsMultiContentStreaming": false
+        }
+      }
+    },
+    "/system/time": {
+      "get": {
+        "description": "TODO: Add Description",
         "summary": "Time - Get",
         "tags": [
           "system"
