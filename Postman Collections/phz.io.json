@@ -4268,14 +4268,14 @@
         }
       }
     },
-    "/engagement/{listening_engagement}/gender/minute": {
+    "/engagement/{listening_engagement}/gender/1,180,1,180": {
       "get": {
         "description": "TODO: Add Description",
-        "summary": "Gender - Get Last Minute",
+        "summary": "Gender - Get Geo",
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Last Minute",
+        "operationId": "Gender - Get Geo",
         "produces": [
           "application/json"
         ],
@@ -4310,14 +4310,14 @@
         }
       }
     },
-    "/engagement/{listening_engagement}/gender/1,180,1,180": {
+    "/engagement/{listening_engagement}/gender/minute": {
       "get": {
         "description": "TODO: Add Description",
-        "summary": "Gender - Get Geo",
+        "summary": "Gender - Get Last Minute",
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Geo",
+        "operationId": "Gender - Get Last Minute",
         "produces": [
           "application/json"
         ],
@@ -5360,48 +5360,6 @@
         }
       }
     },
-    "/engagement/detail/{keywords_engagement}/keywords": {
-      "get": {
-        "description": "TODO: Add Description",
-        "summary": "Keywords - Get",
-        "tags": [
-          "engagement"
-        ],
-        "operationId": "Keywords - Get",
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "name": "token",
-            "in": "query",
-            "required": true,
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "keywords_engagement",
-            "in": "path",
-            "required": true,
-            "type": "string",
-            "description": ""
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "security": [],
-        "x-unitTests": [],
-        "x-operation-settings": {
-          "CollectParameters": false,
-          "AllowDynamicQueryParameters": false,
-          "AllowDynamicFormParameters": false,
-          "IsMultiContentStreaming": false
-        }
-      }
-    },
     "/engagement/{listening_engagement}/keyword": {
       "post": {
         "description": "TODO: Add Description",
@@ -5497,6 +5455,48 @@
           },
           {
             "name": "listening_engagement",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "security": [],
+        "x-unitTests": [],
+        "x-operation-settings": {
+          "CollectParameters": false,
+          "AllowDynamicQueryParameters": false,
+          "AllowDynamicFormParameters": false,
+          "IsMultiContentStreaming": false
+        }
+      }
+    },
+    "/engagement/detail/{keywords_engagement}/keywords": {
+      "get": {
+        "description": "TODO: Add Description",
+        "summary": "Keywords - Get",
+        "tags": [
+          "engagement"
+        ],
+        "operationId": "Keywords - Get",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "keywords_engagement",
             "in": "path",
             "required": true,
             "type": "string",
