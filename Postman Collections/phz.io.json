@@ -7334,6 +7334,9 @@
             "description": "",
             "schema": {
               "type": "object"
+            },
+            "examples": {
+              "text/plain": "{\"result\":{\"startdate\":\"2015-10-18T22:30:00.000Z\",\"selectedallwinners\":0,\"enddate\":\"2015-10-25T22:30:00.000Z\",\"cancelled\":1,\"facebookenabled\":0,\"emailenabled\":0,\"twitterenabled\":1,\"createddate\":\"2015-10-18T22:30:08.788Z\",\"client_id\":\"388e16d6-d35e-4f8c-bba5-b1147b824473\",\"createdby_id\":\"o.patsalo@svitla.com\",\"description\":\"Manual Description Edit\",\"processing\":0,\"id\":\"00331d63-fd62-42c1-b8ce-f3d86c16ef99\",\"smsenabled\":1,\"lastmodifieddate\":\"2015-10-18T22:30:47.573Z\",\"mobileenabled\":0,\"lastmodifiedby_id\":\"o.patsalo@svitla.com\",\"name\":\"AutoTest Contests Manual Edit\",\"instagramenabled\":0,\"type\":\"Manual\"},\"error\":null,\"next_key\":null,\"status\":200}"
             }
           }
         },
@@ -9651,6 +9654,13 @@
   "definitions": {
     "InsertActivityrequest": {
       "title": "Insert ActivityRequest",
+      "example": {
+        "message": "É³â presents 2017*êü°×ì·üºóÞÃÁ",
+        "activitydate": "2015-06-11T12:43:23.479Z",
+        "type": "Ticket Purchase",
+        "action": "Purchase",
+        "fanprofile_profile_and_type": "SGOLDBERG Twitter"
+      },
       "type": "object",
       "properties": {
         "message": {
@@ -9684,6 +9694,11 @@
     },
     "UpdateActivityrequest": {
       "title": "Update ActivityRequest",
+      "example": {
+        "activitydate": "2015-10-24T19:37:34Z",
+        "message": "#RugbyChampa #seven #1ra perdió 0-17 vs Liceo Naval #SwissMedicalGroup #sponsorChampa",
+        "type": "Instagram"
+      },
       "type": "object",
       "properties": {
         "activitydate": {
@@ -9707,6 +9722,13 @@
     },
     "InsertApprequest": {
       "title": "Insert AppRequest",
+      "example": {
+        "name": "my app",
+        "secret": "asdadasda4334aAdaUVt7BVb4ArfoOh8oNGZ8",
+        "socialid": "14664007",
+        "token": "34424asdf3f43gvg445y45y54v45gsdcf34t4t",
+        "type": "Custom App"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -9740,6 +9762,13 @@
     },
     "UpdateApprequest": {
       "title": "Update AppRequest",
+      "example": {
+        "name": "my apperrrr",
+        "secret": "asdadasda4334aAdaUVt7BVb4ArfoOh8oNGZ8",
+        "socialid": "14664007",
+        "token": "34424asdf3f43gvg445y45y54v45gsdcf34t4t",
+        "type": "Custom App"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -9773,6 +9802,11 @@
     },
     "PasswordResetrequest": {
       "title": "Password ResetRequest",
+      "example": {
+        "username": "lreese",
+        "password": "weezy",
+        "token": "079d52b0-94ae-11e6-9e90-1b0d5e118eed"
+      },
       "type": "object",
       "properties": {
         "username": {
@@ -9796,6 +9830,14 @@
     },
     "UserRequest": {
       "title": "UserRequest",
+      "example": {
+        "Name": "SUper fellah",
+        "username": "kbernhardy3@phizzle.com",
+        "password": "test7",
+        "active": true,
+        "email": "kbernhardy@phizzle.com",
+        "permission": "User"
+      },
       "type": "object",
       "properties": {
         "Name": {
@@ -9834,6 +9876,14 @@
     },
     "UpdateUserrequest": {
       "title": "Update UserRequest",
+      "example": {
+        "Name": "SUper fellah",
+        "username": "kbernhardy3@phizzle.com",
+        "password": "test7",
+        "active": true,
+        "email": "kbernhardy@phizzle.com",
+        "permission": "User"
+      },
       "type": "object",
       "properties": {
         "Name": {
@@ -9872,6 +9922,14 @@
     },
     "User  creates user for a clientrequest": {
       "title": "User - Creates user for a clientRequest",
+      "example": {
+        "Name": "SUper fellah",
+        "username": "kbernhardy3@phizzle.com",
+        "password": "test7",
+        "active": true,
+        "email": "kbernhardy@phizzle.com",
+        "permission": "User"
+      },
       "type": "object",
       "properties": {
         "Name": {
@@ -9910,6 +9968,14 @@
     },
     "User  updates user for a clientrequest": {
       "title": "User - Updates user for a clientRequest",
+      "example": {
+        "Name": "SUper fellah",
+        "username": "kbernhardy3@phizzle.com",
+        "password": "test7",
+        "active": true,
+        "email": "kbernhardy@phizzle.com",
+        "permission": "User"
+      },
       "type": "object",
       "properties": {
         "Name": {
@@ -9948,6 +10014,17 @@
     },
     "Client  postrequest": {
       "title": "Client - PostRequest",
+      "example": {
+        "name": "new client 2",
+        "email": "lreese@phizzle.com",
+        "firstname": "Louisa",
+        "lastname": "reese",
+        "description": "new client 2 description",
+        "postalcode": "80021",
+        "timezone": "America/Denver",
+        "lastmodifiedby_id": "lreese",
+        "plan": "free"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10001,6 +10078,10 @@
     },
     "ClientUpdaterequest": {
       "title": "client updateRequest",
+      "example": {
+        "name": "Super Rad Co",
+        "lastmodifiedby_id": "lreese"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10019,6 +10100,18 @@
     },
     "Email sender  insertrequest": {
       "title": "Email Sender - InsertRequest",
+      "example": {
+        "name": "Danielle ",
+        "email_address": "dford@phizzle.com",
+        "reply_email_address": "dfaksjd@gmail.com",
+        "address1": "askdj",
+        "city": "Broomfield",
+        "postal_code": "80021",
+        "country": "US",
+        "company": "Phizzle",
+        "verified": 1,
+        "state": "CO"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10078,6 +10171,11 @@
     },
     "Email template  insertrequest": {
       "title": "Email Template - InsertRequest",
+      "example": {
+        "name": "kyle test",
+        "html": "<html><head></head><body>hello there</body></html>",
+        "subject": "hey what up"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10101,6 +10199,11 @@
     },
     "Email template  updaterequest": {
       "title": "Email Template - UpdateRequest",
+      "example": {
+        "name": "kyle test",
+        "html": "<html><head></head><body>hello there</body></html>",
+        "subject": "hey what up, to you"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10124,6 +10227,25 @@
     },
     "Segment  insertrequest": {
       "title": "Segment - InsertRequest",
+      "example": {
+        "name": "kyle test",
+        "segment": [
+          {
+            "and": [
+              {
+                "fan.firstname": {
+                  "starts_with": "a"
+                }
+              },
+              {
+                "list_member.list_id": {
+                  "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+                }
+              }
+            ]
+          }
+        ]
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10187,6 +10309,25 @@
     },
     "Segment  updaterequest": {
       "title": "Segment - UpdateRequest",
+      "example": {
+        "name": "kyle tester",
+        "segment": [
+          {
+            "and": [
+              {
+                "fan.firstname": {
+                  "starts_with": "a"
+                }
+              },
+              {
+                "list_member.list_id": {
+                  "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+                }
+              }
+            ]
+          }
+        ]
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10208,6 +10349,25 @@
     },
     "Segment  deleterequest": {
       "title": "Segment - DeleteRequest",
+      "example": {
+        "name": "kyle test",
+        "segment": [
+          {
+            "and": [
+              {
+                "fan.firstname": {
+                  "starts_with": "a"
+                }
+              },
+              {
+                "list_member.list_id": {
+                  "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+                }
+              }
+            ]
+          }
+        ]
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10229,6 +10389,9 @@
     },
     "Group  insertrequest": {
       "title": "Group - InsertRequest",
+      "example": {
+        "name": "kyle test"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10242,6 +10405,9 @@
     },
     "Group  updaterequest": {
       "title": "Group - UpdateRequest",
+      "example": {
+        "name": "kyle testerrr"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10255,6 +10421,9 @@
     },
     "Group  deleterequest": {
       "title": "Group - DeleteRequest",
+      "example": {
+        "name": "kyle testerrr"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10268,6 +10437,14 @@
     },
     "Email campaign  insertrequest": {
       "title": "Email Campaign - InsertRequest",
+      "example": {
+        "name": "my email campaign",
+        "startdate": "2017-02-01T22:41:29.586Z",
+        "email_sender_id": "kbernhardy@phizzle.com",
+        "subject": "SUBJECT OF YOUR EMAIL",
+        "client_id": "388e16d6-d35e-4f8c-bba5-b1147b824473",
+        "status": "draft"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10306,6 +10483,14 @@
     },
     "Email campaign  updaterequest": {
       "title": "Email Campaign - UpdateRequest",
+      "example": {
+        "name": "my email campaignerrrr",
+        "startdate": "2017-02-01T22:41:29.586Z",
+        "email_sender_id": "kbernhardy@phizzle.com",
+        "subject": "SUBJECT OF YOUR EMAIL",
+        "client_id": "388e16d6-d35e-4f8c-bba5-b1147b824473",
+        "status": "draft"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10344,6 +10529,9 @@
     },
     "Email campaign group  insertrequest": {
       "title": "Email Campaign Group - InsertRequest",
+      "example": {
+        "group_id": "7bc57090-f2dd-11e6-893d-216a536d489a"
+      },
       "type": "object",
       "properties": {
         "group_id": {
@@ -10357,6 +10545,9 @@
     },
     "Email campaign group  deleterequest": {
       "title": "Email Campaign Group - DeleteRequest",
+      "example": {
+        "group_id": "7bc57090-f2dd-11e6-893d-216a536d489a"
+      },
       "type": "object",
       "properties": {
         "group_id": {
@@ -10370,6 +10561,9 @@
     },
     "Email campaign list  insertrequest": {
       "title": "Email Campaign List - InsertRequest",
+      "example": {
+        "list_id": "b2936720-b06c-11e6-b181-537bca909e2a"
+      },
       "type": "object",
       "properties": {
         "list_id": {
@@ -10383,6 +10577,9 @@
     },
     "Email campaign list  deleterequest": {
       "title": "Email Campaign List - DeleteRequest",
+      "example": {
+        "list_id": "b2936720-b06c-11e6-b181-537bca909e2a"
+      },
       "type": "object",
       "properties": {
         "list_id": {
@@ -10396,6 +10593,9 @@
     },
     "List  insertrequest": {
       "title": "List - InsertRequest",
+      "example": {
+        "name": "kyle test"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10409,6 +10609,9 @@
     },
     "List  updaterequest": {
       "title": "List - UpdateRequest",
+      "example": {
+        "name": "kyle testerrrrr"
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10422,6 +10625,13 @@
     },
     "Engagement  insertrequest": {
       "title": "Engagement - InsertRequest",
+      "example": {
+        "startdate": "2016-11-21T14:52:00Z",
+        "enddate": "2016-11-22T14:52:00Z",
+        "name": "Test Campaign",
+        "status": 0,
+        "type": "Q&A"
+      },
       "type": "object",
       "properties": {
         "startdate": {
@@ -10456,6 +10666,9 @@
     },
     "Engagement  updaterequest": {
       "title": "Engagement - UpdateRequest",
+      "example": {
+        "twitteractive": "0"
+      },
       "type": "object",
       "properties": {
         "twitteractive": {
@@ -10469,6 +10682,15 @@
     },
     "Keywords  insertrequest": {
       "title": "Keywords - InsertRequest",
+      "example": {
+        "answer": 1,
+        "hashtag": 1,
+        "keyword": "PHZIOISGO",
+        "mention": 0,
+        "name": "PHZIO Is Go",
+        "phrase": 0,
+        "trackfrom": 0
+      },
       "type": "object",
       "properties": {
         "answer": {
@@ -10517,6 +10739,15 @@
     },
     "Keywords  updaterequest": {
       "title": "Keywords - UpdateRequest",
+      "example": {
+        "answer": 1,
+        "hashtag": 1,
+        "keyword": "PHZIOISGO",
+        "mention": 0,
+        "name": "PHZIO Is Goer",
+        "phrase": 0,
+        "trackfrom": 0
+      },
       "type": "object",
       "properties": {
         "answer": {
@@ -10565,6 +10796,12 @@
     },
     "Member  insertrequest": {
       "title": "Member - InsertRequest",
+      "example": {
+        "fanprofile_id": "TESTERSON Twitter",
+        "optindate": "2015-03-09T21:56:12.627Z",
+        "optout": 0,
+        "subscriptiontype": "Twitter"
+      },
       "type": "object",
       "properties": {
         "fanprofile_id": {
@@ -10594,6 +10831,12 @@
     },
     "Member  updaterequest": {
       "title": "Member - UpdateRequest",
+      "example": {
+        "fanprofile_id": "TESTERSON Twitter",
+        "optindate": "2016-03-09T21:56:12.627Z",
+        "optout": 0,
+        "subscriptiontype": "Twitter"
+      },
       "type": "object",
       "properties": {
         "fanprofile_id": {
@@ -10623,6 +10866,20 @@
     },
     "Purchases  insertrequest": {
       "title": "Purchases - InsertRequest",
+      "example": {
+        "externalid": "3cac96fa-ee6e-4ca7-bd88-b82214efdaee",
+        "purchasedate": "2016-02-07T00:00:00Z",
+        "sku": "SKU--44122112",
+        "description": "Nobuhiro KATO Jersey",
+        "id": "detail",
+        "subcategory": "Jersey",
+        "quantity": 4,
+        "lastmodifieddate": "2015-05-08T20:34:40.494Z",
+        "category": "Merchandise",
+        "lastmodifiedby_id": "phzioapi@phizzle.com",
+        "amount": "16710.20",
+        "fan_id": "b4c5df7d-d3ab-4aa1-93a3-73594b7e5c23"
+      },
       "type": "object",
       "properties": {
         "externalid": {
@@ -10692,6 +10949,34 @@
     },
     "SearchRequest": {
       "title": "SearchRequest",
+      "example": [
+        {
+          "or": [
+            {
+              "fan.age": {
+                "between": [
+                  29,
+                  40
+                ]
+              }
+            },
+            {
+              "fan.city": {
+                "=": "Denver"
+              }
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "fan.firstname": {
+                "=": "Jim"
+              }
+            }
+          ]
+        }
+      ],
       "type": "object",
       "properties": {
         "or": {
@@ -10755,6 +11040,22 @@
     },
     "ContestRequest": {
       "title": "ContestRequest",
+      "example": {
+        "cancelled": 0,
+        "emailenabled": 0,
+        "enddate": "2016-09-25",
+        "facebookenabled": 0,
+        "instagramenabled": 0,
+        "mobileenabled": 0,
+        "name": "Win the Things!",
+        "processing": 0,
+        "selectedallwinners": 0,
+        "smsenabled": 0,
+        "startdate": "2016-09-24T16:32:00Z",
+        "twitterenabled": 1,
+        "type": "Manual",
+        "winnermessage": "woohoo. you win!"
+      },
       "type": "object",
       "properties": {
         "cancelled": {
@@ -10842,6 +11143,11 @@
     },
     "WinnerRequest": {
       "title": "WinnerRequest",
+      "example": {
+        "activity_id": "7a5c00aa-c292-4f27-aa0c-4878856deb77_Twitteractivity7",
+        "campaign_id": "2a283c65-0632-4d8a-bae3-f03e21293d45",
+        "fanprofile_id": "TENNIS_84 Twitter"
+      },
       "type": "object",
       "properties": {
         "activity_id": {
@@ -10865,6 +11171,12 @@
     },
     "Program tier  updaterequest": {
       "title": "Program Tier - UpdateRequest",
+      "example": {
+        "name": "Gold",
+        "loyaltyprogram_id": "20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7",
+        "pointmultiplier": 1,
+        "points": 1000
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10895,6 +11207,12 @@
     },
     "Program tier  insertrequest": {
       "title": "Program Tier - InsertRequest",
+      "example": {
+        "name": "Gold",
+        "loyaltyprogram_id": "20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7",
+        "pointmultiplier": 1,
+        "points": 1000
+      },
       "type": "object",
       "properties": {
         "name": {
@@ -10925,6 +11243,9 @@
     },
     "Program point rule  updaterequest": {
       "title": "Program Point Rule - UpdateRequest",
+      "example": {
+        "pointsearned": 11
+      },
       "type": "object",
       "properties": {
         "pointsearned": {
@@ -10939,6 +11260,11 @@
     },
     "Program point rule  insertrequest": {
       "title": "Program Point Rule - InsertRequest",
+      "example": {
+        "type": "Join",
+        "pointsearned": 20,
+        "loyaltyprogram_id": "20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7"
+      },
       "type": "object",
       "properties": {
         "type": {
@@ -10963,6 +11289,9 @@
     },
     "Program member  updaterequest": {
       "title": "Program Member - UpdateRequest",
+      "example": {
+        "currentpoints": 11
+      },
       "type": "object",
       "properties": {
         "currentpoints": {
@@ -10977,6 +11306,11 @@
     },
     "Metrics/topics/searchrequest": {
       "title": "metrics/topics/searchRequest",
+      "example": {
+        "term": "SAP",
+        "startDate": "2015-04-01 01:00:00.0000000",
+        "endDate": "2017-04-01 01:00:00.0000000"
+      },
       "type": "object",
       "properties": {
         "term": {
@@ -11000,6 +11334,14 @@
     },
     "DeletePostrequest": {
       "title": "Delete PostRequest",
+      "example": {
+        "Name": "SUper fellah",
+        "username": "kbernhardy3@phizzle.com",
+        "password": "test7",
+        "active": true,
+        "email": "kbernhardy@phizzle.com",
+        "permission": "User"
+      },
       "type": "object",
       "properties": {
         "Name": {
@@ -11038,6 +11380,9 @@
     },
     "Pong  postrequest": {
       "title": "Pong - PostRequest",
+      "example": {
+        "pong": "ping"
+      },
       "type": "object",
       "properties": {
         "pong": {
@@ -11051,6 +11396,9 @@
     },
     "Info  get copyrequest": {
       "title": "Info - Get copyRequest",
+      "example": {
+        "url": "http://www.google.com"
+      },
       "type": "object",
       "properties": {
         "url": {
@@ -11064,6 +11412,18 @@
     },
     "Purchase  postrequest": {
       "title": "Purchase - PostRequest",
+      "example": {
+        "amount": "16710.20",
+        "category": "Food",
+        "client_id": "110226b0-b663-11e6-b98b-cd9945ae5583",
+        "description": "Food Purchase",
+        "fan_id": "b4c5df7d-d3ab-4aa1-93a3-73594b7e5c23",
+        "lastmodifieddate": "2017-02-09T03:39:30Z",
+        "purchasedate": "2016-02-07T00:00:00Z",
+        "quantity": "1",
+        "sku": "SKU--44122112",
+        "subcategory": "Food"
+      },
       "type": "object",
       "properties": {
         "amount": {
