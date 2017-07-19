@@ -2841,9 +2841,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get Channels",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get Channels1",
+        "operationId": "Activity - Get Channels",
         "produces": [
           "application/json"
         ],
@@ -2883,9 +2883,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Day",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Day1",
+        "operationId": "Activity - Get By Day",
         "produces": [
           "application/json"
         ],
@@ -2925,9 +2925,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Day Geo",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Day Geo1",
+        "operationId": "Activity - Get By Day Geo",
         "produces": [
           "application/json"
         ],
@@ -2967,9 +2967,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Day Male",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Day Male1",
+        "operationId": "Activity - Get By Day Male",
         "produces": [
           "application/json"
         ],
@@ -3009,9 +3009,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Day Female",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Day Female1",
+        "operationId": "Activity - Get By Day Female",
         "produces": [
           "application/json"
         ],
@@ -3051,9 +3051,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Day Positive",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Day Positive1",
+        "operationId": "Activity - Get By Day Positive",
         "produces": [
           "application/json"
         ],
@@ -3093,9 +3093,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Day Negative",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Day Negative1",
+        "operationId": "Activity - Get By Day Negative",
         "produces": [
           "application/json"
         ],
@@ -3135,9 +3135,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Female",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Female1",
+        "operationId": "Activity - Female",
         "produces": [
           "application/json"
         ],
@@ -3177,9 +3177,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Male",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Male1",
+        "operationId": "Activity - Male",
         "produces": [
           "application/json"
         ],
@@ -3219,9 +3219,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Year",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Year1",
+        "operationId": "Activity - Get By Year",
         "produces": [
           "application/json"
         ],
@@ -3263,7 +3263,7 @@
         "tags": [
           "Misc"
         ],
-        "operationId": "Activity - Get By Month2",
+        "operationId": "Activity - Get By Month1",
         "produces": [
           "application/json"
         ],
@@ -3303,9 +3303,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Hour",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Hour1",
+        "operationId": "Activity - Get By Hour",
         "produces": [
           "application/json"
         ],
@@ -3345,9 +3345,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get By Minute",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get By Minute1",
+        "operationId": "Activity - Get By Minute",
         "produces": [
           "application/json"
         ],
@@ -3387,9 +3387,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get Positive",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get Positive1",
+        "operationId": "Activity - Get Positive",
         "produces": [
           "application/json"
         ],
@@ -3429,9 +3429,9 @@
         "description": "TODO: Add Description",
         "summary": "Activity - Get Positive Sentiment Detail",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Activity - Get Positive Sentiment Detail1",
+        "operationId": "Activity - Get Positive Sentiment Detail",
         "produces": [
           "application/json"
         ],
@@ -3471,9 +3471,9 @@
         "description": "TODO: Add Description",
         "summary": "Engagement - Insert",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Engagement - Insert1",
+        "operationId": "Engagement - Insert",
         "produces": [
           "application/json"
         ],
@@ -3522,9 +3522,9 @@
         "description": "TODO: Add Description",
         "summary": "Engagement - Update",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Engagement - Update1",
+        "operationId": "Engagement - Update",
         "produces": [
           "application/json"
         ],
@@ -3573,9 +3573,9 @@
         "description": "TODO: Add Description",
         "summary": "Engagement - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Engagement - Get1",
+        "operationId": "Engagement - Get",
         "produces": [
           "application/json"
         ],
@@ -3615,9 +3615,9 @@
         "description": "TODO: Add Description",
         "summary": "Engagement - Get Engagement",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Engagement - Get Engagement1",
+        "operationId": "Engagement - Get Engagement",
         "produces": [
           "application/json"
         ],
@@ -3657,9 +3657,9 @@
         "description": "TODO: Add Description",
         "summary": "Engagement - Get Stats",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Engagement - Get Stats1",
+        "operationId": "Engagement - Get Stats",
         "produces": [
           "application/json"
         ],
@@ -3699,9 +3699,9 @@
         "description": "TODO: Add Description",
         "summary": "Engagement - Unarchived Page",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Engagement - Unarchived Page1",
+        "operationId": "Engagement - Unarchived Page",
         "produces": [
           "application/json"
         ],
@@ -3734,9 +3734,9 @@
         "description": "TODO: Add Description",
         "summary": "Engagement - Archived Page",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Engagement - Archived Page1",
+        "operationId": "Engagement - Archived Page",
         "produces": [
           "application/json"
         ],
@@ -3769,9 +3769,9 @@
         "description": "TODO: Add Description",
         "summary": "Fans - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Fans - Get1",
+        "operationId": "Fans - Get",
         "produces": [
           "application/json"
         ],
@@ -3811,9 +3811,9 @@
         "description": "TODO: Add Description",
         "summary": "Fans - Get By Day",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Fans - Get By Day1",
+        "operationId": "Fans - Get By Day",
         "produces": [
           "application/json"
         ],
@@ -3853,9 +3853,9 @@
         "description": "TODO: Add Description",
         "summary": "Fans - Get By Hour",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Fans - Get By Hour1",
+        "operationId": "Fans - Get By Hour",
         "produces": [
           "application/json"
         ],
@@ -3895,9 +3895,9 @@
         "description": "TODO: Add Description",
         "summary": "Fans - Get By Minute",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Fans - Get By Minute1",
+        "operationId": "Fans - Get By Minute",
         "produces": [
           "application/json"
         ],
@@ -3937,9 +3937,9 @@
         "description": "TODO: Add Description",
         "summary": "Feed - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Feed - Get1",
+        "operationId": "Feed - Get",
         "produces": [
           "application/json"
         ],
@@ -3979,9 +3979,9 @@
         "description": "TODO: Add Description",
         "summary": "Feed - Get By Geo",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Feed - Get By Geo1",
+        "operationId": "Feed - Get By Geo",
         "produces": [
           "application/json"
         ],
@@ -4021,9 +4021,9 @@
         "description": "TODO: Add Description",
         "summary": "Feed - Get Female",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Feed - Get Female1",
+        "operationId": "Feed - Get Female",
         "produces": [
           "application/json"
         ],
@@ -4063,9 +4063,9 @@
         "description": "TODO: Add Description",
         "summary": "Feed - Get Male",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Feed - Get Male1",
+        "operationId": "Feed - Get Male",
         "produces": [
           "application/json"
         ],
@@ -4105,9 +4105,9 @@
         "description": "TODO: Add Description",
         "summary": "Feed - Get From Last Day",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Feed - Get From Last Day1",
+        "operationId": "Feed - Get From Last Day",
         "produces": [
           "application/json"
         ],
@@ -4147,9 +4147,9 @@
         "description": "TODO: Add Description",
         "summary": "Feed - Get From Last Hour",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Feed - Get From Last Hour1",
+        "operationId": "Feed - Get From Last Hour",
         "produces": [
           "application/json"
         ],
@@ -4189,9 +4189,9 @@
         "description": "TODO: Add Description",
         "summary": "Feed - Get From Last Year",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Feed - Get From Last Year1",
+        "operationId": "Feed - Get From Last Year",
         "produces": [
           "application/json"
         ],
@@ -4231,9 +4231,9 @@
         "description": "TODO: Add Description",
         "summary": "Feed - Get Recent",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Feed - Get Recent1",
+        "operationId": "Feed - Get Recent",
         "produces": [
           "application/json"
         ],
@@ -4273,9 +4273,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get Geo",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get Geo1",
+        "operationId": "Gender - Get Geo",
         "produces": [
           "application/json"
         ],
@@ -4315,9 +4315,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get Last Minute",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get Last Minute1",
+        "operationId": "Gender - Get Last Minute",
         "produces": [
           "application/json"
         ],
@@ -4357,9 +4357,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get Last Day",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get Last Day1",
+        "operationId": "Gender - Get Last Day",
         "produces": [
           "application/json"
         ],
@@ -4399,9 +4399,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get Last Hour",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get Last Hour1",
+        "operationId": "Gender - Get Last Hour",
         "produces": [
           "application/json"
         ],
@@ -4441,9 +4441,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get Last Month",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get Last Month1",
+        "operationId": "Gender - Get Last Month",
         "produces": [
           "application/json"
         ],
@@ -4483,9 +4483,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get1",
+        "operationId": "Gender - Get",
         "produces": [
           "application/json"
         ],
@@ -4525,9 +4525,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get Female",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get Female1",
+        "operationId": "Gender - Get Female",
         "produces": [
           "application/json"
         ],
@@ -4567,9 +4567,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get Male",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get Male1",
+        "operationId": "Gender - Get Male",
         "produces": [
           "application/json"
         ],
@@ -4609,9 +4609,9 @@
         "description": "TODO: Add Description",
         "summary": "Gender - Get Last Year",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Gender - Get Last Year1",
+        "operationId": "Gender - Get Last Year",
         "produces": [
           "application/json"
         ],
@@ -4651,9 +4651,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get1",
+        "operationId": "Geo - Get",
         "produces": [
           "application/json"
         ],
@@ -4693,9 +4693,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get Male",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get Male1",
+        "operationId": "Geo - Get Male",
         "produces": [
           "application/json"
         ],
@@ -4735,9 +4735,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get Female",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get Female1",
+        "operationId": "Geo - Get Female",
         "produces": [
           "application/json"
         ],
@@ -4777,9 +4777,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get Negative",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get Negative1",
+        "operationId": "Geo - Get Negative",
         "produces": [
           "application/json"
         ],
@@ -4819,9 +4819,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get Last Minute",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get Last Minute1",
+        "operationId": "Geo - Get Last Minute",
         "produces": [
           "application/json"
         ],
@@ -4861,9 +4861,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get Last Hour",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get Last Hour1",
+        "operationId": "Geo - Get Last Hour",
         "produces": [
           "application/json"
         ],
@@ -4903,9 +4903,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get Last Day",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get Last Day1",
+        "operationId": "Geo - Get Last Day",
         "produces": [
           "application/json"
         ],
@@ -4945,9 +4945,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get Last Month",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get Last Month1",
+        "operationId": "Geo - Get Last Month",
         "produces": [
           "application/json"
         ],
@@ -4987,9 +4987,9 @@
         "description": "TODO: Add Description",
         "summary": "Geo - Get Last Year",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Geo - Get Last Year1",
+        "operationId": "Geo - Get Last Year",
         "produces": [
           "application/json"
         ],
@@ -5029,9 +5029,9 @@
         "description": "TODO: Add Description",
         "summary": "Influencers - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Influencers - Get1",
+        "operationId": "Influencers - Get",
         "produces": [
           "application/json"
         ],
@@ -5071,9 +5071,9 @@
         "description": "TODO: Add Description",
         "summary": "Insights - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Insights - Get1",
+        "operationId": "Insights - Get",
         "produces": [
           "application/json"
         ],
@@ -5113,9 +5113,9 @@
         "description": "TODO: Add Description",
         "summary": "Insights - Get Geo",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Insights - Get Geo1",
+        "operationId": "Insights - Get Geo",
         "produces": [
           "application/json"
         ],
@@ -5155,9 +5155,9 @@
         "description": "TODO: Add Description",
         "summary": "Insights - Get Last Day",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Insights - Get Last Day1",
+        "operationId": "Insights - Get Last Day",
         "produces": [
           "application/json"
         ],
@@ -5197,9 +5197,9 @@
         "description": "TODO: Add Description",
         "summary": "Insights - Get Last Minute",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Insights - Get Last Minute1",
+        "operationId": "Insights - Get Last Minute",
         "produces": [
           "application/json"
         ],
@@ -5239,9 +5239,9 @@
         "description": "TODO: Add Description",
         "summary": "Insights - Get Last Hour",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Insights - Get Last Hour1",
+        "operationId": "Insights - Get Last Hour",
         "produces": [
           "application/json"
         ],
@@ -5281,9 +5281,9 @@
         "description": "TODO: Add Description",
         "summary": "Insights - Get Last Month",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Insights - Get Last Month1",
+        "operationId": "Insights - Get Last Month",
         "produces": [
           "application/json"
         ],
@@ -5323,9 +5323,9 @@
         "description": "TODO: Add Description",
         "summary": "Insights - Get Last Year",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Insights - Get Last Year1",
+        "operationId": "Insights - Get Last Year",
         "produces": [
           "application/json"
         ],
@@ -5365,9 +5365,9 @@
         "description": "TODO: Add Description",
         "summary": "Keywords - Insert",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Keywords - Insert1",
+        "operationId": "Keywords - Insert",
         "produces": [
           "application/json"
         ],
@@ -5423,9 +5423,9 @@
         "description": "TODO: Add Description",
         "summary": "Keywords - Update",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Keywords - Update1",
+        "operationId": "Keywords - Update",
         "produces": [
           "application/json"
         ],
@@ -5481,9 +5481,9 @@
         "description": "TODO: Add Description",
         "summary": "Keywords - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Keywords - Get1",
+        "operationId": "Keywords - Get",
         "produces": [
           "application/json"
         ],
@@ -5523,9 +5523,9 @@
         "description": "TODO: Add Description",
         "summary": "Member - Insert",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Member - Insert1",
+        "operationId": "Member - Insert",
         "produces": [
           "application/json"
         ],
@@ -5581,9 +5581,9 @@
         "description": "TODO: Add Description",
         "summary": "Member - Update",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Member - Update1",
+        "operationId": "Member - Update",
         "produces": [
           "application/json"
         ],
@@ -5639,9 +5639,9 @@
         "description": "TODO: Add Description",
         "summary": "Member - Count",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Member - Count1",
+        "operationId": "Member - Count",
         "produces": [
           "application/json"
         ],
@@ -5681,9 +5681,9 @@
         "description": "TODO: Add Description",
         "summary": "Member - Page",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Member - Page1",
+        "operationId": "Member - Page",
         "produces": [
           "application/json"
         ],
@@ -5723,9 +5723,9 @@
         "description": "TODO: Add Description",
         "summary": "Members - Get Top",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Members - Get Top1",
+        "operationId": "Members - Get Top",
         "produces": [
           "application/json"
         ],
@@ -5765,9 +5765,9 @@
         "description": "TODO: Add Description",
         "summary": "Photos - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Photos - Get1",
+        "operationId": "Photos - Get",
         "produces": [
           "application/json"
         ],
@@ -5807,9 +5807,9 @@
         "description": "TODO: Add Description",
         "summary": "Photos - Get Positive",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Photos - Get Positive1",
+        "operationId": "Photos - Get Positive",
         "produces": [
           "application/json"
         ],
@@ -5849,9 +5849,9 @@
         "description": "TODO: Add Description",
         "summary": "Photos - Get Negative",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Photos - Get Negative1",
+        "operationId": "Photos - Get Negative",
         "produces": [
           "application/json"
         ],
@@ -5891,9 +5891,9 @@
         "description": "TODO: Add Description",
         "summary": "Photos - Get Last Minute",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Photos - Get Last Minute1",
+        "operationId": "Photos - Get Last Minute",
         "produces": [
           "application/json"
         ],
@@ -5933,9 +5933,9 @@
         "description": "TODO: Add Description",
         "summary": "Photos - Get Last Day",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Photos - Get Last Day1",
+        "operationId": "Photos - Get Last Day",
         "produces": [
           "application/json"
         ],
@@ -5975,9 +5975,9 @@
         "description": "TODO: Add Description",
         "summary": "Photos - Get Last Month",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Photos - Get Last Month1",
+        "operationId": "Photos - Get Last Month",
         "produces": [
           "application/json"
         ],
@@ -6017,9 +6017,9 @@
         "description": "TODO: Add Description",
         "summary": "Photos - Get Female",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Photos - Get Female1",
+        "operationId": "Photos - Get Female",
         "produces": [
           "application/json"
         ],
@@ -6059,9 +6059,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get1",
+        "operationId": "Sentiment - Get",
         "produces": [
           "application/json"
         ],
@@ -6101,9 +6101,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Last Minute",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Last Minute1",
+        "operationId": "Sentiment - Get Last Minute",
         "produces": [
           "application/json"
         ],
@@ -6143,9 +6143,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Last Hour",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Last Hour1",
+        "operationId": "Sentiment - Get Last Hour",
         "produces": [
           "application/json"
         ],
@@ -6185,9 +6185,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Last Day",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Last Day1",
+        "operationId": "Sentiment - Get Last Day",
         "produces": [
           "application/json"
         ],
@@ -6227,9 +6227,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Last Month",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Last Month1",
+        "operationId": "Sentiment - Get Last Month",
         "produces": [
           "application/json"
         ],
@@ -6269,9 +6269,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Last Year",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Last Year1",
+        "operationId": "Sentiment - Get Last Year",
         "produces": [
           "application/json"
         ],
@@ -6311,9 +6311,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Positive",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Positive1",
+        "operationId": "Sentiment - Get Positive",
         "produces": [
           "application/json"
         ],
@@ -6353,9 +6353,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Negative",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Negative1",
+        "operationId": "Sentiment - Get Negative",
         "produces": [
           "application/json"
         ],
@@ -6395,9 +6395,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Male",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Male1",
+        "operationId": "Sentiment - Get Male",
         "produces": [
           "application/json"
         ],
@@ -6437,9 +6437,9 @@
         "description": "TODO: Add Description",
         "summary": "Sentiment - Get Female",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Sentiment - Get Female1",
+        "operationId": "Sentiment - Get Female",
         "produces": [
           "application/json"
         ],
@@ -6479,9 +6479,9 @@
         "description": "TODO: Add Description",
         "summary": "Topics - Get Positive Sentiment",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Topics - Get Positive Sentiment1",
+        "operationId": "Topics - Get Positive Sentiment",
         "produces": [
           "application/json"
         ],
@@ -6521,9 +6521,9 @@
         "description": "TODO: Add Description",
         "summary": "Topics - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Topics - Get1",
+        "operationId": "Topics - Get",
         "produces": [
           "application/json"
         ],
@@ -6563,9 +6563,9 @@
         "description": "TODO: Add Description",
         "summary": "Term Stats - Get",
         "tags": [
-          "engagement copy"
+          "engagement"
         ],
-        "operationId": "Term Stats - Get1",
+        "operationId": "Term Stats - Get",
         "produces": [
           "application/json"
         ],
