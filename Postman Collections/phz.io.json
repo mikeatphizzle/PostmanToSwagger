@@ -9231,6 +9231,57 @@
         }
       }
     },
+    "/purchase/": {
+      "post": {
+        "description": "TODO: Add Description",
+        "summary": "Purchase - Post",
+        "tags": [
+          "purchase"
+        ],
+        "operationId": "Purchase - Post",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Body",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/Purchase  postrequest"
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "security": [],
+        "x-unitTests": [],
+        "x-operation-settings": {
+          "CollectParameters": false,
+          "AllowDynamicQueryParameters": false,
+          "AllowDynamicFormParameters": false,
+          "IsMultiContentStreaming": false
+        }
+      }
+    },
     "/system/info": {
       "get": {
         "description": "TODO: Add Description",
@@ -9448,57 +9499,6 @@
             "description": "",
             "schema": {
               "$ref": "#/definitions/Info  get copyrequest"
-            }
-          },
-          {
-            "name": "Content-Type",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "description": ""
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "security": [],
-        "x-unitTests": [],
-        "x-operation-settings": {
-          "CollectParameters": false,
-          "AllowDynamicQueryParameters": false,
-          "AllowDynamicFormParameters": false,
-          "IsMultiContentStreaming": false
-        }
-      }
-    },
-    "/purchase/": {
-      "post": {
-        "description": "TODO: Add Description",
-        "summary": "Purchase - Post",
-        "tags": [
-          "purchase"
-        ],
-        "operationId": "Purchase - Post",
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "name": "token",
-            "in": "query",
-            "required": true,
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "Body",
-            "in": "body",
-            "required": true,
-            "description": "",
-            "schema": {
-              "$ref": "#/definitions/Purchase  postrequest"
             }
           },
           {
@@ -11378,38 +11378,6 @@
         "permission"
       ]
     },
-    "Pong  postrequest": {
-      "title": "Pong - PostRequest",
-      "example": {
-        "pong": "ping"
-      },
-      "type": "object",
-      "properties": {
-        "pong": {
-          "description": "",
-          "type": "string"
-        }
-      },
-      "required": [
-        "pong"
-      ]
-    },
-    "Info  get copyrequest": {
-      "title": "Info - Get copyRequest",
-      "example": {
-        "url": "http://www.google.com"
-      },
-      "type": "object",
-      "properties": {
-        "url": {
-          "description": "",
-          "type": "string"
-        }
-      },
-      "required": [
-        "url"
-      ]
-    },
     "Purchase  postrequest": {
       "title": "Purchase - PostRequest",
       "example": {
@@ -11478,6 +11446,38 @@
         "quantity",
         "sku",
         "subcategory"
+      ]
+    },
+    "Pong  postrequest": {
+      "title": "Pong - PostRequest",
+      "example": {
+        "pong": "ping"
+      },
+      "type": "object",
+      "properties": {
+        "pong": {
+          "description": "",
+          "type": "string"
+        }
+      },
+      "required": [
+        "pong"
+      ]
+    },
+    "Info  get copyrequest": {
+      "title": "Info - Get copyRequest",
+      "example": {
+        "url": "http://www.google.com"
+      },
+      "type": "object",
+      "properties": {
+        "url": {
+          "description": "",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url"
       ]
     }
   }
