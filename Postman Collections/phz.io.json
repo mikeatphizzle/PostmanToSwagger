@@ -5476,7 +5476,7 @@
         }
       }
     },
-    "/engagement/detail/{keywords_engagement}/keywords": {
+    "/engagement/detail/{ENGAGEMENT_ID}/keywords": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Keywords - Get",
@@ -5496,7 +5496,7 @@
             "description": ""
           },
           {
-            "name": "keywords_engagement",
+            "name": "ENGAGEMENT_ID",
             "in": "path",
             "required": true,
             "type": "string",
