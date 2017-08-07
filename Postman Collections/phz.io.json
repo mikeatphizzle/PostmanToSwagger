@@ -7670,7 +7670,7 @@
         }
       }
     },
-    "/loyalty/{loyalty_id}/member/count/": {
+    "/": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Programmember - Get Count",
@@ -7685,13 +7685,6 @@
           {
             "name": "token",
             "in": "query",
-            "required": true,
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "loyalty_id",
-            "in": "path",
             "required": true,
             "type": "string",
             "description": ""
