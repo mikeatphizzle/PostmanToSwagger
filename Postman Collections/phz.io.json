@@ -6904,11 +6904,11 @@
     "/purchase": {
       "post": {
         "description": "TODO: Add Description",
-        "summary": "Purchases - Insert",
+        "summary": "Purchase - Post",
         "tags": [
-          "fan"
+          "purchase"
         ],
-        "operationId": "Purchases - Insert",
+        "operationId": "Purchase - Post",
         "produces": [
           "application/json"
         ],
@@ -6926,7 +6926,7 @@
             "required": true,
             "description": "",
             "schema": {
-              "$ref": "#/definitions/Purchases  insertrequest"
+              "$ref": "#/definitions/Purchase  postrequest"
             }
           },
           {
@@ -9224,57 +9224,6 @@
         }
       }
     },
-    "/purchase/": {
-      "post": {
-        "description": "TODO: Add Description",
-        "summary": "Purchase - Post",
-        "tags": [
-          "purchase"
-        ],
-        "operationId": "Purchase - Post",
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "name": "token",
-            "in": "query",
-            "required": true,
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "Body",
-            "in": "body",
-            "required": true,
-            "description": "",
-            "schema": {
-              "$ref": "#/definitions/Purchase  postrequest"
-            }
-          },
-          {
-            "name": "Content-Type",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "description": ""
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "security": [],
-        "x-unitTests": [],
-        "x-operation-settings": {
-          "CollectParameters": false,
-          "AllowDynamicQueryParameters": false,
-          "AllowDynamicFormParameters": false,
-          "IsMultiContentStreaming": false
-        }
-      }
-    },
     "/system/info": {
       "get": {
         "description": "TODO: Add Description",
@@ -11374,22 +11323,23 @@
     "Purchase  postrequest": {
       "title": "Purchase - PostRequest",
       "example": {
-        "amount": "16710.20",
+        "amount": 16710.2,
         "category": "Food",
         "client_id": "110226b0-b663-11e6-b98b-cd9945ae5583",
         "description": "Food Purchase",
         "fan_id": "b4c5df7d-d3ab-4aa1-93a3-73594b7e5c23",
         "lastmodifieddate": "2017-02-09T03:39:30Z",
         "purchasedate": "2016-02-07T00:00:00Z",
-        "quantity": "1",
-        "sku": "SKU--44122112",
+        "quantity": 1,
+        "sku": "Test_2",
         "subcategory": "Food"
       },
       "type": "object",
       "properties": {
         "amount": {
           "description": "",
-          "type": "string"
+          "type": "number",
+          "format": "double"
         },
         "category": {
           "description": "",
@@ -11417,7 +11367,8 @@
         },
         "quantity": {
           "description": "",
-          "type": "string"
+          "type": "integer",
+          "format": "int32"
         },
         "sku": {
           "description": "",
