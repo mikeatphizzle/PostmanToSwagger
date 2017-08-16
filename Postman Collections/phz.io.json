@@ -1205,7 +1205,7 @@
         }
       }
     },
-    "/email/template/1a715e70-ef23-11e6-a470-b1f443288e5a": {
+    "/email/template/064df7f0-bff3-11e6-9f60-a1ab0e5d02fb": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Email Template - Get",
@@ -2812,6 +2812,48 @@
             "schema": {
               "$ref": "#/definitions/List  updaterequest"
             }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "security": [],
+        "x-unitTests": [],
+        "x-operation-settings": {
+          "CollectParameters": false,
+          "AllowDynamicQueryParameters": false,
+          "AllowDynamicFormParameters": false,
+          "IsMultiContentStreaming": false
+        }
+      }
+    },
+    "/email/send": {
+      "post": {
+        "description": "TODO: Add Description",
+        "summary": "Send",
+        "tags": [
+          "email"
+        ],
+        "operationId": "Send",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": ""
           },
           {
             "name": "Content-Type",
