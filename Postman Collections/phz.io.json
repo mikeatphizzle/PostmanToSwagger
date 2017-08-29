@@ -7300,6 +7300,57 @@
         }
       }
     },
+    "/fan/fantracker/create": {
+      "post": {
+        "description": "TODO: Add Description",
+        "summary": "Create",
+        "tags": [
+          "fan"
+        ],
+        "operationId": "Create",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Body",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/CreateRequest"
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "security": [],
+        "x-unitTests": [],
+        "x-operation-settings": {
+          "CollectParameters": false,
+          "AllowDynamicQueryParameters": false,
+          "AllowDynamicFormParameters": false,
+          "IsMultiContentStreaming": false
+        }
+      }
+    },
     "/gamification/": {
       "post": {
         "description": "TODO: Add Description",
@@ -11062,6 +11113,85 @@
       },
       "required": [
         "fan.firstname"
+      ]
+    },
+    "CreateRequest": {
+      "title": "CreateRequest",
+      "example": {
+        "fan": {
+          "firstname": "Fan",
+          "lastname": "Tracker"
+        },
+        "profiles": [
+          {
+            "active": "1",
+            "type": "Email",
+            "profile": "FAN.96004.TRACKER@PHIZZLE.COM"
+          },
+          {
+            "active": "1",
+            "type": "SMS",
+            "profile": "9604000101"
+          }
+        ]
+      },
+      "type": "object",
+      "properties": {
+        "fan": {
+          "$ref": "#/definitions/Fan"
+        },
+        "profiles": {
+          "description": "",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Profile"
+          }
+        }
+      },
+      "required": [
+        "fan",
+        "profiles"
+      ]
+    },
+    "Fan": {
+      "title": "Fan",
+      "type": "object",
+      "properties": {
+        "firstname": {
+          "description": "",
+          "type": "string"
+        },
+        "lastname": {
+          "description": "",
+          "type": "string"
+        }
+      },
+      "required": [
+        "firstname",
+        "lastname"
+      ]
+    },
+    "Profile": {
+      "title": "Profile",
+      "type": "object",
+      "properties": {
+        "active": {
+          "description": "",
+          "type": "string"
+        },
+        "type": {
+          "description": "",
+          "type": "string"
+        },
+        "profile": {
+          "description": "",
+          "type": "string"
+        }
+      },
+      "required": [
+        "active",
+        "type",
+        "profile"
       ]
     },
     "ContestRequest": {
