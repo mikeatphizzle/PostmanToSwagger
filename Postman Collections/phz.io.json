@@ -2632,13 +2632,6 @@
             "description": ""
           },
           {
-            "name": "name",
-            "in": "query",
-            "required": true,
-            "type": "string",
-            "description": ""
-          },
-          {
             "name": "Content-Type",
             "in": "header",
             "required": true,
@@ -7426,45 +7419,13 @@
           "200": {
             "description": "",
             "schema": {
-              "type": "object"
+              "$ref": "#/definitions/ContestResponse"
             },
-            "examples": {
-              "text/plain": "{\"result\":{\"startdate\":\"2015-10-18T22:30:00.000Z\",\"selectedallwinners\":0,\"enddate\":\"2015-10-25T22:30:00.000Z\",\"cancelled\":1,\"facebookenabled\":0,\"emailenabled\":0,\"twitterenabled\":1,\"createddate\":\"2015-10-18T22:30:08.788Z\",\"client_id\":\"388e16d6-d35e-4f8c-bba5-b1147b824473\",\"createdby_id\":\"o.patsalo@svitla.com\",\"description\":\"Manual Description Edit\",\"processing\":0,\"id\":\"00331d63-fd62-42c1-b8ce-f3d86c16ef99\",\"smsenabled\":1,\"lastmodifieddate\":\"2015-10-18T22:30:47.573Z\",\"mobileenabled\":0,\"lastmodifiedby_id\":\"o.patsalo@svitla.com\",\"name\":\"AutoTest Contests Manual Edit\",\"instagramenabled\":0,\"type\":\"Manual\"},\"error\":null,\"next_key\":null,\"status\":200}"
-            }
+            "examples": {}
           }
         },
         "security": [],
-        "x-unitTests": [
-          {
-            "request": {
-              "method": "GET",
-              "uri": "/gamification/4665b5a0-19e7-11e7-afd7-4fc8841a2f18?token=5e9b94d0-19bc-11e7-82c4-0f741f3206f1"
-            },
-            "expectedResponse": {
-              "x-allowExtraHeaders": true,
-              "x-bodyMatchMode": "KEYS",
-              "x-arrayOrderedMatching": false,
-              "x-arrayCheckCount": false,
-              "x-matchResponseSchema": true,
-              "headers": {
-                "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
-                "Access-Control-Allow-Origin": "*",
-                "Connection": "keep-alive",
-                "Content-Length": "650",
-                "Content-Type": "application/json; charset=utf-8",
-                "Date": "Thu, 13 Oct 2016 17:21:56 GMT",
-                "ETag": "W/\"28a-I1EywqIE+VAeRvQyiWYZUw\"",
-                "Vary": "Accept-Encoding",
-                "X-Powered-By": "Express"
-              },
-              "body": "{\"result\":{\"startdate\":\"2015-10-18T22:30:00.000Z\",\"selectedallwinners\":0,\"enddate\":\"2015-10-25T22:30:00.000Z\",\"cancelled\":1,\"facebookenabled\":0,\"emailenabled\":0,\"twitterenabled\":1,\"createddate\":\"2015-10-18T22:30:08.788Z\",\"client_id\":\"388e16d6-d35e-4f8c-bba5-b1147b824473\",\"createdby_id\":\"o.patsalo@svitla.com\",\"description\":\"Manual Description Edit\",\"processing\":0,\"id\":\"00331d63-fd62-42c1-b8ce-f3d86c16ef99\",\"smsenabled\":1,\"lastmodifieddate\":\"2015-10-18T22:30:47.573Z\",\"mobileenabled\":0,\"lastmodifiedby_id\":\"o.patsalo@svitla.com\",\"name\":\"AutoTest Contests Manual Edit\",\"instagramenabled\":0,\"type\":\"Manual\"},\"error\":null,\"next_key\":null,\"status\":200}"
-            },
-            "x-testShouldPass": true,
-            "x-testEnabled": true,
-            "x-testName": "Contest",
-            "x-testDescription": "TODO: Add Description"
-          }
-        ],
+        "x-unitTests": [],
         "x-operation-settings": {
           "CollectParameters": false,
           "AllowDynamicQueryParameters": false,
@@ -11295,6 +11256,151 @@
         "twitterenabled",
         "type",
         "winnermessage"
+      ]
+    },
+    "ContestResponse": {
+      "title": "ContestResponse",
+      "type": "object",
+      "properties": {
+        "result": {
+          "$ref": "#/definitions/Result"
+        },
+        "error": {
+          "description": "",
+          "type": "string"
+        },
+        "next_key": {
+          "description": "",
+          "type": "string"
+        },
+        "status": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        }
+      },
+      "required": [
+        "result",
+        "error",
+        "next_key",
+        "status"
+      ]
+    },
+    "Result": {
+      "title": "Result",
+      "type": "object",
+      "properties": {
+        "startdate": {
+          "description": "",
+          "type": "string"
+        },
+        "selectedallwinners": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "enddate": {
+          "description": "",
+          "type": "string"
+        },
+        "cancelled": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "facebookenabled": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "emailenabled": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "twitterenabled": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "createddate": {
+          "description": "",
+          "type": "string"
+        },
+        "client_id": {
+          "description": "",
+          "type": "string"
+        },
+        "createdby_id": {
+          "description": "",
+          "type": "string"
+        },
+        "description": {
+          "description": "",
+          "type": "string"
+        },
+        "processing": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "id": {
+          "description": "",
+          "type": "string"
+        },
+        "smsenabled": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "lastmodifieddate": {
+          "description": "",
+          "type": "string"
+        },
+        "mobileenabled": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "lastmodifiedby_id": {
+          "description": "",
+          "type": "string"
+        },
+        "name": {
+          "description": "",
+          "type": "string"
+        },
+        "instagramenabled": {
+          "description": "",
+          "type": "integer",
+          "format": "int32"
+        },
+        "type": {
+          "description": "",
+          "type": "string"
+        }
+      },
+      "required": [
+        "startdate",
+        "selectedallwinners",
+        "enddate",
+        "cancelled",
+        "facebookenabled",
+        "emailenabled",
+        "twitterenabled",
+        "createddate",
+        "client_id",
+        "createdby_id",
+        "description",
+        "processing",
+        "id",
+        "smsenabled",
+        "lastmodifieddate",
+        "mobileenabled",
+        "lastmodifiedby_id",
+        "name",
+        "instagramenabled",
+        "type"
       ]
     },
     "WinnerRequest": {
