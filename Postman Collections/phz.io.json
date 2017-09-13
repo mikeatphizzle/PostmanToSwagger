@@ -495,11 +495,11 @@
     "/authentication": {
       "get": {
         "description": "TODO: Add Description",
-        "summary": "Login User",
+        "summary": "token",
         "tags": [
           "authorization"
         ],
-        "operationId": "Login User",
+        "operationId": "token",
         "produces": [
           "application/json"
         ],
@@ -551,7 +551,7 @@
             },
             "x-testShouldPass": true,
             "x-testEnabled": true,
-            "x-testName": "Login User",
+            "x-testName": "token",
             "x-testDescription": "TODO: Add Description"
           }
         ],
