@@ -9491,11 +9491,11 @@
     "/tools/shortenurl": {
       "post": {
         "description": "TODO: Add Description",
-        "summary": "Info - Get copy",
+        "summary": "shorten url",
         "tags": [
           "tools"
         ],
-        "operationId": "Info - Get copy",
+        "operationId": "shorten url",
         "produces": [
           "application/json"
         ],
@@ -9513,7 +9513,7 @@
             "required": true,
             "description": "",
             "schema": {
-              "$ref": "#/definitions/Info  get copyrequest"
+              "$ref": "#/definitions/ShortenUrlrequest"
             }
           },
           {
@@ -9550,7 +9550,7 @@
             },
             "x-testShouldPass": true,
             "x-testEnabled": true,
-            "x-testName": "Info - Get copy",
+            "x-testName": "shorten url",
             "x-testDescription": "TODO: Add Description"
           }
         ],
@@ -11728,8 +11728,8 @@
         "pong"
       ]
     },
-    "Info  get copyrequest": {
-      "title": "Info - Get copyRequest",
+    "ShortenUrlrequest": {
+      "title": "shorten urlRequest",
       "example": {
         "url": "http://www.google.com"
       },
