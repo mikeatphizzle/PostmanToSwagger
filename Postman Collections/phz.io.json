@@ -7335,7 +7335,30 @@
           }
         },
         "security": [],
-        "x-unitTests": [],
+        "x-unitTests": [
+          {
+            "request": {
+              "method": "POST",
+              "uri": "/fan/fantracker/create?token={{PHZ_CLIENT_TOKEN}}",
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "body": "{\n  \"fan\": {\n    \"firstname\": \"Fan\",\n    \"lastname\": \"Tracker\"\n  },\n  \"profiles\": [\n    {\n      \"active\": \"1\",\n      \"type\": \"Email\",\n      \"profile\": \"{{FT_EMAIL_1}}\"\n    },\n    {\n      \"active\": \"1\",\n      \"type\": \"SMS\",\n      \"profile\": \"{{FT_SMS_1}}\"\n    }\n  ]\n}"
+            },
+            "expectedResponse": {
+              "x-allowExtraHeaders": true,
+              "x-bodyMatchMode": "NONE",
+              "x-arrayOrderedMatching": false,
+              "x-arrayCheckCount": false,
+              "x-matchResponseSchema": true,
+              "headers": {}
+            },
+            "x-testShouldPass": true,
+            "x-testEnabled": true,
+            "x-testName": "Create",
+            "x-testDescription": "TODO: Add Description"
+          }
+        ],
         "x-operation-settings": {
           "CollectParameters": false,
           "AllowDynamicQueryParameters": false,
@@ -11087,12 +11110,12 @@
           {
             "active": "1",
             "type": "Email",
-            "profile": "FAN.96004.TRACKER@PHIZZLE.COM"
+            "profile": "{{FT_EMAIL_1}}"
           },
           {
             "active": "1",
             "type": "SMS",
-            "profile": "9604000101"
+            "profile": "{{FT_SMS_1}}"
           }
         ]
       },
