@@ -5553,7 +5553,7 @@
         }
       }
     },
-    "/engagement/{listening_engagement}/member/": {
+    "/engagement/{listening_engagement}/member": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "Member - Insert",
