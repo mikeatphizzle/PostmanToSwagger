@@ -69,6 +69,80 @@
         }
       }
     },
+    "/activity": {
+      "post": {
+        "description": "TODO: Add Description",
+        "summary": "Insert Activity",
+        "tags": [
+          "activity"
+        ],
+        "operationId": "Insert Activity",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Body",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/InsertActivityrequest"
+            }
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "security": [],
+        "x-unitTests": [
+          {
+            "request": {
+              "method": "POST",
+              "uri": "/activity?token={{PHZ_CLIENT_TOKEN}}",
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "body": "{\r\n\t\"message\": \"the block is hot\",\r\n\t\"activitydate\": \"2015-06-11T12:43:23.479Z\",\r\n    \"type\":\"Ticket Purchase\",\r\n    \"action\":\"Purchase\",\r\n    \"fanprofile_profile_and_type\": \"QAPHIZ Twitter\"\r\n}"
+            },
+            "expectedResponse": {
+              "x-allowExtraHeaders": true,
+              "x-bodyMatchMode": "NONE",
+              "x-arrayOrderedMatching": false,
+              "x-arrayCheckCount": false,
+              "x-matchResponseSchema": true,
+              "headers": {}
+            },
+            "x-testShouldPass": true,
+            "x-testEnabled": true,
+            "x-testName": "Insert Activity",
+            "x-testDescription": "TODO: Add Description"
+          }
+        ],
+        "x-operation-settings": {
+          "CollectParameters": false,
+          "AllowDynamicQueryParameters": false,
+          "AllowDynamicFormParameters": false,
+          "IsMultiContentStreaming": false
+        }
+      }
+    },
     "/activity/": {
       "post": {
         "description": "TODO: Add Description",
@@ -7418,7 +7492,7 @@
         }
       }
     },
-    "/gamification/4665b5a0-19e7-11e7-afd7-4fc8841a2f18": {
+    "/4665b5a0-19e7-11e7-afd7-4fc8841a2f18": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Contest",
@@ -7444,7 +7518,35 @@
             "schema": {
               "$ref": "#/definitions/ContestResponse"
             },
-            "examples": {}
+            "examples": {
+              "application/json": {
+                "result": {
+                  "startdate": "\"2015-10-18T22:30:00Z\"",
+                  "selectedallwinners": 0,
+                  "enddate": "\"2015-10-25T22:30:00Z\"",
+                  "cancelled": 1,
+                  "facebookenabled": 0,
+                  "emailenabled": 0,
+                  "twitterenabled": 1,
+                  "createddate": "\"2015-10-18T22:30:08.788Z\"",
+                  "client_id": "388e16d6-d35e-4f8c-bba5-b1147b824473",
+                  "createdby_id": "o.patsalo@svitla.com",
+                  "description": "Manual Description Edit",
+                  "processing": 0,
+                  "id": "00331d63-fd62-42c1-b8ce-f3d86c16ef99",
+                  "smsenabled": 1,
+                  "lastmodifieddate": "\"2015-10-18T22:30:47.573Z\"",
+                  "mobileenabled": 0,
+                  "lastmodifiedby_id": "o.patsalo@svitla.com",
+                  "name": "AutoTest Contests Manual Edit",
+                  "instagramenabled": 0,
+                  "type": "Manual"
+                },
+                "error": "null",
+                "next_key": "null",
+                "status": 200
+              }
+            }
           }
         },
         "security": [],
@@ -9716,11 +9818,11 @@
     "InsertActivityrequest": {
       "title": "Insert ActivityRequest",
       "example": {
-        "message": "É³â presents 2017*êü°×ì·üºóÞÃÁ",
+        "message": "the block is hot",
         "activitydate": "2015-06-11T12:43:23.479Z",
         "type": "Ticket Purchase",
         "action": "Purchase",
-        "fanprofile_profile_and_type": "SGOLDBERG Twitter"
+        "fanprofile_profile_and_type": "QAPHIZ Twitter"
       },
       "type": "object",
       "properties": {
@@ -10860,7 +10962,7 @@
       "example": {
         "fanprofile_id": "TESTERSON Twitter",
         "optindate": "2015-03-09T21:56:12.627Z",
-        "optout": 0,
+        "optout": 111,
         "subscriptiontype": "Twitter"
       },
       "type": "object",
@@ -11283,6 +11385,33 @@
     },
     "ContestResponse": {
       "title": "ContestResponse",
+      "example": {
+        "result": {
+          "startdate": "\"2015-10-18T22:30:00Z\"",
+          "selectedallwinners": 0,
+          "enddate": "\"2015-10-25T22:30:00Z\"",
+          "cancelled": 1,
+          "facebookenabled": 0,
+          "emailenabled": 0,
+          "twitterenabled": 1,
+          "createddate": "\"2015-10-18T22:30:08.788Z\"",
+          "client_id": "388e16d6-d35e-4f8c-bba5-b1147b824473",
+          "createdby_id": "o.patsalo@svitla.com",
+          "description": "Manual Description Edit",
+          "processing": 0,
+          "id": "00331d63-fd62-42c1-b8ce-f3d86c16ef99",
+          "smsenabled": 1,
+          "lastmodifieddate": "\"2015-10-18T22:30:47.573Z\"",
+          "mobileenabled": 0,
+          "lastmodifiedby_id": "o.patsalo@svitla.com",
+          "name": "AutoTest Contests Manual Edit",
+          "instagramenabled": 0,
+          "type": "Manual"
+        },
+        "error": "null",
+        "next_key": "null",
+        "status": 200
+      },
       "type": "object",
       "properties": {
         "result": {
