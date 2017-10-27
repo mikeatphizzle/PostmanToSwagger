@@ -72,80 +72,6 @@
     "/activity": {
       "post": {
         "description": "TODO: Add Description",
-        "summary": "Insert Activity",
-        "tags": [
-          "activity"
-        ],
-        "operationId": "Insert Activity",
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "name": "token",
-            "in": "query",
-            "required": true,
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "Body",
-            "in": "body",
-            "required": true,
-            "description": "",
-            "schema": {
-              "$ref": "#/definitions/InsertActivityrequest"
-            }
-          },
-          {
-            "name": "Content-Type",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "description": ""
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "security": [],
-        "x-unitTests": [
-          {
-            "request": {
-              "method": "POST",
-              "uri": "/activity?token={{PHZ_CLIENT_TOKEN}}",
-              "headers": {
-                "Content-Type": "application/json"
-              },
-              "body": "{\r\n\t\"message\": \"the block is hot\",\r\n\t\"activitydate\": \"2015-06-11T12:43:23.479Z\",\r\n    \"type\":\"Ticket Purchase\",\r\n    \"action\":\"Purchase\",\r\n    \"fanprofile_profile_and_type\": \"QAPHIZ Twitter\"\r\n}"
-            },
-            "expectedResponse": {
-              "x-allowExtraHeaders": true,
-              "x-bodyMatchMode": "NONE",
-              "x-arrayOrderedMatching": false,
-              "x-arrayCheckCount": false,
-              "x-matchResponseSchema": true,
-              "headers": {}
-            },
-            "x-testShouldPass": true,
-            "x-testEnabled": true,
-            "x-testName": "Insert Activity",
-            "x-testDescription": "TODO: Add Description"
-          }
-        ],
-        "x-operation-settings": {
-          "CollectParameters": false,
-          "AllowDynamicQueryParameters": false,
-          "AllowDynamicFormParameters": false,
-          "IsMultiContentStreaming": false
-        }
-      }
-    },
-    "/activity/": {
-      "post": {
-        "description": "TODO: Add Description",
         "summary": "Update Activity",
         "tags": [
           "activity"
@@ -236,7 +162,7 @@
         }
       }
     },
-    "/activity/page/": {
+    "/activity/page": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Page Activity",
@@ -278,7 +204,7 @@
         }
       }
     },
-    "/app/": {
+    "/app": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Get App",
@@ -701,7 +627,7 @@
         }
       }
     },
-    "/client/user/": {
+    "/client/user": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "User",
@@ -803,7 +729,7 @@
         }
       }
     },
-    "/client/388e16d6-d35e-4f8c-bba5-b1147b824473/user/": {
+    "/client/388e16d6-d35e-4f8c-bba5-b1147b824473/user": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "User - Creates user for a client",
@@ -905,7 +831,7 @@
         }
       }
     },
-    "/client/": {
+    "/client": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "client update",
@@ -998,7 +924,7 @@
         }
       }
     },
-    "/client/user/page/": {
+    "/client/user/page": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "User Page",
@@ -1228,7 +1154,7 @@
         }
       }
     },
-    "/email/template/": {
+    "/email/template": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "Email Template - Insert",
@@ -1724,7 +1650,7 @@
         }
       }
     },
-    "/email/group/": {
+    "/email/group": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "Group - Insert",
@@ -2360,7 +2286,7 @@
         }
       }
     },
-    "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/groups/": {
+    "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/groups": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Email Campaign - Get Groups",
@@ -2402,7 +2328,7 @@
         }
       }
     },
-    "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/lists/": {
+    "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/lists": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Email Campaign - Get Lists",
@@ -2586,7 +2512,7 @@
         }
       }
     },
-    "/email/list/": {
+    "/email/list": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "List - Insert",
@@ -3575,7 +3501,7 @@
         }
       }
     },
-    "/engagement/": {
+    "/engagement": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "Engagement - Insert",
@@ -3626,7 +3552,7 @@
         }
       }
     },
-    "/engagement/002ae1bf-5af4-4a88-ac4f-96a2a2976c21/": {
+    "/engagement/002ae1bf-5af4-4a88-ac4f-96a2a2976c21": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "Engagement - Update",
@@ -7441,7 +7367,7 @@
         }
       }
     },
-    "/gamification/": {
+    "/gamification": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "Contest",
@@ -7560,41 +7486,6 @@
       }
     },
     "/gamification/page": {
-      "get": {
-        "description": "TODO: Add Description",
-        "summary": "Contest Page",
-        "tags": [
-          "gamification"
-        ],
-        "operationId": "Contest Page",
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "name": "token",
-            "in": "query",
-            "required": true,
-            "type": "string",
-            "description": ""
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "security": [],
-        "x-unitTests": [],
-        "x-operation-settings": {
-          "CollectParameters": false,
-          "AllowDynamicQueryParameters": false,
-          "AllowDynamicFormParameters": false,
-          "IsMultiContentStreaming": false
-        }
-      }
-    },
-    "/gamification/page/": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Contest Next Page",
@@ -7736,7 +7627,7 @@
         }
       }
     },
-    "/gamification/{contest_id}/winner/page/": {
+    "/gamification/{contest_id}/winner/page": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Winner Paging",
@@ -7848,7 +7739,7 @@
         }
       }
     },
-    "/": {
+    "/count": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Programmember - Get Count",
@@ -7883,7 +7774,7 @@
         }
       }
     },
-    "/loyalty/{loyalty_id}/engagements/": {
+    "/loyalty/{loyalty_id}/engagements": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Loyalty Program - Get Engagements",
@@ -8018,7 +7909,7 @@
         }
       }
     },
-    "/loyalty/tier/": {
+    "/loyalty/tier": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "Program Tier - Insert",
@@ -8120,7 +8011,7 @@
         }
       }
     },
-    "/loyalty/pointrule/": {
+    "/loyalty/pointrule": {
       "post": {
         "description": "TODO: Add Description",
         "summary": "Program Point Rule - Insert",
