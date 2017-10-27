@@ -10,7 +10,7 @@
     }
   },
   "host": "phz.io",
-  "basePath": "/activity/page",
+  "basePath": "/activity",
   "schemes": [
     "https"
   ],
@@ -21,7 +21,7 @@
     "application/json"
   ],
   "paths": {
-    "/": {
+    "/page": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "page",
@@ -51,7 +51,7 @@
           {
             "request": {
               "method": "GET",
-              "uri": "/?token=H6m80Gi62I.80e2a240-25c9-11e7-9719-33a7a6b886da"
+              "uri": "/page?token=H6m80Gi62I.80e2a240-25c9-11e7-9719-33a7a6b886da"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
