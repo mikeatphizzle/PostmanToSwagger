@@ -29,7 +29,7 @@
   "paths": {
     "/activity/000001d7-e411-4fd8-90a4-a2ad7fc61485": {
       "delete": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Delete Activity",
         "tags": [
           "activity"
@@ -80,7 +80,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Delete Activity",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -93,7 +93,7 @@
     },
     "/activity": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Update Activity",
         "tags": [
           "activity"
@@ -154,7 +154,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Update Activity",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -167,7 +167,7 @@
     },
     "/activity/244a4f90-ea4d-11e6-bdbe-b771f3468c05": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Get Activity",
         "tags": [
           "activity"
@@ -218,7 +218,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Get Activity",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -231,7 +231,7 @@
     },
     "/activity/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Page Activity",
         "tags": [
           "activity"
@@ -282,7 +282,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Page Activity",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -295,7 +295,7 @@
     },
     "/app": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Get App",
         "tags": [
           "app"
@@ -346,7 +346,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Get App",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -357,7 +357,7 @@
         }
       },
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Update App",
         "tags": [
           "app"
@@ -418,7 +418,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Update App",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -431,7 +431,7 @@
     },
     "/app/b4c7f870-ea56-11e6-aeff-3532e4e3a88d": {
       "delete": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Delete App",
         "tags": [
           "app"
@@ -482,7 +482,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Delete App",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -495,7 +495,7 @@
     },
     "/app/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Page App",
         "tags": [
           "app"
@@ -546,7 +546,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Page App",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -559,7 +559,7 @@
     },
     "/authentication/password_reset": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Resets an existing User's password",
         "summary": "Password Reset",
         "tags": [
           "authorization"
@@ -613,7 +613,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Password Reset",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Resets an existing User's password"
           }
         ],
         "x-operation-settings": {
@@ -626,7 +626,7 @@
     },
     "/authentication/password_reset_request/rbrady@phizzle.com": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Requests to have your password reset",
         "summary": "Password Reset Request",
         "tags": [
           "authorization"
@@ -659,7 +659,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Password Reset Request",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Requests to have your password reset"
           }
         ],
         "x-operation-settings": {
@@ -672,7 +672,7 @@
     },
     "/authentication": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "token",
         "tags": [
           "authorization"
@@ -730,7 +730,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "token",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -743,7 +743,7 @@
     },
     "/client/user/dford@phizzle.com": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Gets a specific user",
         "summary": "User - Get",
         "tags": [
           "client"
@@ -794,7 +794,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "User - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Gets a specific user"
           }
         ],
         "x-operation-settings": {
@@ -807,7 +807,7 @@
     },
     "/client/user": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Creates a new user",
         "summary": "User",
         "tags": [
           "client"
@@ -868,7 +868,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "User",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Creates a new user"
           }
         ],
         "x-operation-settings": {
@@ -881,7 +881,7 @@
     },
     "/client/user/kbernhardy3@phizzle.com": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Updates an existing user",
         "summary": "Update User",
         "tags": [
           "client"
@@ -942,7 +942,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Update User",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Updates an existing user"
           }
         ],
         "x-operation-settings": {
@@ -955,7 +955,7 @@
     },
     "/client/388e16d6-d35e-4f8c-bba5-b1147b824473/user": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Creates a new user for a specific client.  Available to Phizzle only",
         "summary": "User - Creates user for a client",
         "tags": [
           "client"
@@ -1016,7 +1016,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "User - Creates user for a client",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Creates a new user for a specific client.  Available to Phizzle only"
           }
         ],
         "x-operation-settings": {
@@ -1029,7 +1029,7 @@
     },
     "/client/388e16d6-d35e-4f8c-bba5-b1147b824473/user/kbernhardy3@phizzle.com": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Updates a user for a specific client.  Available to Phizzle only",
         "summary": "User - Updates user for a client",
         "tags": [
           "client"
@@ -1090,7 +1090,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "User - Updates user for a client",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Updates a user for a specific client.  Available to Phizzle only"
           }
         ],
         "x-operation-settings": {
@@ -1103,7 +1103,7 @@
     },
     "/client": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Updates a client",
         "summary": "client update",
         "tags": [
           "client"
@@ -1164,7 +1164,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "client update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Updates a client"
           }
         ],
         "x-operation-settings": {
@@ -1177,7 +1177,7 @@
     },
     "/client/current_limits": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Gets a this month's Rate Limits",
         "summary": "Current Limits",
         "tags": [
           "client"
@@ -1228,7 +1228,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Current Limits",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Gets a this month's Rate Limits"
           }
         ],
         "x-operation-settings": {
@@ -1241,7 +1241,7 @@
     },
     "/client/user/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "User Page",
         "tags": [
           "client"
@@ -1292,7 +1292,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "User Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1305,7 +1305,7 @@
     },
     "/email/group/06578da0-7530-11e6-b928-add7b838de02/group_member_count": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Get count of Group Members by group_id",
         "summary": "Group Member Count",
         "tags": [
           "email"
@@ -1346,7 +1346,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Group Member Count",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Get count of Group Members by group_id"
           }
         ],
         "x-operation-settings": {
@@ -1359,7 +1359,7 @@
     },
     "/email/group_member/search/{search}sap": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Search by email addresses of group members",
         "summary": "Group Member Search",
         "tags": [
           "email"
@@ -1419,7 +1419,7 @@
     },
     "/email/member/kbernhardy@phizzle.com": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign Member",
         "tags": [
           "email"
@@ -1470,7 +1470,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign Member",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1483,7 +1483,7 @@
     },
     "/email/email_sender": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Sender - Insert",
         "tags": [
           "email"
@@ -1544,7 +1544,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Sender - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1557,7 +1557,7 @@
     },
     "/email/template": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Template - Insert",
         "tags": [
           "email"
@@ -1618,7 +1618,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Template - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1631,7 +1631,7 @@
     },
     "/email/template/064df7f0-bff3-11e6-9f60-a1ab0e5d02fb": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Template - Get",
         "tags": [
           "email"
@@ -1672,7 +1672,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Template - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1685,7 +1685,7 @@
     },
     "/email/template/1a715e70-ef23-11e6-a470-b1f443288e5a/save": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Template - Update",
         "tags": [
           "email"
@@ -1746,7 +1746,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Template - Update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1759,7 +1759,7 @@
     },
     "/email/template/search": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Template - Search",
         "tags": [
           "email"
@@ -1807,7 +1807,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Template - Search",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1820,7 +1820,7 @@
     },
     "/email/template/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Template - Page",
         "tags": [
           "email"
@@ -1871,7 +1871,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Template - Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1884,7 +1884,7 @@
     },
     "/email/segment": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Segment - Insert",
         "tags": [
           "email"
@@ -1945,7 +1945,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Segment - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -1958,7 +1958,7 @@
     },
     "/email/segment/4785e990-efe0-11e6-9f6b-d9a9f70f8ce8": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Segment - Get",
         "tags": [
           "email"
@@ -2009,7 +2009,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Segment - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2020,7 +2020,7 @@
         }
       },
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Segment - Update",
         "tags": [
           "email"
@@ -2081,7 +2081,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Segment - Update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2092,7 +2092,7 @@
         }
       },
       "delete": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Segment - Delete",
         "tags": [
           "email"
@@ -2153,7 +2153,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Segment - Delete",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2166,7 +2166,7 @@
     },
     "/email/segment/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Segment - Page",
         "tags": [
           "email"
@@ -2217,7 +2217,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Segment - Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2230,7 +2230,7 @@
     },
     "/email/group/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Group - Page",
         "tags": [
           "email"
@@ -2281,7 +2281,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Group - Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2294,7 +2294,7 @@
     },
     "/email/group": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Group - Insert",
         "tags": [
           "email"
@@ -2355,7 +2355,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Group - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2368,7 +2368,7 @@
     },
     "/email/group/0a4a8660-f23a-11e6-97cf-11128e490e7e": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Group - Get",
         "tags": [
           "email"
@@ -2419,7 +2419,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Group - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2430,7 +2430,7 @@
         }
       },
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Group - Update",
         "tags": [
           "email"
@@ -2491,7 +2491,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Group - Update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2502,7 +2502,7 @@
         }
       },
       "delete": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Group - Delete",
         "tags": [
           "email"
@@ -2563,7 +2563,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Group - Delete",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2576,7 +2576,7 @@
     },
     "/email/email_campaign/75af9b36-8cd0-11e6-ae22-56b6b6499611/stats/all_time": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Get count of Group Members by group_id",
         "summary": "Email Campaign - Get All Time Stats",
         "tags": [
           "email"
@@ -2617,7 +2617,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign - Get All Time Stats",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Get count of Group Members by group_id"
           }
         ],
         "x-operation-settings": {
@@ -2630,7 +2630,7 @@
     },
     "/email/email_sender/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Sender - Page",
         "tags": [
           "email"
@@ -2681,7 +2681,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Sender - Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2694,7 +2694,7 @@
     },
     "/email/email_sender/dford@phizzle.com": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Sender - Get",
         "tags": [
           "email"
@@ -2745,7 +2745,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Sender - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2758,7 +2758,7 @@
     },
     "/email/list/0935d4d0-635d-11e6-bf8b-5b218e0b5758/email_campaigns": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "List - Get Email Campaigns",
         "tags": [
           "email"
@@ -2809,7 +2809,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "List - Get Email Campaigns",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2822,7 +2822,7 @@
     },
     "/email/email_campaign": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign - Insert",
         "tags": [
           "email"
@@ -2883,7 +2883,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2896,7 +2896,7 @@
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign - Get",
         "tags": [
           "email"
@@ -2947,7 +2947,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -2958,7 +2958,7 @@
         }
       },
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign - Update",
         "tags": [
           "email"
@@ -3019,7 +3019,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign - Update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3032,7 +3032,7 @@
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/group": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign Group - Insert",
         "tags": [
           "email"
@@ -3093,7 +3093,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign Group - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3104,7 +3104,7 @@
         }
       },
       "delete": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign Group - Delete",
         "tags": [
           "email"
@@ -3165,7 +3165,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign Group - Delete",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3178,7 +3178,7 @@
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/group/7bc57090-f2dd-11e6-893d-216a536d489a": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign Group - Get",
         "tags": [
           "email"
@@ -3229,7 +3229,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign Group - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3242,7 +3242,7 @@
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/groups": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign - Get Groups",
         "tags": [
           "email"
@@ -3293,7 +3293,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign - Get Groups",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3306,7 +3306,7 @@
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/lists": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign - Get Lists",
         "tags": [
           "email"
@@ -3357,7 +3357,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign - Get Lists",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3370,7 +3370,7 @@
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/list": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign List - Insert",
         "tags": [
           "email"
@@ -3431,7 +3431,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign List - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3442,7 +3442,7 @@
         }
       },
       "delete": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign List - Delete",
         "tags": [
           "email"
@@ -3503,7 +3503,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign List - Delete",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3516,7 +3516,7 @@
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/list/b2936720-b06c-11e6-b181-537bca909e2a": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Email Campaign List - Get",
         "tags": [
           "email"
@@ -3567,7 +3567,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Email Campaign List - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3580,7 +3580,7 @@
     },
     "/email/list": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "List - Insert",
         "tags": [
           "email"
@@ -3641,7 +3641,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "List - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3654,7 +3654,7 @@
     },
     "/email/list/search": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "List - Search",
         "tags": [
           "email"
@@ -3712,7 +3712,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "List - Search",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3725,7 +3725,7 @@
     },
     "/email/list/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "List - Page",
         "tags": [
           "email"
@@ -3776,7 +3776,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "List - Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3789,7 +3789,7 @@
     },
     "/email/list/active/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "List - Active Page",
         "tags": [
           "email"
@@ -3840,7 +3840,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "List - Active Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3853,7 +3853,7 @@
     },
     "/email/list/archived/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "List - Archived Page",
         "tags": [
           "email"
@@ -3904,7 +3904,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "List - Archived Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3917,7 +3917,7 @@
     },
     "/email/list/b2936720-b06c-11e6-b181-537bca909e2a": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "List - Get",
         "tags": [
           "email"
@@ -3968,7 +3968,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "List - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -3979,7 +3979,7 @@
         }
       },
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "List - Update",
         "tags": [
           "email"
@@ -4040,7 +4040,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "List - Update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -4053,7 +4053,7 @@
     },
     "/email/send": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Send",
         "tags": [
           "email"
@@ -4104,7 +4104,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Send",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -4117,7 +4117,7 @@
     },
     "/engagement/{listening_engagement}/activity/channel": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get Channels",
         "tags": [
           "engagement"
@@ -4159,7 +4159,7 @@
     },
     "/engagement/{listening_engagement}/activity/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Day",
         "tags": [
           "engagement"
@@ -4201,7 +4201,7 @@
     },
     "/engagement/{listening_engagement}/activity/day/1,1,170,170": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Day Geo",
         "tags": [
           "engagement"
@@ -4243,7 +4243,7 @@
     },
     "/engagement/{listening_engagement}/activity/day/male": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Day Male",
         "tags": [
           "engagement"
@@ -4285,7 +4285,7 @@
     },
     "/engagement/{listening_engagement}/activity/day/female": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Day Female",
         "tags": [
           "engagement"
@@ -4327,7 +4327,7 @@
     },
     "/engagement/{ENGAGEMENT_ID}/activity/day/positive": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Day Positive",
         "tags": [
           "engagement"
@@ -4369,7 +4369,7 @@
     },
     "/engagement/{listening_engagement}/activity/day/negative": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Day Negative",
         "tags": [
           "engagement"
@@ -4411,7 +4411,7 @@
     },
     "/engagement/{listening_engagement}/activity/female": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Female",
         "tags": [
           "engagement"
@@ -4453,7 +4453,7 @@
     },
     "/engagement/{listening_engagement}/activity/male": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Male",
         "tags": [
           "engagement"
@@ -4495,7 +4495,7 @@
     },
     "/engagement/{listening_engagement}/activity/year": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Year",
         "tags": [
           "engagement"
@@ -4537,7 +4537,7 @@
     },
     "/engagement/{listening_engagement}/activity/month": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Month",
         "tags": [
           "Misc"
@@ -4579,7 +4579,7 @@
     },
     "/engagement/{listening_engagement}/activity/hour": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Hour",
         "tags": [
           "engagement"
@@ -4621,7 +4621,7 @@
     },
     "/engagement/{listening_engagement}/activity/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get By Minute",
         "tags": [
           "engagement"
@@ -4663,7 +4663,7 @@
     },
     "/engagement/{listening_engagement}/activity/positive": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get Positive",
         "tags": [
           "engagement"
@@ -4705,7 +4705,7 @@
     },
     "/engagement/{ENGAGEMENT_ID}/activity/sentiment/positive/detail": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get Positive Sentiment Detail",
         "tags": [
           "engagement"
@@ -4747,7 +4747,7 @@
     },
     "/engagement": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Insert an Engagement",
         "summary": "Engagement - Insert",
         "tags": [
           "engagement"
@@ -4808,7 +4808,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Engagement - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Insert an Engagement"
           }
         ],
         "x-operation-settings": {
@@ -4821,7 +4821,7 @@
     },
     "/engagement/002ae1bf-5af4-4a88-ac4f-96a2a2976c21": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Update an Engagement",
         "summary": "Engagement - Update",
         "tags": [
           "engagement"
@@ -4882,7 +4882,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Engagement - Update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Update an Engagement"
           }
         ],
         "x-operation-settings": {
@@ -4895,7 +4895,7 @@
     },
     "/engagement/detail/{listening_engagement}": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Engagement - Get",
         "tags": [
           "engagement"
@@ -4937,7 +4937,7 @@
     },
     "/engagement/{listening_engagement}/engagement": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Engagement - Get Engagement",
         "tags": [
           "engagement"
@@ -4979,7 +4979,7 @@
     },
     "/engagement/{listening_engagement}/stats": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Engagement - Get Stats",
         "tags": [
           "engagement"
@@ -5021,7 +5021,7 @@
     },
     "/engagement/unarchived/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Engagement - Unarchived Page",
         "tags": [
           "engagement"
@@ -5062,7 +5062,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Engagement - Unarchived Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -5075,7 +5075,7 @@
     },
     "/engagement/archived/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Engagement - Archived Page",
         "tags": [
           "engagement"
@@ -5116,7 +5116,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Engagement - Archived Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -5129,7 +5129,7 @@
     },
     "/engagement/{listening_engagement}/fans": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Fans - Get",
         "tags": [
           "engagement"
@@ -5171,7 +5171,7 @@
     },
     "/engagement/{listening_engagement}/fans/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Fans - Get By Day",
         "tags": [
           "engagement"
@@ -5213,7 +5213,7 @@
     },
     "/engagement/{listening_engagement}/fans/hour": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Fans - Get By Hour",
         "tags": [
           "engagement"
@@ -5255,7 +5255,7 @@
     },
     "/engagement/{listening_engagement}/fans/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Fans - Get By Minute",
         "tags": [
           "engagement"
@@ -5297,7 +5297,7 @@
     },
     "/engagement/{listening_engagement}/feed": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get",
         "tags": [
           "engagement"
@@ -5339,7 +5339,7 @@
     },
     "/engagement/{listening_engagement}/feed/1,1,180,180": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get By Geo",
         "tags": [
           "engagement"
@@ -5381,7 +5381,7 @@
     },
     "/engagement/{listening_engagement}/feed/female": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get Female",
         "tags": [
           "engagement"
@@ -5423,7 +5423,7 @@
     },
     "/engagement/{listening_engagement}/feed/male": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get Male",
         "tags": [
           "engagement"
@@ -5465,7 +5465,7 @@
     },
     "/engagement/{listening_engagement}/feed/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get From Last Day",
         "tags": [
           "engagement"
@@ -5507,7 +5507,7 @@
     },
     "/engagement/{listening_engagement}/feed/hour": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get From Last Hour",
         "tags": [
           "engagement"
@@ -5549,7 +5549,7 @@
     },
     "/engagement/{listening_engagement}/feed/year": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get From Last Year",
         "tags": [
           "engagement"
@@ -5591,7 +5591,7 @@
     },
     "/engagement/{listening_engagement}/feed/recent": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get Recent",
         "tags": [
           "engagement"
@@ -5633,7 +5633,7 @@
     },
     "/engagement/{listening_engagement}/gender/1,180,1,180": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get Geo",
         "tags": [
           "engagement"
@@ -5675,7 +5675,7 @@
     },
     "/engagement/{listening_engagement}/gender/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get Last Minute",
         "tags": [
           "engagement"
@@ -5717,7 +5717,7 @@
     },
     "/engagement/{listening_engagement}/gender/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get Last Day",
         "tags": [
           "engagement"
@@ -5759,7 +5759,7 @@
     },
     "/engagement/{listening_engagement}/gender/hour": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get Last Hour",
         "tags": [
           "engagement"
@@ -5801,7 +5801,7 @@
     },
     "/engagement/{listening_engagement}/gender/month": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get Last Month",
         "tags": [
           "engagement"
@@ -5843,7 +5843,7 @@
     },
     "/engagement/{listening_engagement}/gender": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get",
         "tags": [
           "engagement"
@@ -5885,7 +5885,7 @@
     },
     "/engagement/{listening_engagement}/gender/female": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get Female",
         "tags": [
           "engagement"
@@ -5927,7 +5927,7 @@
     },
     "/engagement/{listening_engagement}/gender/male": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get Male",
         "tags": [
           "engagement"
@@ -5969,7 +5969,7 @@
     },
     "/engagement/{listening_engagement}/gender/year": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Gender - Get Last Year",
         "tags": [
           "engagement"
@@ -6011,7 +6011,7 @@
     },
     "/engagement/{listening_engagement}/geo/1,1,180,180": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get",
         "tags": [
           "engagement"
@@ -6053,7 +6053,7 @@
     },
     "/engagement/{listening_engagement}/geo/male": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Male",
         "tags": [
           "engagement"
@@ -6095,7 +6095,7 @@
     },
     "/engagement/{listening_engagement}/geo/female": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Female",
         "tags": [
           "engagement"
@@ -6137,7 +6137,7 @@
     },
     "/engagement/{listening_engagement}/geo/negative": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Negative",
         "tags": [
           "engagement"
@@ -6179,7 +6179,7 @@
     },
     "/engagement/{listening_engagement}/geo/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Last Minute",
         "tags": [
           "engagement"
@@ -6221,7 +6221,7 @@
     },
     "/engagement/{listening_engagement}/geo/hour": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Last Hour",
         "tags": [
           "engagement"
@@ -6263,7 +6263,7 @@
     },
     "/engagement/{listening_engagement}/geo/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Last Day",
         "tags": [
           "engagement"
@@ -6305,7 +6305,7 @@
     },
     "/engagement/{listening_engagement}/geo/month": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Last Month",
         "tags": [
           "engagement"
@@ -6347,7 +6347,7 @@
     },
     "/engagement/{listening_engagement}/geo/year": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Last Year",
         "tags": [
           "engagement"
@@ -6389,7 +6389,7 @@
     },
     "/engagement/{listening_engagement}/influencers": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Influencers - Get",
         "tags": [
           "engagement"
@@ -6431,7 +6431,7 @@
     },
     "/engagement/{listening_engagement}/insights": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Insights - Get",
         "tags": [
           "engagement"
@@ -6473,7 +6473,7 @@
     },
     "/engagement/{listening_engagement}/insights/1,1,180,180": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Insights - Get Geo",
         "tags": [
           "engagement"
@@ -6515,7 +6515,7 @@
     },
     "/engagement/{listening_engagement}/insights/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Insights - Get Last Day",
         "tags": [
           "engagement"
@@ -6557,7 +6557,7 @@
     },
     "/engagement/{listening_engagement}/insights/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Insights - Get Last Minute",
         "tags": [
           "engagement"
@@ -6599,7 +6599,7 @@
     },
     "/engagement/{listening_engagement}/insights/hour": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Insights - Get Last Hour",
         "tags": [
           "engagement"
@@ -6641,7 +6641,7 @@
     },
     "/engagement/{listening_engagement}/insights/month": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Insights - Get Last Month",
         "tags": [
           "engagement"
@@ -6683,7 +6683,7 @@
     },
     "/engagement/{listening_engagement}/insights/year": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Insights - Get Last Year",
         "tags": [
           "engagement"
@@ -6725,7 +6725,7 @@
     },
     "/engagement/{listening_engagement}/keyword": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Keywords - Insert",
         "tags": [
           "engagement"
@@ -6783,7 +6783,7 @@
     },
     "/engagement/{listening_engagement}/keyword/9c091d00-f55f-11e6-b4cc-571eee2ba746": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Keywords - Update",
         "tags": [
           "engagement"
@@ -6841,7 +6841,7 @@
     },
     "/engagement/detail/{ENGAGEMENT_ID}/keywords": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Keywords - Get",
         "tags": [
           "engagement"
@@ -6883,7 +6883,7 @@
     },
     "/engagement/{listening_engagement}/member": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Member - Insert",
         "tags": [
           "engagement"
@@ -6941,7 +6941,7 @@
     },
     "/engagement/{listening_engagement}/member/TESTERSON Twitter": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Member - Update",
         "tags": [
           "engagement"
@@ -6999,7 +6999,7 @@
     },
     "/engagement/{listening_engagement}/member/count": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Member - Count",
         "tags": [
           "engagement"
@@ -7041,7 +7041,7 @@
     },
     "/engagement/{listening_engagement}/members/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Member - Page",
         "tags": [
           "engagement"
@@ -7083,7 +7083,7 @@
     },
     "/engagement/{listening_engagement}/top/members": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Members - Get Top",
         "tags": [
           "engagement"
@@ -7125,7 +7125,7 @@
     },
     "/engagement/{listening_engagement}/photos": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Photos - Get",
         "tags": [
           "engagement"
@@ -7167,7 +7167,7 @@
     },
     "/engagement/{listening_engagement}/photos/positive": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Photos - Get Positive",
         "tags": [
           "engagement"
@@ -7209,7 +7209,7 @@
     },
     "/engagement/{listening_engagement}/photos/negative": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Photos - Get Negative",
         "tags": [
           "engagement"
@@ -7251,7 +7251,7 @@
     },
     "/engagement/{listening_engagement}/photos/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Photos - Get Last Minute",
         "tags": [
           "engagement"
@@ -7293,7 +7293,7 @@
     },
     "/engagement/{listening_engagement}/photos/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Photos - Get Last Day",
         "tags": [
           "engagement"
@@ -7335,7 +7335,7 @@
     },
     "/engagement/{listening_engagement}/photos/month": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Photos - Get Last Month",
         "tags": [
           "engagement"
@@ -7377,7 +7377,7 @@
     },
     "/engagement/{listening_engagement}/photos/year": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Photos - Get Female",
         "tags": [
           "engagement"
@@ -7419,7 +7419,7 @@
     },
     "/engagement/{listening_engagement}/sentiment": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get",
         "tags": [
           "engagement"
@@ -7461,7 +7461,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Last Minute",
         "tags": [
           "engagement"
@@ -7503,7 +7503,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/hour": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Last Hour",
         "tags": [
           "engagement"
@@ -7545,7 +7545,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Last Day",
         "tags": [
           "engagement"
@@ -7587,7 +7587,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/month": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Last Month",
         "tags": [
           "engagement"
@@ -7629,7 +7629,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/year": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Last Year",
         "tags": [
           "engagement"
@@ -7671,7 +7671,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/positive": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Positive",
         "tags": [
           "engagement"
@@ -7713,7 +7713,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/negative": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Negative",
         "tags": [
           "engagement"
@@ -7755,7 +7755,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/male": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Male",
         "tags": [
           "engagement"
@@ -7797,7 +7797,7 @@
     },
     "/engagement/{listening_engagement}/sentiment/female": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Sentiment - Get Female",
         "tags": [
           "engagement"
@@ -7839,7 +7839,7 @@
     },
     "/engagement/{listening_engagement}/topics/sentiment/positive/detail": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Topics - Get Positive Sentiment",
         "tags": [
           "engagement"
@@ -7881,7 +7881,7 @@
     },
     "/engagement/{listening_engagement}/topics/detail": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Topics - Get",
         "tags": [
           "engagement"
@@ -7923,7 +7923,7 @@
     },
     "/engagement/{listening_engagement}/term/stats": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Term Stats - Get",
         "tags": [
           "engagement"
@@ -7965,7 +7965,7 @@
     },
     "/fan/detail/{FAN_ID}/activity": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get",
         "tags": [
           "fan"
@@ -8007,7 +8007,7 @@
     },
     "/fan/detail/{fan_id}": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Detail - Get",
         "tags": [
           "fan"
@@ -8049,7 +8049,7 @@
     },
     "/fan/detail/{fan_id}/activity/geo": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get Geo",
         "tags": [
           "fan"
@@ -8091,7 +8091,7 @@
     },
     "/fan/detail/{fan_id}/activity/total": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get Total",
         "tags": [
           "fan"
@@ -8133,7 +8133,7 @@
     },
     "/fan/detail/{fan_id}/activity/type": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Activity - Get Type",
         "tags": [
           "fan"
@@ -8175,7 +8175,7 @@
     },
     "/fan/detail/{fan_id}/interest": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Interest - Get",
         "tags": [
           "fan"
@@ -8217,7 +8217,7 @@
     },
     "/fan/fantracker/locate": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Fantracker Get",
         "tags": [
           "fan"
@@ -8272,7 +8272,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Fantracker Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -8285,7 +8285,7 @@
     },
     "/purchase": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Inserts a Contest",
         "summary": "Purchase - Post",
         "tags": [
           "purchase"
@@ -8346,7 +8346,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Purchase - Post",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Inserts a Contest"
           }
         ],
         "x-operation-settings": {
@@ -8359,7 +8359,7 @@
     },
     "/fan/{fan_id}/purchases": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Purchases - Get",
         "tags": [
           "fan"
@@ -8401,7 +8401,7 @@
     },
     "/fan/{fan_id}/tickets": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Tickets - Get",
         "tags": [
           "fan"
@@ -8443,7 +8443,7 @@
     },
     "/fan/detail/{fan_id}/topic/sentiment": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Fan - Get Topic Sentiment",
         "tags": [
           "fan"
@@ -8485,7 +8485,7 @@
     },
     "/fan/search": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Search",
         "tags": [
           "fan"
@@ -8549,7 +8549,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Search",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -8562,7 +8562,7 @@
     },
     "/fan/fantracker/{fan_id}/locate": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Fantracker - Get Location",
         "tags": [
           "fan"
@@ -8604,7 +8604,7 @@
     },
     "/fan/{fan_id}/duplicates": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Tickets - Get Duplicates",
         "tags": [
           "fan"
@@ -8646,7 +8646,7 @@
     },
     "/fan/{fan_id}/loyaltyprograms": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Loyalty Programs - Get",
         "tags": [
           "fan"
@@ -8688,7 +8688,7 @@
     },
     "/fan/fantracker/create": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Create",
         "tags": [
           "fan"
@@ -8749,7 +8749,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Create",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -8762,7 +8762,7 @@
     },
     "/gamification": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Inserts a Contest",
         "summary": "Contest",
         "tags": [
           "gamification"
@@ -8823,7 +8823,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Contest",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Inserts a Contest"
           }
         ],
         "x-operation-settings": {
@@ -8836,7 +8836,7 @@
     },
     "/4665b5a0-19e7-11e7-afd7-4fc8841a2f18": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Get specific Contest",
         "summary": "Contest",
         "tags": [
           "gamification"
@@ -8920,7 +8920,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Contest1",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Get specific Contest"
           }
         ],
         "x-operation-settings": {
@@ -8933,7 +8933,7 @@
     },
     "/gamification/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Page thru contests",
         "summary": "Contest Next Page",
         "tags": [
           "gamification"
@@ -8974,7 +8974,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Contest Next Page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Page thru contests"
           }
         ],
         "x-operation-settings": {
@@ -8987,7 +8987,7 @@
     },
     "/gamification/{contest_id}/winner": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Insert new Winner",
         "summary": "Winner",
         "tags": [
           "gamification"
@@ -9045,7 +9045,7 @@
     },
     "/gamification/{contest_id}/winner/{winner_id}": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Get Winner by ID",
         "summary": "Winner",
         "tags": [
           "gamification"
@@ -9094,7 +9094,7 @@
     },
     "/gamification/{contest_id}/winner/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Get Winners",
         "summary": "Winner Paging",
         "tags": [
           "gamification"
@@ -9136,7 +9136,7 @@
     },
     "/gamification/cancelled/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Cancelled Gamification Paging",
         "tags": [
           "gamification"
@@ -9177,7 +9177,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Cancelled Gamification Paging",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -9190,7 +9190,7 @@
     },
     "/gamification/uncancelled/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Uncancelled Gamification Paging",
         "tags": [
           "gamification"
@@ -9231,7 +9231,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Uncancelled Gamification Paging",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -9244,7 +9244,7 @@
     },
     "/count": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Programmember - Get Count",
         "tags": [
           "loyalty"
@@ -9285,7 +9285,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Programmember - Get Count",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -9298,7 +9298,7 @@
     },
     "/loyalty/{loyalty_id}/engagements": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Loyalty Program - Get Engagements",
         "tags": [
           "loyalty"
@@ -9340,7 +9340,7 @@
     },
     "/loyalty/{loyalty_id}": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Loyalty Program - Get",
         "tags": [
           "loyalty"
@@ -9382,7 +9382,7 @@
     },
     "/loyalty/tier/33c10ba0-b03a-11e6-bda9-c12ef41e3482": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Update a Program Tier",
         "summary": "Program Tier - Update",
         "tags": [
           "loyalty"
@@ -9443,7 +9443,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Program Tier - Update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Update a Program Tier"
           }
         ],
         "x-operation-settings": {
@@ -9456,7 +9456,7 @@
     },
     "/loyalty/tier": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Insert a Program Tier",
         "summary": "Program Tier - Insert",
         "tags": [
           "loyalty"
@@ -9517,7 +9517,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Program Tier - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Insert a Program Tier"
           }
         ],
         "x-operation-settings": {
@@ -9530,7 +9530,7 @@
     },
     "/loyalty/pointrule/7535d48b-cacc-4527-b087-f204d0e5485f": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Update a Program Point Rule",
         "summary": "Program Point Rule - Update",
         "tags": [
           "loyalty"
@@ -9591,7 +9591,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Program Point Rule - Update",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Update a Program Point Rule"
           }
         ],
         "x-operation-settings": {
@@ -9604,7 +9604,7 @@
     },
     "/loyalty/pointrule": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Insert a Program Tier",
         "summary": "Program Point Rule - Insert",
         "tags": [
           "loyalty"
@@ -9665,7 +9665,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Program Point Rule - Insert",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Insert a Program Tier"
           }
         ],
         "x-operation-settings": {
@@ -9678,7 +9678,7 @@
     },
     "/loyalty/member/{loyalty_member}": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "Update a Program Tier",
         "summary": "Program Member - Update",
         "tags": [
           "loyalty"
@@ -9736,7 +9736,7 @@
     },
     "/loyalty/archived/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Loyalty - Page Archived",
         "tags": [
           "loyalty"
@@ -9777,7 +9777,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Loyalty - Page Archived",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -9790,7 +9790,7 @@
     },
     "/loyalty/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Loyalty - Page Unarchived",
         "tags": [
           "loyalty"
@@ -9831,7 +9831,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Loyalty - Page Unarchived",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -9844,7 +9844,7 @@
     },
     "/loyalty/{loyalty_id}/member/gender": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Counts a Program Member by Program id",
         "summary": "Members - Get Gender",
         "tags": [
           "loyalty"
@@ -9893,7 +9893,7 @@
     },
     "/loyalty/{loyalty_id}/member/tiers": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Counts a Program Member by Program id",
         "summary": "Members - Get Tiers",
         "tags": [
           "loyalty"
@@ -9942,7 +9942,7 @@
     },
     "/loyalty/{program_id}/member/count": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Counts a Program Member by Program id",
         "summary": "Members - Get Count",
         "tags": [
           "loyalty"
@@ -9991,7 +9991,7 @@
     },
     "/loyalty/{loyalty_id}/member": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Counts a Program Member by Program id",
         "summary": "Program - Get Transactions",
         "tags": [
           "loyalty"
@@ -10040,7 +10040,7 @@
     },
     "/loyalty/{loyalty_id}/leaderboard/lifetime": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Counts a Program Member by Program id",
         "summary": "Point Rule - Get",
         "tags": [
           "loyalty"
@@ -10089,7 +10089,7 @@
     },
     "/loyalty/{loyalty_id}/transaction": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Counts a Program Member by Program id",
         "summary": "Program Leaderboard - Get Lifetime",
         "tags": [
           "loyalty"
@@ -10138,7 +10138,7 @@
     },
     "/metrics/social/feed/oembed": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "oEmbed compatible version of the Social Feed",
         "summary": "Social Feed oEmbed",
         "tags": [
           "metrics"
@@ -10179,7 +10179,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Social Feed oEmbed",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "oEmbed compatible version of the Social Feed"
           }
         ],
         "x-operation-settings": {
@@ -10192,7 +10192,7 @@
     },
     "/metrics/loyalty/{loyaltyprogram_id}/members/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Loyalty Members By Day",
         "tags": [
           "metrics"
@@ -10234,7 +10234,7 @@
     },
     "/metrics/topics/top/hour": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/topics/top/hour1",
         "tags": [
           "metrics"
@@ -10275,7 +10275,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/topics/top/hour1",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10288,7 +10288,7 @@
     },
     "/metrics/engagements/recent": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/engagements/recent",
         "tags": [
           "metrics"
@@ -10329,7 +10329,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/engagements/recent",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10342,7 +10342,7 @@
     },
     "/metrics/activities/geo/recent": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/activities/geo/recent",
         "tags": [
           "metrics"
@@ -10383,7 +10383,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/activities/geo/recent",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10396,7 +10396,7 @@
     },
     "/metrics/sentiment": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/sentiment",
         "tags": [
           "metrics"
@@ -10437,7 +10437,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/sentiment",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10450,7 +10450,7 @@
     },
     "/metrics/trending/tweets": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/trending/tweets",
         "tags": [
           "metrics"
@@ -10491,7 +10491,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/trending/tweets",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10504,7 +10504,7 @@
     },
     "/metrics/activity/type": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/activity/type",
         "tags": [
           "metrics"
@@ -10545,7 +10545,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/activity/type",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10558,7 +10558,7 @@
     },
     "/metrics/social/feed": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/social/feed",
         "tags": [
           "metrics"
@@ -10599,7 +10599,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/social/feed",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10612,7 +10612,7 @@
     },
     "/metrics/fans/new/5": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/fans/new/:days",
         "tags": [
           "metrics"
@@ -10653,7 +10653,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/fans/new/:days",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10666,7 +10666,7 @@
     },
     "/metrics/fans/top": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/fans/top",
         "tags": [
           "metrics"
@@ -10707,7 +10707,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/fans/top",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10720,7 +10720,7 @@
     },
     "/metrics/profiles/top": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/profiles/top",
         "tags": [
           "metrics"
@@ -10761,7 +10761,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/profiles/top",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10774,7 +10774,7 @@
     },
     "/metrics/topics/search": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/topics/search",
         "tags": [
           "metrics"
@@ -10835,7 +10835,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/topics/search",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10848,7 +10848,7 @@
     },
     "/metrics/fans": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/fans",
         "tags": [
           "metrics"
@@ -10889,7 +10889,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/fans",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10902,7 +10902,7 @@
     },
     "/metrics/loyalty/{loyalty_id}/members/day": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/loyalty/:loyaltyprogram_id/members/day",
         "tags": [
           "metrics"
@@ -10944,7 +10944,7 @@
     },
     "/metrics/activity/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "metrics/activity/minute",
         "tags": [
           "Misc"
@@ -10985,7 +10985,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "metrics/activity/minute",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -10998,7 +10998,7 @@
     },
     "/post/10119118-e501-4883-852a-b0eb6a99c23c": {
       "delete": {
-        "description": "TODO: Add Description",
+        "description": "Deletes a Post",
         "summary": "Delete Post",
         "tags": [
           "post"
@@ -11059,7 +11059,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Delete Post",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Deletes a Post"
           }
         ],
         "x-operation-settings": {
@@ -11072,7 +11072,7 @@
     },
     "/post/archived/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Archived Post Paging",
         "tags": [
           "post"
@@ -11113,7 +11113,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Archived Post Paging",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -11126,7 +11126,7 @@
     },
     "/post/unarchived/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Unarchived Post Paging",
         "tags": [
           "post"
@@ -11167,7 +11167,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Unarchived Post Paging",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -11180,7 +11180,7 @@
     },
     "/post/{post_id}": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Post - Get",
         "tags": [
           "post"
@@ -11222,7 +11222,7 @@
     },
     "/system/info": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Info - Get",
         "tags": [
           "system"
@@ -11263,7 +11263,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Info - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -11276,7 +11276,7 @@
     },
     "/system/ping": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Ping - Get",
         "tags": [
           "system"
@@ -11317,7 +11317,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Ping - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -11330,7 +11330,7 @@
     },
     "/system/time": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Time - Get",
         "tags": [
           "system"
@@ -11371,7 +11371,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Time - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -11384,7 +11384,7 @@
     },
     "/system/pong": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Pong - Post",
         "tags": [
           "system"
@@ -11445,7 +11445,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "Pong - Post",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -11458,7 +11458,7 @@
     },
     "/system/utctime": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "UTC Time - Get",
         "tags": [
           "system"
@@ -11499,7 +11499,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "UTC Time - Get",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -11512,7 +11512,7 @@
     },
     "/tools/shortenurl": {
       "post": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "shorten url",
         "tags": [
           "tools"
@@ -11573,7 +11573,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "shorten url",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": ""
           }
         ],
         "x-operation-settings": {
@@ -11586,7 +11586,7 @@
     },
     "/engagement/{listening_engagement}/feed/minute": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get From Last Minute",
         "tags": [
           "Misc"
@@ -11628,7 +11628,7 @@
     },
     "/engagement/{listening_engagement}/feed/month": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Feed - Get From Last Month",
         "tags": [
           "Misc"
@@ -11670,7 +11670,7 @@
     },
     "/engagement/{listening_engagement}/geo/positive": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "",
         "summary": "Geo - Get Positive",
         "tags": [
           "Misc"
