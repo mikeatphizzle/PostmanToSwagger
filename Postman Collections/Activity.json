@@ -23,7 +23,7 @@
   "paths": {
     "/page": {
       "get": {
-        "description": "TODO: Add Description",
+        "description": "Get a page of activities",
         "summary": "page",
         "tags": [
           "Misc"
@@ -64,7 +64,7 @@
             "x-testShouldPass": true,
             "x-testEnabled": true,
             "x-testName": "page",
-            "x-testDescription": "TODO: Add Description"
+            "x-testDescription": "Get a page of activities"
           }
         ],
         "x-operation-settings": {
