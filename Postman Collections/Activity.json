@@ -28,7 +28,7 @@
         "tags": [
           "Misc"
         ],
-        "operationId": "page",
+        "operationId": "PageGet",
         "produces": [
           "application/json"
         ],
