@@ -35,7 +35,7 @@
         "tags": [
           "activity"
         ],
-        "operationId": "Delete Activity",
+        "operationId": "Activity000001d7E4114fd890a4A2ad7fc61485Delete",
         "produces": [
           "application/json"
         ],
@@ -99,7 +99,7 @@
         "tags": [
           "activity"
         ],
-        "operationId": "Update Activity",
+        "operationId": "ActivityPost2",
         "produces": [
           "application/json"
         ],
@@ -173,7 +173,7 @@
         "tags": [
           "activity"
         ],
-        "operationId": "Get Activity",
+        "operationId": "Activity244a4f90Ea4d11e6BdbeB771f3468c05Get",
         "produces": [
           "application/json"
         ],
@@ -237,7 +237,7 @@
         "tags": [
           "activity"
         ],
-        "operationId": "Page Activity",
+        "operationId": "ActivityPageGet",
         "produces": [
           "application/json"
         ],
@@ -301,7 +301,7 @@
         "tags": [
           "app"
         ],
-        "operationId": "Get App",
+        "operationId": "AppGet",
         "produces": [
           "application/json"
         ],
@@ -363,7 +363,7 @@
         "tags": [
           "app"
         ],
-        "operationId": "Update App",
+        "operationId": "AppPost2",
         "produces": [
           "application/json"
         ],
@@ -437,7 +437,7 @@
         "tags": [
           "app"
         ],
-        "operationId": "Delete App",
+        "operationId": "AppB4c7f870Ea5611e6Aeff3532e4e3a88dDelete",
         "produces": [
           "application/json"
         ],
@@ -501,7 +501,7 @@
         "tags": [
           "app"
         ],
-        "operationId": "Page App",
+        "operationId": "AppPageGet",
         "produces": [
           "application/json"
         ],
@@ -565,7 +565,7 @@
         "tags": [
           "authorization"
         ],
-        "operationId": "Password Reset",
+        "operationId": "AuthenticationPasswordResetPost",
         "produces": [
           "application/json"
         ],
@@ -632,7 +632,7 @@
         "tags": [
           "authorization"
         ],
-        "operationId": "Password Reset Request",
+        "operationId": "AuthenticationPasswordResetRequestRbradyPhizzleComGet",
         "produces": [
           "application/json"
         ],
@@ -678,7 +678,7 @@
         "tags": [
           "authorization"
         ],
-        "operationId": "token",
+        "operationId": "AuthenticationGet2",
         "produces": [
           "application/json"
         ],
@@ -749,7 +749,7 @@
         "tags": [
           "client"
         ],
-        "operationId": "User - Get",
+        "operationId": "ClientUserDfordPhizzleComGet",
         "produces": [
           "application/json"
         ],
@@ -813,7 +813,7 @@
         "tags": [
           "client"
         ],
-        "operationId": "User",
+        "operationId": "ClientUserPost",
         "produces": [
           "application/json"
         ],
@@ -887,7 +887,7 @@
         "tags": [
           "client"
         ],
-        "operationId": "Update User",
+        "operationId": "ClientUserKbernhardy3PhizzleComPost",
         "produces": [
           "application/json"
         ],
@@ -961,7 +961,7 @@
         "tags": [
           "client"
         ],
-        "operationId": "User - Creates user for a client",
+        "operationId": "Client388e16d6D35e4f8cBba5B1147b824473UserPost",
         "produces": [
           "application/json"
         ],
@@ -1035,7 +1035,7 @@
         "tags": [
           "client"
         ],
-        "operationId": "User - Updates user for a client",
+        "operationId": "Client388e16d6D35e4f8cBba5B1147b824473UserKbernhardy3PhizzleComPost",
         "produces": [
           "application/json"
         ],
@@ -1109,7 +1109,7 @@
         "tags": [
           "client"
         ],
-        "operationId": "client update",
+        "operationId": "ClientPost2",
         "produces": [
           "application/json"
         ],
@@ -1183,7 +1183,7 @@
         "tags": [
           "client"
         ],
-        "operationId": "Current Limits",
+        "operationId": "ClientCurrentLimitsGet",
         "produces": [
           "application/json"
         ],
@@ -1247,7 +1247,7 @@
         "tags": [
           "client"
         ],
-        "operationId": "User Page",
+        "operationId": "ClientUserPageGet",
         "produces": [
           "application/json"
         ],
@@ -1311,7 +1311,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Group Member Count",
+        "operationId": "EmailGroup06578da0753011e6B928Add7b838de02GroupMemberCountGet",
         "produces": [
           "application/json"
         ],
@@ -1365,7 +1365,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Group Member Search",
+        "operationId": "EmailGroupMemberSearchSapBySearchGet",
         "produces": [
           "application/json"
         ],
@@ -1425,7 +1425,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign Member",
+        "operationId": "EmailMemberKbernhardyPhizzleComGet",
         "produces": [
           "application/json"
         ],
@@ -1489,7 +1489,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Sender - Insert",
+        "operationId": "EmailEmailSenderPost",
         "produces": [
           "application/json"
         ],
@@ -1563,7 +1563,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Template - Insert",
+        "operationId": "EmailTemplatePost",
         "produces": [
           "application/json"
         ],
@@ -1637,7 +1637,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Template - Get",
+        "operationId": "EmailTemplate064df7f0Bff311e69f60A1ab0e5d02fbGet",
         "produces": [
           "application/json"
         ],
@@ -1691,7 +1691,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Template - Update",
+        "operationId": "EmailTemplate1a715e70Ef2311e6A470B1f443288e5aSavePost",
         "produces": [
           "application/json"
         ],
@@ -1765,7 +1765,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Template - Search",
+        "operationId": "EmailTemplateSearchGet",
         "produces": [
           "application/json"
         ],
@@ -1826,7 +1826,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Template - Page",
+        "operationId": "EmailTemplatePageGet",
         "produces": [
           "application/json"
         ],
@@ -1890,7 +1890,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Segment - Insert",
+        "operationId": "EmailSegmentPost",
         "produces": [
           "application/json"
         ],
@@ -1964,7 +1964,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Segment - Get",
+        "operationId": "EmailSegment4785e990Efe011e69f6bD9a9f70f8ce8Get",
         "produces": [
           "application/json"
         ],
@@ -2026,7 +2026,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Segment - Update",
+        "operationId": "EmailSegment4785e990Efe011e69f6bD9a9f70f8ce8Post",
         "produces": [
           "application/json"
         ],
@@ -2098,7 +2098,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Segment - Delete",
+        "operationId": "EmailSegment4785e990Efe011e69f6bD9a9f70f8ce8Delete",
         "produces": [
           "application/json"
         ],
@@ -2172,7 +2172,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Segment - Page",
+        "operationId": "EmailSegmentPageGet",
         "produces": [
           "application/json"
         ],
@@ -2236,7 +2236,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Group - Page",
+        "operationId": "EmailGroupPageGet",
         "produces": [
           "application/json"
         ],
@@ -2300,7 +2300,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Group - Insert",
+        "operationId": "EmailGroupPost",
         "produces": [
           "application/json"
         ],
@@ -2374,7 +2374,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Group - Get",
+        "operationId": "EmailGroup0a4a8660F23a11e697cf11128e490e7eGet",
         "produces": [
           "application/json"
         ],
@@ -2436,7 +2436,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Group - Update",
+        "operationId": "EmailGroup0a4a8660F23a11e697cf11128e490e7ePost",
         "produces": [
           "application/json"
         ],
@@ -2508,7 +2508,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Group - Delete",
+        "operationId": "EmailGroup0a4a8660F23a11e697cf11128e490e7eDelete",
         "produces": [
           "application/json"
         ],
@@ -2582,7 +2582,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign - Get All Time Stats",
+        "operationId": "EmailEmailCampaign75af9b368cd011e6Ae2256b6b6499611StatsAllTimeGet",
         "produces": [
           "application/json"
         ],
@@ -2636,7 +2636,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Sender - Page",
+        "operationId": "EmailEmailSenderPageGet",
         "produces": [
           "application/json"
         ],
@@ -2700,7 +2700,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Sender - Get",
+        "operationId": "EmailEmailSenderDfordPhizzleComGet",
         "produces": [
           "application/json"
         ],
@@ -2764,7 +2764,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "List - Get Email Campaigns",
+        "operationId": "EmailList0935d4d0635d11e6Bf8b5b218e0b5758EmailCampaignsGet",
         "produces": [
           "application/json"
         ],
@@ -2828,7 +2828,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign - Insert",
+        "operationId": "EmailEmailCampaignPost",
         "produces": [
           "application/json"
         ],
@@ -2902,7 +2902,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign - Get",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561Get",
         "produces": [
           "application/json"
         ],
@@ -2964,7 +2964,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign - Update",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561Post",
         "produces": [
           "application/json"
         ],
@@ -3038,7 +3038,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign Group - Insert",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561GroupPost",
         "produces": [
           "application/json"
         ],
@@ -3110,7 +3110,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign Group - Delete",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561GroupDelete",
         "produces": [
           "application/json"
         ],
@@ -3184,7 +3184,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign Group - Get",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561Group7bc57090F2dd11e6893d216a536d489aGet",
         "produces": [
           "application/json"
         ],
@@ -3248,7 +3248,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign - Get Groups",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561GroupsGet",
         "produces": [
           "application/json"
         ],
@@ -3312,7 +3312,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign - Get Lists",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561ListsGet",
         "produces": [
           "application/json"
         ],
@@ -3376,7 +3376,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign List - Insert",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561ListPost",
         "produces": [
           "application/json"
         ],
@@ -3448,7 +3448,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign List - Delete",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561ListDelete",
         "produces": [
           "application/json"
         ],
@@ -3522,7 +3522,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Email Campaign List - Get",
+        "operationId": "EmailEmailCampaign31691b50F3b911e6B9a71d0314e0a561ListB2936720B06c11e6B181537bca909e2aGet",
         "produces": [
           "application/json"
         ],
@@ -3586,7 +3586,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "List - Insert",
+        "operationId": "EmailListPost",
         "produces": [
           "application/json"
         ],
@@ -3660,7 +3660,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "List - Search",
+        "operationId": "EmailListSearchGet",
         "produces": [
           "application/json"
         ],
@@ -3731,7 +3731,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "List - Page",
+        "operationId": "EmailListPageGet",
         "produces": [
           "application/json"
         ],
@@ -3795,7 +3795,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "List - Active Page",
+        "operationId": "EmailListActivePageGet",
         "produces": [
           "application/json"
         ],
@@ -3859,7 +3859,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "List - Archived Page",
+        "operationId": "EmailListArchivedPageGet",
         "produces": [
           "application/json"
         ],
@@ -3923,7 +3923,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "List - Get",
+        "operationId": "EmailListB2936720B06c11e6B181537bca909e2aGet",
         "produces": [
           "application/json"
         ],
@@ -3985,7 +3985,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "List - Update",
+        "operationId": "EmailListB2936720B06c11e6B181537bca909e2aPost",
         "produces": [
           "application/json"
         ],
@@ -4059,7 +4059,7 @@
         "tags": [
           "email"
         ],
-        "operationId": "Send",
+        "operationId": "EmailSendPost",
         "produces": [
           "application/json"
         ],
@@ -4123,7 +4123,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get Channels",
+        "operationId": "EngagementActivityChannelByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4165,7 +4165,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Day",
+        "operationId": "EngagementActivityDayByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4207,7 +4207,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Day Geo",
+        "operationId": "EngagementActivityDay11170170ByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4249,7 +4249,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Day Male",
+        "operationId": "EngagementActivityDayMaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4291,7 +4291,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Day Female",
+        "operationId": "EngagementActivityDayFemaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4333,7 +4333,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Day Positive",
+        "operationId": "EngagementActivityDayPositiveByENGAGEMENTIDGet",
         "produces": [
           "application/json"
         ],
@@ -4375,7 +4375,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Day Negative",
+        "operationId": "EngagementActivityDayNegativeByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4417,7 +4417,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Female",
+        "operationId": "EngagementActivityFemaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4459,7 +4459,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Male",
+        "operationId": "EngagementActivityMaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4501,7 +4501,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Year",
+        "operationId": "EngagementActivityYearByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4543,7 +4543,7 @@
         "tags": [
           "Misc"
         ],
-        "operationId": "Activity - Get By Month1",
+        "operationId": "EngagementActivityMonthByListeningEngagementGet2",
         "produces": [
           "application/json"
         ],
@@ -4585,7 +4585,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Hour",
+        "operationId": "EngagementActivityHourByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4627,7 +4627,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get By Minute",
+        "operationId": "EngagementActivityMinuteByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4669,7 +4669,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get Positive",
+        "operationId": "EngagementActivityPositiveByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4711,7 +4711,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Activity - Get Positive Sentiment Detail",
+        "operationId": "EngagementActivitySentimentPositiveDetailByENGAGEMENTIDGet",
         "produces": [
           "application/json"
         ],
@@ -4753,7 +4753,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Engagement - Insert",
+        "operationId": "EngagementPost",
         "produces": [
           "application/json"
         ],
@@ -4827,7 +4827,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Engagement - Update",
+        "operationId": "Engagement002ae1bf5af44a88Ac4f96a2a2976c21Post",
         "produces": [
           "application/json"
         ],
@@ -4901,7 +4901,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Engagement - Get",
+        "operationId": "EngagementDetailByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4943,7 +4943,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Engagement - Get Engagement",
+        "operationId": "EngagementEngagementByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -4985,7 +4985,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Engagement - Get Stats",
+        "operationId": "EngagementStatsByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5027,7 +5027,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Engagement - Unarchived Page",
+        "operationId": "EngagementUnarchivedPageGet",
         "produces": [
           "application/json"
         ],
@@ -5081,7 +5081,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Engagement - Archived Page",
+        "operationId": "EngagementArchivedPageGet",
         "produces": [
           "application/json"
         ],
@@ -5135,7 +5135,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Fans - Get",
+        "operationId": "EngagementFansByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5177,7 +5177,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Fans - Get By Day",
+        "operationId": "EngagementFansDayByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5219,7 +5219,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Fans - Get By Hour",
+        "operationId": "EngagementFansHourByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5261,7 +5261,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Fans - Get By Minute",
+        "operationId": "EngagementFansMinuteByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5303,7 +5303,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Feed - Get",
+        "operationId": "EngagementFeedByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5345,7 +5345,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Feed - Get By Geo",
+        "operationId": "EngagementFeed11180180ByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5387,7 +5387,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Feed - Get Female",
+        "operationId": "EngagementFeedFemaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5429,7 +5429,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Feed - Get Male",
+        "operationId": "EngagementFeedMaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5471,7 +5471,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Feed - Get From Last Day",
+        "operationId": "EngagementFeedDayByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5513,7 +5513,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Feed - Get From Last Hour",
+        "operationId": "EngagementFeedHourByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5555,7 +5555,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Feed - Get From Last Year",
+        "operationId": "EngagementFeedYearByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5597,7 +5597,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Feed - Get Recent",
+        "operationId": "EngagementFeedRecentByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5639,7 +5639,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Geo",
+        "operationId": "EngagementGender11801180ByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5681,7 +5681,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Last Minute",
+        "operationId": "EngagementGenderMinuteByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5723,7 +5723,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Last Day",
+        "operationId": "EngagementGenderDayByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5765,7 +5765,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Last Hour",
+        "operationId": "EngagementGenderHourByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5807,7 +5807,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Last Month",
+        "operationId": "EngagementGenderMonthByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5849,7 +5849,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get",
+        "operationId": "EngagementGenderByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5891,7 +5891,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Female",
+        "operationId": "EngagementGenderFemaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5933,7 +5933,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Male",
+        "operationId": "EngagementGenderMaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -5975,7 +5975,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Gender - Get Last Year",
+        "operationId": "EngagementGenderYearByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6017,7 +6017,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get",
+        "operationId": "EngagementGeo11180180ByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6059,7 +6059,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get Male",
+        "operationId": "EngagementGeoMaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6101,7 +6101,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get Female",
+        "operationId": "EngagementGeoFemaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6143,7 +6143,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get Negative",
+        "operationId": "EngagementGeoNegativeByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6185,7 +6185,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get Last Minute",
+        "operationId": "EngagementGeoMinuteByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6227,7 +6227,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get Last Hour",
+        "operationId": "EngagementGeoHourByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6269,7 +6269,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get Last Day",
+        "operationId": "EngagementGeoDayByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6311,7 +6311,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get Last Month",
+        "operationId": "EngagementGeoMonthByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6353,7 +6353,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Geo - Get Last Year",
+        "operationId": "EngagementGeoYearByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6395,7 +6395,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Influencers - Get",
+        "operationId": "EngagementInfluencersByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6437,7 +6437,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Insights - Get",
+        "operationId": "EngagementInsightsByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6479,7 +6479,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Insights - Get Geo",
+        "operationId": "EngagementInsights11180180ByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6521,7 +6521,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Insights - Get Last Day",
+        "operationId": "EngagementInsightsDayByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6563,7 +6563,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Insights - Get Last Minute",
+        "operationId": "EngagementInsightsMinuteByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6605,7 +6605,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Insights - Get Last Hour",
+        "operationId": "EngagementInsightsHourByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6647,7 +6647,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Insights - Get Last Month",
+        "operationId": "EngagementInsightsMonthByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6689,7 +6689,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Insights - Get Last Year",
+        "operationId": "EngagementInsightsYearByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -6731,7 +6731,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Keywords - Insert",
+        "operationId": "EngagementKeywordByListeningEngagementPost",
         "produces": [
           "application/json"
         ],
@@ -6789,7 +6789,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Keywords - Update",
+        "operationId": "EngagementKeyword9c091d00F55f11e6B4cc571eee2ba746ByListeningEngagementPost",
         "produces": [
           "application/json"
         ],
@@ -6847,7 +6847,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Keywords - Get",
+        "operationId": "EngagementDetailKeywordsByENGAGEMENTIDGet",
         "produces": [
           "application/json"
         ],
@@ -6889,7 +6889,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Member - Insert",
+        "operationId": "EngagementMemberByListeningEngagementPost",
         "produces": [
           "application/json"
         ],
@@ -6947,7 +6947,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Member - Update",
+        "operationId": "EngagementMemberTESTERSONTwitterByListeningEngagementPost",
         "produces": [
           "application/json"
         ],
@@ -7005,7 +7005,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Member - Count",
+        "operationId": "EngagementMemberCountByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7047,7 +7047,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Member - Page",
+        "operationId": "EngagementMembersPageByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7089,7 +7089,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Members - Get Top",
+        "operationId": "EngagementTopMembersByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7131,7 +7131,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Photos - Get",
+        "operationId": "EngagementPhotosByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7173,7 +7173,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Photos - Get Positive",
+        "operationId": "EngagementPhotosPositiveByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7215,7 +7215,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Photos - Get Negative",
+        "operationId": "EngagementPhotosNegativeByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7257,7 +7257,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Photos - Get Last Minute",
+        "operationId": "EngagementPhotosMinuteByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7299,7 +7299,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Photos - Get Last Day",
+        "operationId": "EngagementPhotosDayByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7341,7 +7341,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Photos - Get Last Month",
+        "operationId": "EngagementPhotosMonthByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7383,7 +7383,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Photos - Get Female",
+        "operationId": "EngagementPhotosYearByListeningEngagementGet3",
         "produces": [
           "application/json"
         ],
@@ -7425,7 +7425,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get",
+        "operationId": "EngagementSentimentByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7467,7 +7467,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Last Minute",
+        "operationId": "EngagementSentimentMinuteByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7509,7 +7509,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Last Hour",
+        "operationId": "EngagementSentimentHourByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7551,7 +7551,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Last Day",
+        "operationId": "EngagementSentimentDayByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7593,7 +7593,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Last Month",
+        "operationId": "EngagementSentimentMonthByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7635,7 +7635,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Last Year",
+        "operationId": "EngagementSentimentYearByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7677,7 +7677,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Positive",
+        "operationId": "EngagementSentimentPositiveByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7719,7 +7719,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Negative",
+        "operationId": "EngagementSentimentNegativeByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7761,7 +7761,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Male",
+        "operationId": "EngagementSentimentMaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7803,7 +7803,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Sentiment - Get Female",
+        "operationId": "EngagementSentimentFemaleByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7845,7 +7845,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Topics - Get Positive Sentiment",
+        "operationId": "EngagementTopicsSentimentPositiveDetailByListeningEngagementGet2",
         "produces": [
           "application/json"
         ],
@@ -7887,7 +7887,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Topics - Get",
+        "operationId": "EngagementTopicsDetailByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7929,7 +7929,7 @@
         "tags": [
           "engagement"
         ],
-        "operationId": "Term Stats - Get",
+        "operationId": "EngagementTermStatsByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -7971,7 +7971,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Activity - Get",
+        "operationId": "FanDetailActivityByFANIDGet",
         "produces": [
           "application/json"
         ],
@@ -8013,7 +8013,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Detail - Get",
+        "operationId": "FanDetailByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8055,7 +8055,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Activity - Get Geo",
+        "operationId": "FanDetailActivityGeoByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8097,7 +8097,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Activity - Get Total",
+        "operationId": "FanDetailActivityTotalByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8139,7 +8139,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Activity - Get Type",
+        "operationId": "FanDetailActivityTypeByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8181,7 +8181,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Interest - Get",
+        "operationId": "FanDetailInterestByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8223,7 +8223,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Fantracker Get",
+        "operationId": "FanFantrackerLocateGet",
         "produces": [
           "application/json"
         ],
@@ -8291,7 +8291,7 @@
         "tags": [
           "purchase"
         ],
-        "operationId": "Purchase - Post",
+        "operationId": "PurchasePost2",
         "produces": [
           "application/json"
         ],
@@ -8365,7 +8365,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Purchases - Get",
+        "operationId": "FanPurchasesByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8407,7 +8407,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Tickets - Get",
+        "operationId": "FanTicketsByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8449,7 +8449,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Fan - Get Topic Sentiment",
+        "operationId": "FanDetailTopicSentimentByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8491,7 +8491,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Search",
+        "operationId": "FanSearchPost",
         "produces": [
           "application/json"
         ],
@@ -8568,7 +8568,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Fantracker - Get Location",
+        "operationId": "FanFantrackerLocateByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8610,7 +8610,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Tickets - Get Duplicates",
+        "operationId": "FanDuplicatesByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8652,7 +8652,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Loyalty Programs - Get",
+        "operationId": "FanLoyaltyprogramsByFanIdGet",
         "produces": [
           "application/json"
         ],
@@ -8694,7 +8694,7 @@
         "tags": [
           "fan"
         ],
-        "operationId": "Create",
+        "operationId": "FanFantrackerCreatePost",
         "produces": [
           "application/json"
         ],
@@ -8768,7 +8768,7 @@
         "tags": [
           "gamification"
         ],
-        "operationId": "Contest",
+        "operationId": "GamificationPost",
         "produces": [
           "application/json"
         ],
@@ -8842,7 +8842,7 @@
         "tags": [
           "gamification"
         ],
-        "operationId": "Contest1",
+        "operationId": "4665b5a019e711e7Afd74fc8841a2f18Get",
         "produces": [
           "application/json"
         ],
@@ -8939,7 +8939,7 @@
         "tags": [
           "gamification"
         ],
-        "operationId": "Contest Next Page",
+        "operationId": "GamificationPageGet2",
         "produces": [
           "application/json"
         ],
@@ -8993,7 +8993,7 @@
         "tags": [
           "gamification"
         ],
-        "operationId": "Winner",
+        "operationId": "GamificationWinnerByContestIdPost",
         "produces": [
           "application/json"
         ],
@@ -9051,7 +9051,7 @@
         "tags": [
           "gamification"
         ],
-        "operationId": "Winner1",
+        "operationId": "GamificationWinnerByContestIdAndWinnerIdGet",
         "produces": [
           "application/json"
         ],
@@ -9100,7 +9100,7 @@
         "tags": [
           "gamification"
         ],
-        "operationId": "Winner Paging",
+        "operationId": "GamificationWinnerPageByContestIdGet",
         "produces": [
           "application/json"
         ],
@@ -9142,7 +9142,7 @@
         "tags": [
           "gamification"
         ],
-        "operationId": "Cancelled Gamification Paging",
+        "operationId": "GamificationCancelledPageGet",
         "produces": [
           "application/json"
         ],
@@ -9196,7 +9196,7 @@
         "tags": [
           "gamification"
         ],
-        "operationId": "Uncancelled Gamification Paging",
+        "operationId": "GamificationUncancelledPageGet",
         "produces": [
           "application/json"
         ],
@@ -9250,7 +9250,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Programmember - Get Count",
+        "operationId": "CountGet",
         "produces": [
           "application/json"
         ],
@@ -9304,7 +9304,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Loyalty Program - Get Engagements",
+        "operationId": "LoyaltyEngagementsByLoyaltyIdGet",
         "produces": [
           "application/json"
         ],
@@ -9346,7 +9346,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Loyalty Program - Get",
+        "operationId": "LoyaltyByLoyaltyIdGet",
         "produces": [
           "application/json"
         ],
@@ -9388,7 +9388,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Program Tier - Update",
+        "operationId": "LoyaltyTier33c10ba0B03a11e6Bda9C12ef41e3482Post",
         "produces": [
           "application/json"
         ],
@@ -9462,7 +9462,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Program Tier - Insert",
+        "operationId": "LoyaltyTierPost",
         "produces": [
           "application/json"
         ],
@@ -9536,7 +9536,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Program Point Rule - Update",
+        "operationId": "LoyaltyPointrule7535d48bCacc4527B087F204d0e5485fPost",
         "produces": [
           "application/json"
         ],
@@ -9610,7 +9610,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Program Point Rule - Insert",
+        "operationId": "LoyaltyPointrulePost",
         "produces": [
           "application/json"
         ],
@@ -9684,7 +9684,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Program Member - Update",
+        "operationId": "LoyaltyMemberByLoyaltyMemberPost",
         "produces": [
           "application/json"
         ],
@@ -9742,7 +9742,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Loyalty - Page Archived",
+        "operationId": "LoyaltyArchivedPageGet",
         "produces": [
           "application/json"
         ],
@@ -9796,7 +9796,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Loyalty - Page Unarchived",
+        "operationId": "LoyaltyPageGet",
         "produces": [
           "application/json"
         ],
@@ -9850,7 +9850,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Members - Get Gender",
+        "operationId": "LoyaltyMemberGenderByLoyaltyIdGet",
         "produces": [
           "application/json"
         ],
@@ -9899,7 +9899,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Members - Get Tiers",
+        "operationId": "LoyaltyMemberTiersByLoyaltyIdGet",
         "produces": [
           "application/json"
         ],
@@ -9948,7 +9948,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Members - Get Count",
+        "operationId": "LoyaltyMemberCountByProgramIdGet",
         "produces": [
           "application/json"
         ],
@@ -9997,7 +9997,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Program - Get Transactions",
+        "operationId": "LoyaltyMemberByLoyaltyIdGet4",
         "produces": [
           "application/json"
         ],
@@ -10046,7 +10046,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Point Rule - Get",
+        "operationId": "LoyaltyLeaderboardLifetimeByLoyaltyIdGet",
         "produces": [
           "application/json"
         ],
@@ -10095,7 +10095,7 @@
         "tags": [
           "loyalty"
         ],
-        "operationId": "Program Leaderboard - Get Lifetime",
+        "operationId": "LoyaltyTransactionByLoyaltyIdGet",
         "produces": [
           "application/json"
         ],
@@ -10144,7 +10144,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "Social Feed oEmbed",
+        "operationId": "MetricsSocialFeedOembedGet",
         "produces": [
           "application/json"
         ],
@@ -10198,7 +10198,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "Loyalty Members By Day",
+        "operationId": "MetricsLoyaltyMembersDayByLoyaltyprogramIdGet",
         "produces": [
           "application/json"
         ],
@@ -10240,7 +10240,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/topics/top/hour1",
+        "operationId": "MetricsTopicsTopHourGet2",
         "produces": [
           "application/json"
         ],
@@ -10294,7 +10294,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/engagements/recent",
+        "operationId": "MetricsEngagementsRecentGet",
         "produces": [
           "application/json"
         ],
@@ -10348,7 +10348,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/activities/geo/recent",
+        "operationId": "MetricsActivitiesGeoRecentGet",
         "produces": [
           "application/json"
         ],
@@ -10402,7 +10402,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/sentiment",
+        "operationId": "MetricsSentimentGet",
         "produces": [
           "application/json"
         ],
@@ -10456,7 +10456,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/trending/tweets",
+        "operationId": "MetricsTrendingTweetsGet",
         "produces": [
           "application/json"
         ],
@@ -10510,7 +10510,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/activity/type",
+        "operationId": "MetricsActivityTypeGet",
         "produces": [
           "application/json"
         ],
@@ -10564,7 +10564,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/social/feed",
+        "operationId": "MetricsSocialFeedGet",
         "produces": [
           "application/json"
         ],
@@ -10618,7 +10618,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/fans/new/:days",
+        "operationId": "MetricsFansNew5Get",
         "produces": [
           "application/json"
         ],
@@ -10672,7 +10672,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/fans/top",
+        "operationId": "MetricsFansTopGet",
         "produces": [
           "application/json"
         ],
@@ -10726,7 +10726,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/profiles/top",
+        "operationId": "MetricsProfilesTopGet",
         "produces": [
           "application/json"
         ],
@@ -10780,7 +10780,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/topics/search",
+        "operationId": "MetricsTopicsSearchPost",
         "produces": [
           "application/json"
         ],
@@ -10854,7 +10854,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/fans",
+        "operationId": "MetricsFansGet",
         "produces": [
           "application/json"
         ],
@@ -10908,7 +10908,7 @@
         "tags": [
           "metrics"
         ],
-        "operationId": "metrics/loyalty/:loyaltyprogram_id/members/day",
+        "operationId": "MetricsLoyaltyMembersDayByLoyaltyIdGet",
         "produces": [
           "application/json"
         ],
@@ -10950,7 +10950,7 @@
         "tags": [
           "Misc"
         ],
-        "operationId": "metrics/activity/minute1",
+        "operationId": "MetricsActivityMinuteGet2",
         "produces": [
           "application/json"
         ],
@@ -11004,7 +11004,7 @@
         "tags": [
           "post"
         ],
-        "operationId": "Delete Post",
+        "operationId": "Post10119118E5014883852aB0eb6a99c23cDelete",
         "produces": [
           "application/json"
         ],
@@ -11078,7 +11078,7 @@
         "tags": [
           "post"
         ],
-        "operationId": "Archived Post Paging",
+        "operationId": "PostArchivedPageGet",
         "produces": [
           "application/json"
         ],
@@ -11132,7 +11132,7 @@
         "tags": [
           "post"
         ],
-        "operationId": "Unarchived Post Paging",
+        "operationId": "PostUnarchivedPageGet",
         "produces": [
           "application/json"
         ],
@@ -11186,7 +11186,7 @@
         "tags": [
           "post"
         ],
-        "operationId": "Post - Get",
+        "operationId": "PostByPostIdGet",
         "produces": [
           "application/json"
         ],
@@ -11228,7 +11228,7 @@
         "tags": [
           "system"
         ],
-        "operationId": "Info - Get",
+        "operationId": "SystemInfoGet",
         "produces": [
           "application/json"
         ],
@@ -11282,7 +11282,7 @@
         "tags": [
           "system"
         ],
-        "operationId": "Ping - Get",
+        "operationId": "SystemPingGet",
         "produces": [
           "application/json"
         ],
@@ -11336,7 +11336,7 @@
         "tags": [
           "system"
         ],
-        "operationId": "Time - Get",
+        "operationId": "SystemTimeGet",
         "produces": [
           "application/json"
         ],
@@ -11390,7 +11390,7 @@
         "tags": [
           "system"
         ],
-        "operationId": "Pong - Post",
+        "operationId": "SystemPongPost",
         "produces": [
           "application/json"
         ],
@@ -11464,7 +11464,7 @@
         "tags": [
           "system"
         ],
-        "operationId": "UTC Time - Get",
+        "operationId": "SystemUtctimeGet",
         "produces": [
           "application/json"
         ],
@@ -11518,7 +11518,7 @@
         "tags": [
           "tools"
         ],
-        "operationId": "shorten url",
+        "operationId": "ToolsShortenurlPost",
         "produces": [
           "application/json"
         ],
@@ -11592,7 +11592,7 @@
         "tags": [
           "Misc"
         ],
-        "operationId": "Feed - Get From Last Minute",
+        "operationId": "EngagementFeedMinuteByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -11634,7 +11634,7 @@
         "tags": [
           "Misc"
         ],
-        "operationId": "Feed - Get From Last Month",
+        "operationId": "EngagementFeedMonthByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
@@ -11676,7 +11676,7 @@
         "tags": [
           "Misc"
         ],
-        "operationId": "Geo - Get Positive",
+        "operationId": "EngagementGeoPositiveByListeningEngagementGet",
         "produces": [
           "application/json"
         ],
