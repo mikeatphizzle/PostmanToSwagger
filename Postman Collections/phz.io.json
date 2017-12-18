@@ -11726,22 +11726,27 @@
       "properties": {
         "message": {
           "description": "",
+          "example": "the block is hot",
           "type": "string"
         },
         "activitydate": {
           "description": "",
+          "example": "6/11/2015 12:43:23 PM",
           "type": "string"
         },
         "type": {
           "description": "",
+          "example": "Ticket Purchase",
           "type": "string"
         },
         "action": {
           "description": "",
+          "example": "Purchase",
           "type": "string"
         },
         "fanprofile_profile_and_type": {
           "description": "",
+          "example": "QAPHIZ Twitter",
           "type": "string"
         }
       },
@@ -11764,14 +11769,17 @@
       "properties": {
         "activitydate": {
           "description": "",
+          "example": "10/24/2015 7:37:34 PM",
           "type": "string"
         },
         "message": {
           "description": "",
+          "example": "#RugbyChampa #seven #1ra perdió 0-17 vs Liceo Naval #SwissMedicalGroup #sponsorChampa",
           "type": "string"
         },
         "type": {
           "description": "",
+          "example": "Instagram",
           "type": "string"
         }
       },
@@ -11794,22 +11802,27 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "my app",
           "type": "string"
         },
         "secret": {
           "description": "",
+          "example": "asdadasda4334aAdaUVt7BVb4ArfoOh8oNGZ8",
           "type": "string"
         },
         "socialid": {
           "description": "",
+          "example": "14664007",
           "type": "string"
         },
         "token": {
           "description": "",
+          "example": "34424asdf3f43gvg445y45y54v45gsdcf34t4t",
           "type": "string"
         },
         "type": {
           "description": "",
+          "example": "Custom App",
           "type": "string"
         }
       },
@@ -11834,22 +11847,27 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "my apperrrr",
           "type": "string"
         },
         "secret": {
           "description": "",
+          "example": "asdadasda4334aAdaUVt7BVb4ArfoOh8oNGZ8",
           "type": "string"
         },
         "socialid": {
           "description": "",
+          "example": "14664007",
           "type": "string"
         },
         "token": {
           "description": "",
+          "example": "34424asdf3f43gvg445y45y54v45gsdcf34t4t",
           "type": "string"
         },
         "type": {
           "description": "",
+          "example": "Custom App",
           "type": "string"
         }
       },
@@ -11872,14 +11890,17 @@
       "properties": {
         "username": {
           "description": "",
+          "example": "lreese",
           "type": "string"
         },
         "password": {
           "description": "",
+          "example": "weezy",
           "type": "string"
         },
         "token": {
           "description": "",
+          "example": "079d52b0-94ae-11e6-9e90-1b0d5e118eed",
           "type": "string"
         }
       },
@@ -11903,26 +11924,32 @@
       "properties": {
         "Name": {
           "description": "",
+          "example": "SUper fellah",
           "type": "string"
         },
         "username": {
           "description": "",
+          "example": "kbernhardy3@phizzle.com",
           "type": "string"
         },
         "password": {
           "description": "",
+          "example": "test7",
           "type": "string"
         },
         "active": {
           "description": "",
+          "example": true,
           "type": "boolean"
         },
         "email": {
           "description": "",
+          "example": "kbernhardy@phizzle.com",
           "type": "string"
         },
         "permission": {
           "description": "",
+          "example": "User",
           "type": "string"
         }
       },
@@ -11949,26 +11976,32 @@
       "properties": {
         "Name": {
           "description": "",
+          "example": "SUper fellah",
           "type": "string"
         },
         "username": {
           "description": "",
+          "example": "kbernhardy3@phizzle.com",
           "type": "string"
         },
         "password": {
           "description": "",
+          "example": "test7",
           "type": "string"
         },
         "active": {
           "description": "",
+          "example": true,
           "type": "boolean"
         },
         "email": {
           "description": "",
+          "example": "kbernhardy@phizzle.com",
           "type": "string"
         },
         "permission": {
           "description": "",
+          "example": "User",
           "type": "string"
         }
       },
@@ -11995,26 +12028,32 @@
       "properties": {
         "Name": {
           "description": "",
+          "example": "SUper fellah",
           "type": "string"
         },
         "username": {
           "description": "",
+          "example": "kbernhardy3@phizzle.com",
           "type": "string"
         },
         "password": {
           "description": "",
+          "example": "test7",
           "type": "string"
         },
         "active": {
           "description": "",
+          "example": true,
           "type": "boolean"
         },
         "email": {
           "description": "",
+          "example": "kbernhardy@phizzle.com",
           "type": "string"
         },
         "permission": {
           "description": "",
+          "example": "User",
           "type": "string"
         }
       },
@@ -12041,26 +12080,32 @@
       "properties": {
         "Name": {
           "description": "",
+          "example": "SUper fellah",
           "type": "string"
         },
         "username": {
           "description": "",
+          "example": "kbernhardy3@phizzle.com",
           "type": "string"
         },
         "password": {
           "description": "",
+          "example": "test7",
           "type": "string"
         },
         "active": {
           "description": "",
+          "example": true,
           "type": "boolean"
         },
         "email": {
           "description": "",
+          "example": "kbernhardy@phizzle.com",
           "type": "string"
         },
         "permission": {
           "description": "",
+          "example": "User",
           "type": "string"
         }
       },
@@ -12090,38 +12135,47 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "new client 2",
           "type": "string"
         },
         "email": {
           "description": "",
+          "example": "lreese@phizzle.com",
           "type": "string"
         },
         "firstname": {
           "description": "",
+          "example": "Louisa",
           "type": "string"
         },
         "lastname": {
           "description": "",
+          "example": "reese",
           "type": "string"
         },
         "description": {
           "description": "",
+          "example": "new client 2 description",
           "type": "string"
         },
         "postalcode": {
           "description": "",
+          "example": "80021",
           "type": "string"
         },
         "timezone": {
           "description": "",
+          "example": "America/Denver",
           "type": "string"
         },
         "lastmodifiedby_id": {
           "description": "",
+          "example": "lreese",
           "type": "string"
         },
         "plan": {
           "description": "",
+          "example": "free",
           "type": "string"
         }
       },
@@ -12147,10 +12201,12 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "Super Rad Co",
           "type": "string"
         },
         "lastmodifiedby_id": {
           "description": "",
+          "example": "lreese",
           "type": "string"
         }
       },
@@ -12177,43 +12233,53 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "Danielle ",
           "type": "string"
         },
         "email_address": {
           "description": "",
+          "example": "dford@phizzle.com",
           "type": "string"
         },
         "reply_email_address": {
           "description": "",
+          "example": "dfaksjd@gmail.com",
           "type": "string"
         },
         "address1": {
           "description": "",
+          "example": "askdj",
           "type": "string"
         },
         "city": {
           "description": "",
+          "example": "Broomfield",
           "type": "string"
         },
         "postal_code": {
           "description": "",
+          "example": "80021",
           "type": "string"
         },
         "country": {
           "description": "",
+          "example": "US",
           "type": "string"
         },
         "company": {
           "description": "",
+          "example": "Phizzle",
           "type": "string"
         },
         "verified": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "state": {
           "description": "",
+          "example": "CO",
           "type": "string"
         }
       },
@@ -12241,14 +12307,17 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle test",
           "type": "string"
         },
         "html": {
           "description": "",
+          "example": "<html><head></head><body>hello there</body></html>",
           "type": "string"
         },
         "subject": {
           "description": "",
+          "example": "hey what up",
           "type": "string"
         }
       },
@@ -12269,14 +12338,17 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle test",
           "type": "string"
         },
         "html": {
           "description": "",
+          "example": "<html><head></head><body>hello there</body></html>",
           "type": "string"
         },
         "subject": {
           "description": "",
+          "example": "hey what up, to you",
           "type": "string"
         }
       },
@@ -12311,10 +12383,27 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle test",
           "type": "string"
         },
         "segment": {
           "description": "",
+          "example": [
+            {
+              "and": [
+                {
+                  "fan.firstname": {
+                    "starts_with": "a"
+                  }
+                },
+                {
+                  "list_member.list_id": {
+                    "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+                  }
+                }
+              ]
+            }
+          ],
           "type": "array",
           "items": {
             "$ref": "#/definitions/Segment"
@@ -12328,10 +12417,36 @@
     },
     "Segment": {
       "title": "Segment",
+      "example": {
+        "and": [
+          {
+            "fan.firstname": {
+              "starts_with": "a"
+            }
+          },
+          {
+            "list_member.list_id": {
+              "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+            }
+          }
+        ]
+      },
       "type": "object",
       "properties": {
         "and": {
           "description": "",
+          "example": [
+            {
+              "fan.firstname": {
+                "starts_with": "a"
+              }
+            },
+            {
+              "list_member.list_id": {
+                "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+              }
+            }
+          ],
           "type": "array",
           "items": {
             "$ref": "#/definitions/And"
@@ -12344,22 +12459,37 @@
     },
     "And": {
       "title": "And",
+      "example": {
+        "fan.firstname": {
+          "starts_with": "a"
+        }
+      },
       "type": "object",
       "properties": {
         "fan.firstname": {
-          "$ref": "#/definitions/FanFirstname"
+          "$ref": "#/definitions/FanFirstname",
+          "example": {
+            "starts_with": "a"
+          }
         },
         "list_member.list_id": {
-          "$ref": "#/definitions/ListMemberListId"
+          "$ref": "#/definitions/ListMemberListId",
+          "example": {
+            "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+          }
         }
       }
     },
     "FanFirstname": {
       "title": "FanFirstname",
+      "example": {
+        "starts_with": "a"
+      },
       "type": "object",
       "properties": {
         "starts_with": {
           "description": "",
+          "example": "a",
           "type": "string"
         }
       },
@@ -12369,10 +12499,14 @@
     },
     "ListMemberListId": {
       "title": "ListMemberListId",
+      "example": {
+        "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+      },
       "type": "object",
       "properties": {
         "=": {
           "description": "",
+          "example": "86c71d20-c1bb-11e6-b169-6dc03b026fd7",
           "type": "string"
         }
       },
@@ -12405,10 +12539,27 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle tester",
           "type": "string"
         },
         "segment": {
           "description": "",
+          "example": [
+            {
+              "and": [
+                {
+                  "fan.firstname": {
+                    "starts_with": "a"
+                  }
+                },
+                {
+                  "list_member.list_id": {
+                    "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+                  }
+                }
+              ]
+            }
+          ],
           "type": "array",
           "items": {
             "$ref": "#/definitions/Segment"
@@ -12445,10 +12596,27 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle test",
           "type": "string"
         },
         "segment": {
           "description": "",
+          "example": [
+            {
+              "and": [
+                {
+                  "fan.firstname": {
+                    "starts_with": "a"
+                  }
+                },
+                {
+                  "list_member.list_id": {
+                    "=": "86c71d20-c1bb-11e6-b169-6dc03b026fd7"
+                  }
+                }
+              ]
+            }
+          ],
           "type": "array",
           "items": {
             "$ref": "#/definitions/Segment"
@@ -12469,6 +12637,7 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle test",
           "type": "string"
         }
       },
@@ -12485,6 +12654,7 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle testerrr",
           "type": "string"
         }
       },
@@ -12501,6 +12671,7 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle testerrr",
           "type": "string"
         }
       },
@@ -12522,26 +12693,32 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "my email campaign",
           "type": "string"
         },
         "startdate": {
           "description": "",
+          "example": "2/1/2017 10:41:29 PM",
           "type": "string"
         },
         "email_sender_id": {
           "description": "",
+          "example": "kbernhardy@phizzle.com",
           "type": "string"
         },
         "subject": {
           "description": "",
+          "example": "SUBJECT OF YOUR EMAIL",
           "type": "string"
         },
         "client_id": {
           "description": "",
+          "example": "388e16d6-d35e-4f8c-bba5-b1147b824473",
           "type": "string"
         },
         "status": {
           "description": "",
+          "example": "draft",
           "type": "string"
         }
       },
@@ -12568,26 +12745,32 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "my email campaignerrrr",
           "type": "string"
         },
         "startdate": {
           "description": "",
+          "example": "2/1/2017 10:41:29 PM",
           "type": "string"
         },
         "email_sender_id": {
           "description": "",
+          "example": "kbernhardy@phizzle.com",
           "type": "string"
         },
         "subject": {
           "description": "",
+          "example": "SUBJECT OF YOUR EMAIL",
           "type": "string"
         },
         "client_id": {
           "description": "",
+          "example": "388e16d6-d35e-4f8c-bba5-b1147b824473",
           "type": "string"
         },
         "status": {
           "description": "",
+          "example": "draft",
           "type": "string"
         }
       },
@@ -12609,6 +12792,7 @@
       "properties": {
         "group_id": {
           "description": "",
+          "example": "7bc57090-f2dd-11e6-893d-216a536d489a",
           "type": "string"
         }
       },
@@ -12625,6 +12809,7 @@
       "properties": {
         "group_id": {
           "description": "",
+          "example": "7bc57090-f2dd-11e6-893d-216a536d489a",
           "type": "string"
         }
       },
@@ -12641,6 +12826,7 @@
       "properties": {
         "list_id": {
           "description": "",
+          "example": "b2936720-b06c-11e6-b181-537bca909e2a",
           "type": "string"
         }
       },
@@ -12657,6 +12843,7 @@
       "properties": {
         "list_id": {
           "description": "",
+          "example": "b2936720-b06c-11e6-b181-537bca909e2a",
           "type": "string"
         }
       },
@@ -12673,6 +12860,7 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle test",
           "type": "string"
         }
       },
@@ -12689,6 +12877,7 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "kyle testerrrrr",
           "type": "string"
         }
       },
@@ -12709,23 +12898,28 @@
       "properties": {
         "startdate": {
           "description": "",
+          "example": "11/21/2016 2:52:00 PM",
           "type": "string"
         },
         "enddate": {
           "description": "",
+          "example": "11/22/2016 2:52:00 PM",
           "type": "string"
         },
         "name": {
           "description": "",
+          "example": "Test Campaign",
           "type": "string"
         },
         "status": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "type": {
           "description": "",
+          "example": "Q&A",
           "type": "string"
         }
       },
@@ -12746,6 +12940,7 @@
       "properties": {
         "twitteractive": {
           "description": "",
+          "example": "0",
           "type": "string"
         }
       },
@@ -12768,34 +12963,41 @@
       "properties": {
         "answer": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "hashtag": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "keyword": {
           "description": "",
+          "example": "PHZIOISGO",
           "type": "string"
         },
         "mention": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "name": {
           "description": "",
+          "example": "PHZIO Is Go",
           "type": "string"
         },
         "phrase": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "trackfrom": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         }
@@ -12825,34 +13027,41 @@
       "properties": {
         "answer": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "hashtag": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "keyword": {
           "description": "",
+          "example": "PHZIOISGO",
           "type": "string"
         },
         "mention": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "name": {
           "description": "",
+          "example": "PHZIO Is Goer",
           "type": "string"
         },
         "phrase": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "trackfrom": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         }
@@ -12879,19 +13088,23 @@
       "properties": {
         "fanprofile_id": {
           "description": "",
+          "example": "TESTERSON Twitter",
           "type": "string"
         },
         "optindate": {
           "description": "",
+          "example": "3/9/2015 9:56:12 PM",
           "type": "string"
         },
         "optout": {
           "description": "",
+          "example": 111,
           "type": "integer",
           "format": "int32"
         },
         "subscriptiontype": {
           "description": "",
+          "example": "Twitter",
           "type": "string"
         }
       },
@@ -12914,19 +13127,23 @@
       "properties": {
         "fanprofile_id": {
           "description": "",
+          "example": "TESTERSON Twitter",
           "type": "string"
         },
         "optindate": {
           "description": "",
+          "example": "3/9/2016 9:56:12 PM",
           "type": "string"
         },
         "optout": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "subscriptiontype": {
           "description": "",
+          "example": "Twitter",
           "type": "string"
         }
       },
@@ -12957,51 +13174,63 @@
       "properties": {
         "externalid": {
           "description": "",
+          "example": "3cac96fa-ee6e-4ca7-bd88-b82214efdaee",
           "type": "string"
         },
         "purchasedate": {
           "description": "",
+          "example": "2/7/2016 12:00:00 AM",
           "type": "string"
         },
         "sku": {
           "description": "",
+          "example": "SKU--44122112",
           "type": "string"
         },
         "description": {
           "description": "",
+          "example": "Nobuhiro KATO Jersey",
           "type": "string"
         },
         "id": {
           "description": "",
+          "example": "detail",
           "type": "string"
         },
         "subcategory": {
           "description": "",
+          "example": "Jersey",
           "type": "string"
         },
         "quantity": {
           "description": "",
+          "example": 4,
           "type": "integer",
           "format": "int32"
         },
         "lastmodifieddate": {
           "description": "",
+          "example": "5/8/2015 8:34:40 PM",
           "type": "string"
         },
         "category": {
           "description": "",
+          "example": "Merchandise",
           "type": "string"
         },
         "lastmodifiedby_id": {
           "description": "",
+          "example": "phzioapi@phizzle.com",
           "type": "string"
         },
         "amount": {
           "description": "",
+          "example": "16710.20",
           "type": "string"
         },
         "fan_id": {
           "description": "",
+          "example": "b4c5df7d-d3ab-4aa1-93a3-73594b7e5c23",
           "type": "string"
         }
       },
@@ -13054,6 +13283,21 @@
       "properties": {
         "or": {
           "description": "",
+          "example": [
+            {
+              "fan.age": {
+                "between": [
+                  29,
+                  40
+                ]
+              }
+            },
+            {
+              "fan.city": {
+                "=": "Denver"
+              }
+            }
+          ],
           "type": "array",
           "items": {
             "$ref": "#/definitions/Or"
@@ -13061,6 +13305,13 @@
         },
         "and": {
           "description": "",
+          "example": [
+            {
+              "fan.firstname": {
+                "=": "Jim"
+              }
+            }
+          ],
           "type": "array",
           "items": {
             "$ref": "#/definitions/And51"
@@ -13070,22 +13321,49 @@
     },
     "Or": {
       "title": "Or",
+      "example": {
+        "fan.age": {
+          "between": [
+            29,
+            40
+          ]
+        }
+      },
       "type": "object",
       "properties": {
         "fan.age": {
-          "$ref": "#/definitions/FanAge"
+          "$ref": "#/definitions/FanAge",
+          "example": {
+            "between": [
+              29,
+              40
+            ]
+          }
         },
         "fan.city": {
-          "$ref": "#/definitions/FanCity"
+          "$ref": "#/definitions/FanCity",
+          "example": {
+            "=": "Denver"
+          }
         }
       }
     },
     "FanAge": {
       "title": "FanAge",
+      "example": {
+        "between": [
+          29,
+          40
+        ]
+      },
       "type": "object",
       "properties": {
         "between": {
           "description": "",
+          "example": [
+            29,
+            40
+          ],
           "type": "array",
           "items": {
             "type": "integer",
@@ -13099,10 +13377,14 @@
     },
     "FanCity": {
       "title": "FanCity",
+      "example": {
+        "=": "Denver"
+      },
       "type": "object",
       "properties": {
         "=": {
           "description": "",
+          "example": "Denver",
           "type": "string"
         }
       },
@@ -13112,10 +13394,18 @@
     },
     "And51": {
       "title": "And51",
+      "example": {
+        "fan.firstname": {
+          "=": "Jim"
+        }
+      },
       "type": "object",
       "properties": {
         "fan.firstname": {
-          "$ref": "#/definitions/FanFirstname52"
+          "$ref": "#/definitions/FanFirstname52",
+          "example": {
+            "=": "Jim"
+          }
         }
       },
       "required": [
@@ -13124,10 +13414,14 @@
     },
     "FanFirstname52": {
       "title": "FanFirstname52",
+      "example": {
+        "=": "Jim"
+      },
       "type": "object",
       "properties": {
         "=": {
           "description": "",
+          "example": "Jim",
           "type": "string"
         }
       },
@@ -13158,10 +13452,26 @@
       "type": "object",
       "properties": {
         "fan": {
-          "$ref": "#/definitions/Fan"
+          "$ref": "#/definitions/Fan",
+          "example": {
+            "firstname": "Fan",
+            "lastname": "Tracker"
+          }
         },
         "profiles": {
           "description": "",
+          "example": [
+            {
+              "active": "1",
+              "type": "Email",
+              "profile": "{{FT_EMAIL_1}}"
+            },
+            {
+              "active": "1",
+              "type": "SMS",
+              "profile": "{{FT_SMS_1}}"
+            }
+          ],
           "type": "array",
           "items": {
             "$ref": "#/definitions/Profile"
@@ -13175,14 +13485,20 @@
     },
     "Fan": {
       "title": "Fan",
+      "example": {
+        "firstname": "Fan",
+        "lastname": "Tracker"
+      },
       "type": "object",
       "properties": {
         "firstname": {
           "description": "",
+          "example": "Fan",
           "type": "string"
         },
         "lastname": {
           "description": "",
+          "example": "Tracker",
           "type": "string"
         }
       },
@@ -13193,18 +13509,26 @@
     },
     "Profile": {
       "title": "Profile",
+      "example": {
+        "active": "1",
+        "type": "Email",
+        "profile": "{{FT_EMAIL_1}}"
+      },
       "type": "object",
       "properties": {
         "active": {
           "description": "",
+          "example": "1",
           "type": "string"
         },
         "type": {
           "description": "",
+          "example": "Email",
           "type": "string"
         },
         "profile": {
           "description": "",
+          "example": "{{FT_EMAIL_1}}",
           "type": "string"
         }
       },
@@ -13236,67 +13560,81 @@
       "properties": {
         "cancelled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "emailenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "enddate": {
           "description": "",
+          "example": "2016-09-25",
           "type": "string"
         },
         "facebookenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "instagramenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "mobileenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "name": {
           "description": "",
+          "example": "Win the Things!",
           "type": "string"
         },
         "processing": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "selectedallwinners": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "smsenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "startdate": {
           "description": "",
+          "example": "9/24/2016 4:32:00 PM",
           "type": "string"
         },
         "twitterenabled": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "type": {
           "description": "",
+          "example": "Manual",
           "type": "string"
         },
         "winnermessage": {
           "description": "",
+          "example": "woohoo. you win!",
           "type": "string"
         }
       },
@@ -13349,7 +13687,29 @@
       "type": "object",
       "properties": {
         "result": {
-          "$ref": "#/definitions/Result"
+          "$ref": "#/definitions/Result",
+          "example": {
+            "startdate": "2015-10-18T22:30:00Z",
+            "selectedallwinners": 0,
+            "enddate": "2015-10-25T22:30:00Z",
+            "cancelled": 1,
+            "facebookenabled": 0,
+            "emailenabled": 0,
+            "twitterenabled": 1,
+            "createddate": "2015-10-18T22:30:08.788Z",
+            "client_id": "388e16d6-d35e-4f8c-bba5-b1147b824473",
+            "createdby_id": "o.patsalo@svitla.com",
+            "description": "Manual Description Edit",
+            "processing": 0,
+            "id": "00331d63-fd62-42c1-b8ce-f3d86c16ef99",
+            "smsenabled": 1,
+            "lastmodifieddate": "2015-10-18T22:30:47.573Z",
+            "mobileenabled": 0,
+            "lastmodifiedby_id": "o.patsalo@svitla.com",
+            "name": "AutoTest Contests Manual Edit",
+            "instagramenabled": 0,
+            "type": "Manual"
+          }
         },
         "error": {
           "description": "",
@@ -13361,6 +13721,7 @@
         },
         "status": {
           "description": "",
+          "example": 200,
           "type": "integer",
           "format": "int32"
         }
@@ -13374,95 +13735,137 @@
     },
     "Result": {
       "title": "Result",
+      "example": {
+        "startdate": "2015-10-18T22:30:00Z",
+        "selectedallwinners": 0,
+        "enddate": "2015-10-25T22:30:00Z",
+        "cancelled": 1,
+        "facebookenabled": 0,
+        "emailenabled": 0,
+        "twitterenabled": 1,
+        "createddate": "2015-10-18T22:30:08.788Z",
+        "client_id": "388e16d6-d35e-4f8c-bba5-b1147b824473",
+        "createdby_id": "o.patsalo@svitla.com",
+        "description": "Manual Description Edit",
+        "processing": 0,
+        "id": "00331d63-fd62-42c1-b8ce-f3d86c16ef99",
+        "smsenabled": 1,
+        "lastmodifieddate": "2015-10-18T22:30:47.573Z",
+        "mobileenabled": 0,
+        "lastmodifiedby_id": "o.patsalo@svitla.com",
+        "name": "AutoTest Contests Manual Edit",
+        "instagramenabled": 0,
+        "type": "Manual"
+      },
       "type": "object",
       "properties": {
         "startdate": {
           "description": "",
+          "example": "10/18/2015 10:30:00 PM",
           "type": "string"
         },
         "selectedallwinners": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "enddate": {
           "description": "",
+          "example": "10/25/2015 10:30:00 PM",
           "type": "string"
         },
         "cancelled": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "facebookenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "emailenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "twitterenabled": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "createddate": {
           "description": "",
+          "example": "10/18/2015 10:30:08 PM",
           "type": "string"
         },
         "client_id": {
           "description": "",
+          "example": "388e16d6-d35e-4f8c-bba5-b1147b824473",
           "type": "string"
         },
         "createdby_id": {
           "description": "",
+          "example": "o.patsalo@svitla.com",
           "type": "string"
         },
         "description": {
           "description": "",
+          "example": "Manual Description Edit",
           "type": "string"
         },
         "processing": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "id": {
           "description": "",
+          "example": "00331d63-fd62-42c1-b8ce-f3d86c16ef99",
           "type": "string"
         },
         "smsenabled": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "lastmodifieddate": {
           "description": "",
+          "example": "10/18/2015 10:30:47 PM",
           "type": "string"
         },
         "mobileenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "lastmodifiedby_id": {
           "description": "",
+          "example": "o.patsalo@svitla.com",
           "type": "string"
         },
         "name": {
           "description": "",
+          "example": "AutoTest Contests Manual Edit",
           "type": "string"
         },
         "instagramenabled": {
           "description": "",
+          "example": 0,
           "type": "integer",
           "format": "int32"
         },
         "type": {
           "description": "",
+          "example": "Manual",
           "type": "string"
         }
       },
@@ -13500,14 +13903,17 @@
       "properties": {
         "activity_id": {
           "description": "",
+          "example": "7a5c00aa-c292-4f27-aa0c-4878856deb77_Twitteractivity7",
           "type": "string"
         },
         "campaign_id": {
           "description": "",
+          "example": "2a283c65-0632-4d8a-bae3-f03e21293d45",
           "type": "string"
         },
         "fanprofile_id": {
           "description": "",
+          "example": "TENNIS_84 Twitter",
           "type": "string"
         }
       },
@@ -13529,19 +13935,23 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "Gold",
           "type": "string"
         },
         "loyaltyprogram_id": {
           "description": "",
+          "example": "20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7",
           "type": "string"
         },
         "pointmultiplier": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "points": {
           "description": "",
+          "example": 1000,
           "type": "integer",
           "format": "int32"
         }
@@ -13565,19 +13975,23 @@
       "properties": {
         "name": {
           "description": "",
+          "example": "Gold",
           "type": "string"
         },
         "loyaltyprogram_id": {
           "description": "",
+          "example": "20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7",
           "type": "string"
         },
         "pointmultiplier": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "points": {
           "description": "",
+          "example": 1000,
           "type": "integer",
           "format": "int32"
         }
@@ -13598,6 +14012,7 @@
       "properties": {
         "pointsearned": {
           "description": "",
+          "example": 11,
           "type": "integer",
           "format": "int32"
         }
@@ -13617,15 +14032,18 @@
       "properties": {
         "type": {
           "description": "",
+          "example": "Join",
           "type": "string"
         },
         "pointsearned": {
           "description": "",
+          "example": 20,
           "type": "integer",
           "format": "int32"
         },
         "loyaltyprogram_id": {
           "description": "",
+          "example": "20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7",
           "type": "string"
         }
       },
@@ -13644,6 +14062,7 @@
       "properties": {
         "currentpoints": {
           "description": "",
+          "example": 11,
           "type": "integer",
           "format": "int32"
         }
@@ -13663,14 +14082,17 @@
       "properties": {
         "term": {
           "description": "",
+          "example": "SAP",
           "type": "string"
         },
         "startDate": {
           "description": "",
+          "example": "2015-04-01 01:00:00.0000000",
           "type": "string"
         },
         "endDate": {
           "description": "",
+          "example": "2017-04-01 01:00:00.0000000",
           "type": "string"
         }
       },
@@ -13694,26 +14116,32 @@
       "properties": {
         "Name": {
           "description": "",
+          "example": "SUper fellah",
           "type": "string"
         },
         "username": {
           "description": "",
+          "example": "kbernhardy3@phizzle.com",
           "type": "string"
         },
         "password": {
           "description": "",
+          "example": "test7",
           "type": "string"
         },
         "active": {
           "description": "",
+          "example": true,
           "type": "boolean"
         },
         "email": {
           "description": "",
+          "example": "kbernhardy@phizzle.com",
           "type": "string"
         },
         "permission": {
           "description": "",
+          "example": "User",
           "type": "string"
         }
       },
@@ -13744,44 +14172,54 @@
       "properties": {
         "amount": {
           "description": "",
+          "example": 16710.2,
           "type": "number",
           "format": "double"
         },
         "category": {
           "description": "",
+          "example": "Food",
           "type": "string"
         },
         "client_id": {
           "description": "",
+          "example": "110226b0-b663-11e6-b98b-cd9945ae5583",
           "type": "string"
         },
         "description": {
           "description": "",
+          "example": "Food Purchase",
           "type": "string"
         },
         "fan_id": {
           "description": "",
+          "example": "b4c5df7d-d3ab-4aa1-93a3-73594b7e5c23",
           "type": "string"
         },
         "lastmodifieddate": {
           "description": "",
+          "example": "2/9/2017 3:39:30 AM",
           "type": "string"
         },
         "purchasedate": {
           "description": "",
+          "example": "2/7/2016 12:00:00 AM",
           "type": "string"
         },
         "quantity": {
           "description": "",
+          "example": 1,
           "type": "integer",
           "format": "int32"
         },
         "sku": {
           "description": "",
+          "example": "Test_2",
           "type": "string"
         },
         "subcategory": {
           "description": "",
+          "example": "Food",
           "type": "string"
         }
       },
@@ -13807,6 +14245,7 @@
       "properties": {
         "pong": {
           "description": "",
+          "example": "ping",
           "type": "string"
         }
       },
@@ -13823,6 +14262,7 @@
       "properties": {
         "url": {
           "description": "",
+          "example": "http://www.google.com",
           "type": "string"
         }
       },
