@@ -7448,29 +7448,29 @@
             "examples": {
               "application/json": {
                 "result": {
-                  "startdate": "\"2015-10-18T22:30:00Z\"",
+                  "startdate": "2015-10-18T22:30:00Z",
                   "selectedallwinners": 0,
-                  "enddate": "\"2015-10-25T22:30:00Z\"",
+                  "enddate": "2015-10-25T22:30:00Z",
                   "cancelled": 1,
                   "facebookenabled": 0,
                   "emailenabled": 0,
                   "twitterenabled": 1,
-                  "createddate": "\"2015-10-18T22:30:08.788Z\"",
+                  "createddate": "2015-10-18T22:30:08.788Z",
                   "client_id": "388e16d6-d35e-4f8c-bba5-b1147b824473",
                   "createdby_id": "o.patsalo@svitla.com",
                   "description": "Manual Description Edit",
                   "processing": 0,
                   "id": "00331d63-fd62-42c1-b8ce-f3d86c16ef99",
                   "smsenabled": 1,
-                  "lastmodifieddate": "\"2015-10-18T22:30:47.573Z\"",
+                  "lastmodifieddate": "2015-10-18T22:30:47.573Z",
                   "mobileenabled": 0,
                   "lastmodifiedby_id": "o.patsalo@svitla.com",
                   "name": "AutoTest Contests Manual Edit",
                   "instagramenabled": 0,
                   "type": "Manual"
                 },
-                "error": "null",
-                "next_key": "null",
+                "error": null,
+                "next_key": null,
                 "status": 200
               }
             }
@@ -11631,29 +11631,29 @@
       "title": "ContestResponse",
       "example": {
         "result": {
-          "startdate": "\"2015-10-18T22:30:00Z\"",
+          "startdate": "2015-10-18T22:30:00Z",
           "selectedallwinners": 0,
-          "enddate": "\"2015-10-25T22:30:00Z\"",
+          "enddate": "2015-10-25T22:30:00Z",
           "cancelled": 1,
           "facebookenabled": 0,
           "emailenabled": 0,
           "twitterenabled": 1,
-          "createddate": "\"2015-10-18T22:30:08.788Z\"",
+          "createddate": "2015-10-18T22:30:08.788Z",
           "client_id": "388e16d6-d35e-4f8c-bba5-b1147b824473",
           "createdby_id": "o.patsalo@svitla.com",
           "description": "Manual Description Edit",
           "processing": 0,
           "id": "00331d63-fd62-42c1-b8ce-f3d86c16ef99",
           "smsenabled": 1,
-          "lastmodifieddate": "\"2015-10-18T22:30:47.573Z\"",
+          "lastmodifieddate": "2015-10-18T22:30:47.573Z",
           "mobileenabled": 0,
           "lastmodifiedby_id": "o.patsalo@svitla.com",
           "name": "AutoTest Contests Manual Edit",
           "instagramenabled": 0,
           "type": "Manual"
         },
-        "error": "null",
-        "next_key": "null",
+        "error": null,
+        "next_key": null,
         "status": 200
       },
       "type": "object",
@@ -11662,12 +11662,10 @@
           "$ref": "#/definitions/Result"
         },
         "error": {
-          "description": "",
-          "type": "string"
+          "description": ""
         },
         "next_key": {
-          "description": "",
-          "type": "string"
+          "description": ""
         },
         "status": {
           "description": "",
