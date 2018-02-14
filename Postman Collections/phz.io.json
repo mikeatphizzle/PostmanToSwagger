@@ -3,11 +3,7 @@
   "info": {
     "version": "1.0",
     "title": "phz.io",
-    "description": "Our API Collection. Kirk sez it rox.... the casbah",
-    "license": {
-      "name": "MIT",
-      "url": "http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT"
-    }
+    "description": "Our API Collection. Kirk sez it rox.... the casbah"
   },
   "host": "example.com",
   "basePath": "/",
