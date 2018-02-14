@@ -3,11 +3,7 @@
   "info": {
     "version": "1.0",
     "title": "Activity",
-    "description": "Activity API's are used to push and list activitys for an entire account",
-    "license": {
-      "name": "MIT",
-      "url": "http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT"
-    }
+    "description": "Activity API's are used to push and list activitys for an entire account"
   },
   "host": "phz.io",
   "basePath": "/activity",
