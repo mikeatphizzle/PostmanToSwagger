@@ -8855,7 +8855,7 @@
           "200": {
             "description": "",
             "schema": {
-              "$ref": "#/definitions/ContestResponse"
+              "$ref": "#/definitions/Contest"
             },
             "examples": {
               "application/json": {
@@ -13629,8 +13629,8 @@
         "winnermessage"
       ]
     },
-    "ContestResponse": {
-      "title": "ContestResponse",
+    "Contest": {
+      "title": "Contest",
       "example": {
         "result": {
           "startdate": "2015-10-18T22:30:00Z",
