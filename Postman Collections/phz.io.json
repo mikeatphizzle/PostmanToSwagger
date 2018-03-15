@@ -138,7 +138,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\r\n    \"activitydate\": \"2015-10-24T19:37:34.000Z\",\r\n    \"message\": \"#RugbyChampa #seven #1ra perdió 0-17 vs Liceo Naval #SwissMedicalGroup #sponsorChampa\",\r\n    \"type\": \"Instagram\"\r\n}\r\n\r\n\r\n\r\n\r\n"
+              "body": "{\"activitydate\":\"2015-10-24T19:37:34Z\",\"message\":\"#RugbyChampa #seven #1ra perdió 0-17 vs Liceo Naval #SwissMedicalGroup #sponsorChampa\",\"type\":\"Instagram\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -402,7 +402,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\r\n   \"name\": \"my apperrrr\",\r\n   \"secret\": \"asdadasda4334aAdaUVt7BVb4ArfoOh8oNGZ8\",\r\n   \"socialid\": \"14664007\",\r\n   \"token\": \"34424asdf3f43gvg445y45y54v45gsdcf34t4t\",\r\n   \"type\": \"Custom App\"\r\n }"
+              "body": "{\"name\":\"my apperrrr\",\"secret\":\"asdadasda4334aAdaUVt7BVb4ArfoOh8oNGZ8\",\"socialid\":\"14664007\",\"token\":\"34424asdf3f43gvg445y45y54v45gsdcf34t4t\",\"type\":\"Custom App\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -597,7 +597,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"username\":\"lreese\",\n\t\"password\":\"weezy\",\n\t\"token\":\"079d52b0-94ae-11e6-9e90-1b0d5e118eed\"\n}"
+              "body": "{\"username\":\"lreese\",\"password\":\"weezy\",\"token\":\"079d52b0-94ae-11e6-9e90-1b0d5e118eed\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -852,7 +852,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"Name\" : \"SUper fellah\",\n\t\"username\":\"kbernhardy3@phizzle.com\",\n\t\"password\":\"test7\",\n\t\"active\":true,\n\t\"email\":\"kbernhardy@phizzle.com\",\n\t\"permission\":\"User\"\n}"
+              "body": "{\"Name\":\"SUper fellah\",\"username\":\"kbernhardy3@phizzle.com\",\"password\":\"test7\",\"active\":true,\"email\":\"kbernhardy@phizzle.com\",\"permission\":\"User\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -926,7 +926,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"Name\" : \"SUper fellah\",\n\t\"username\":\"kbernhardy3@phizzle.com\",\n\t\"password\":\"test7\",\n\t\"active\":true,\n\t\"email\":\"kbernhardy@phizzle.com\",\n\t\"permission\":\"User\"\n}"
+              "body": "{\"Name\":\"SUper fellah\",\"username\":\"kbernhardy3@phizzle.com\",\"password\":\"test7\",\"active\":true,\"email\":\"kbernhardy@phizzle.com\",\"permission\":\"User\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -1000,7 +1000,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"Name\" : \"SUper fellah\",\n\t\"username\":\"kbernhardy3@phizzle.com\",\n\t\"password\":\"test7\",\n\t\"active\":true,\n\t\"email\":\"kbernhardy@phizzle.com\",\n\t\"permission\":\"User\"\n}"
+              "body": "{\"Name\":\"SUper fellah\",\"username\":\"kbernhardy3@phizzle.com\",\"password\":\"test7\",\"active\":true,\"email\":\"kbernhardy@phizzle.com\",\"permission\":\"User\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -1074,7 +1074,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"Name\" : \"SUper fellah\",\n\t\"username\":\"kbernhardy3@phizzle.com\",\n\t\"password\":\"test7\",\n\t\"active\":true,\n\t\"email\":\"kbernhardy@phizzle.com\",\n\t\"permission\":\"User\"\n}"
+              "body": "{\"Name\":\"SUper fellah\",\"username\":\"kbernhardy3@phizzle.com\",\"password\":\"test7\",\"active\":true,\"email\":\"kbernhardy@phizzle.com\",\"permission\":\"User\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -1148,7 +1148,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{ \n  \"name\":\"Super Rad Co\",\n  \"lastmodifiedby_id\":\"lreese\"\n}"
+              "body": "{\"name\":\"Super Rad Co\",\"lastmodifiedby_id\":\"lreese\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -1528,7 +1528,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\"name\":\"Danielle \",\n\"email_address\":\"dford@phizzle.com\",\n\"reply_email_address\":\"dfaksjd@gmail.com\",\n\"address1\":\"askdj\",\n\"city\":\"Broomfield\",\n\"postal_code\":\"80021\",\n\"country\":\"US\",\n\"company\":\"Phizzle\",\n\"verified\":1,\n\"state\":\"CO\"\n}"
+              "body": "{\"name\":\"Danielle \",\"email_address\":\"dford@phizzle.com\",\"reply_email_address\":\"dfaksjd@gmail.com\",\"address1\":\"askdj\",\"city\":\"Broomfield\",\"postal_code\":\"80021\",\"country\":\"US\",\"company\":\"Phizzle\",\"verified\":1,\"state\":\"CO\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -1602,7 +1602,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle test\",\n\t\"html\": \"<html><head></head><body>hello there</body></html>\",\n\t\"subject\":\"hey what up\"\n}"
+              "body": "{\"name\":\"kyle test\",\"html\":\"<html><head></head><body>hello there</body></html>\",\"subject\":\"hey what up\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -1730,7 +1730,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle test\",\n\t\"html\": \"<html><head></head><body>hello there</body></html>\",\n\t\"subject\":\"hey what up, to you\"\n}"
+              "body": "{\"name\":\"kyle test\",\"html\":\"<html><head></head><body>hello there</body></html>\",\"subject\":\"hey what up, to you\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -1929,7 +1929,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle test\",\n\t\"segment\":[\n    {\n      \"and\": [\n        {\n          \"fan.firstname\": {\n            \"starts_with\": \"a\"\n          }\n        },\n        {\n          \"list_member.list_id\": {\n            \"=\": \"86c71d20-c1bb-11e6-b169-6dc03b026fd7\"\n          }\n        }\n      ]\n    }\n  ]\n}"
+              "body": "{\"name\":\"kyle test\",\"segment\":[{\"and\":[{\"fan.firstname\":{\"starts_with\":\"a\"}},{\"list_member.list_id\":{\"=\":\"86c71d20-c1bb-11e6-b169-6dc03b026fd7\"}}]}]}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -2065,7 +2065,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle tester\",\n\t\"segment\":[\n    {\n      \"and\": [\n        {\n          \"fan.firstname\": {\n            \"starts_with\": \"a\"\n          }\n        },\n        {\n          \"list_member.list_id\": {\n            \"=\": \"86c71d20-c1bb-11e6-b169-6dc03b026fd7\"\n          }\n        }\n      ]\n    }\n  ]\n}"
+              "body": "{\"name\":\"kyle tester\",\"segment\":[{\"and\":[{\"fan.firstname\":{\"starts_with\":\"a\"}},{\"list_member.list_id\":{\"=\":\"86c71d20-c1bb-11e6-b169-6dc03b026fd7\"}}]}]}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -2137,7 +2137,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle test\",\n\t\"segment\":[\n    {\n      \"and\": [\n        {\n          \"fan.firstname\": {\n            \"starts_with\": \"a\"\n          }\n        },\n        {\n          \"list_member.list_id\": {\n            \"=\": \"86c71d20-c1bb-11e6-b169-6dc03b026fd7\"\n          }\n        }\n      ]\n    }\n  ]\n}"
+              "body": "{\"name\":\"kyle test\",\"segment\":[{\"and\":[{\"fan.firstname\":{\"starts_with\":\"a\"}},{\"list_member.list_id\":{\"=\":\"86c71d20-c1bb-11e6-b169-6dc03b026fd7\"}}]}]}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -2339,7 +2339,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle test\"\n}"
+              "body": "{\"name\":\"kyle test\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -2475,7 +2475,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle testerrr\"\n}"
+              "body": "{\"name\":\"kyle testerrr\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -2547,7 +2547,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle testerrr\"\n}"
+              "body": "{\"name\":\"kyle testerrr\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -2867,7 +2867,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\r\n    \"name\": \"my email campaign\",\r\n    \"startdate\": \"2017-02-01T22:41:29.586Z\",\r\n    \"email_sender_id\": \"kbernhardy@phizzle.com\",\r\n    \"subject\": \"SUBJECT OF YOUR EMAIL\",\r\n    \"client_id\": \"388e16d6-d35e-4f8c-bba5-b1147b824473\",\r\n    \"status\" : \"draft\"\r\n  }"
+              "body": "{\"name\":\"my email campaign\",\"startdate\":\"2017-02-01T22:41:29.586Z\",\"email_sender_id\":\"kbernhardy@phizzle.com\",\"subject\":\"SUBJECT OF YOUR EMAIL\",\"client_id\":\"388e16d6-d35e-4f8c-bba5-b1147b824473\",\"status\":\"draft\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -3003,7 +3003,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\r\n    \"name\": \"my email campaignerrrr\",\r\n    \"startdate\": \"2017-02-01T22:41:29.586Z\",\r\n    \"email_sender_id\": \"kbernhardy@phizzle.com\",\r\n    \"subject\": \"SUBJECT OF YOUR EMAIL\",\r\n    \"client_id\": \"388e16d6-d35e-4f8c-bba5-b1147b824473\",\r\n    \"status\" : \"draft\"\r\n  }"
+              "body": "{\"name\":\"my email campaignerrrr\",\"startdate\":\"2017-02-01T22:41:29.586Z\",\"email_sender_id\":\"kbernhardy@phizzle.com\",\"subject\":\"SUBJECT OF YOUR EMAIL\",\"client_id\":\"388e16d6-d35e-4f8c-bba5-b1147b824473\",\"status\":\"draft\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -3077,7 +3077,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t \"group_id\": \"7bc57090-f2dd-11e6-893d-216a536d489a\"\n}"
+              "body": "{\"group_id\":\"7bc57090-f2dd-11e6-893d-216a536d489a\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -3149,7 +3149,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t \"group_id\": \"7bc57090-f2dd-11e6-893d-216a536d489a\"\n}"
+              "body": "{\"group_id\":\"7bc57090-f2dd-11e6-893d-216a536d489a\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -3415,7 +3415,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t \"list_id\": \"b2936720-b06c-11e6-b181-537bca909e2a\"\n}"
+              "body": "{\"list_id\":\"b2936720-b06c-11e6-b181-537bca909e2a\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -3487,7 +3487,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t \"list_id\": \"b2936720-b06c-11e6-b181-537bca909e2a\"\n}"
+              "body": "{\"list_id\":\"b2936720-b06c-11e6-b181-537bca909e2a\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -3625,7 +3625,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle test\"\n}"
+              "body": "{\"name\":\"kyle test\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -4024,7 +4024,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\" : \"kyle testerrrrr\"\n}"
+              "body": "{\"name\":\"kyle testerrrrr\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -4792,7 +4792,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"startdate\":\"2016-11-21T14:52:00.000Z\",\n\t\"enddate\":\"2016-11-22T14:52:00.000Z\",\n\t\"name\":\"Test Campaign\",\n\t\"status\":0,\n\t\"type\":\"Q&A\"\n}"
+              "body": "{\"startdate\":\"2016-11-21T14:52:00Z\",\"enddate\":\"2016-11-22T14:52:00Z\",\"name\":\"Test Campaign\",\"status\":0,\"type\":\"Q&A\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -4866,7 +4866,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"twitteractive\":\"0\"\n}"
+              "body": "{\"twitteractive\":\"0\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -8330,7 +8330,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n  \"amount\": 16710.20,\n  \"category\": \"Food\",\n  \"client_id\": \"110226b0-b663-11e6-b98b-cd9945ae5583\",\n  \"description\": \"Food Purchase\",\n  \"fan_id\": \"b4c5df7d-d3ab-4aa1-93a3-73594b7e5c23\",\n  \"lastmodifieddate\": \"2017-02-09T03:39:30Z\",\n  \"purchasedate\": \"2016-02-07T00:00:00.000Z\",\n  \"quantity\": 1,\n  \"sku\": \"Test_2\",\n  \"subcategory\": \"Food\"\n}"
+              "body": "{\"amount\":16710.2,\"category\":\"Food\",\"client_id\":\"110226b0-b663-11e6-b98b-cd9945ae5583\",\"description\":\"Food Purchase\",\"fan_id\":\"b4c5df7d-d3ab-4aa1-93a3-73594b7e5c23\",\"lastmodifieddate\":\"2017-02-09T03:39:30Z\",\"purchasedate\":\"2016-02-07T00:00:00Z\",\"quantity\":1,\"sku\":\"Test_2\",\"subcategory\":\"Food\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -8533,7 +8533,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": " [\r\n     {\r\n         \"or\":[\r\n             {\r\n                 \"fan.age\":{\r\n                     \"between\": [29, 40]\r\n                 }\r\n             },\r\n             {\r\n                 \"fan.city\":{\r\n                     \"=\":\"Denver\"\r\n                 }\r\n             }\r\n         ]\r\n     },\r\n     {\r\n         \"and\":[\r\n             {\r\n                 \"fan.firstname\":{\r\n                     \"=\":\"Jim\"\r\n                 }\r\n             }\r\n         ]\r\n     }\r\n ]"
+              "body": "[{\"or\":[{\"fan.age\":{\"between\":[29,40]}},{\"fan.city\":{\"=\":\"Denver\"}}]},{\"and\":[{\"fan.firstname\":{\"=\":\"Jim\"}}]}]"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -8733,7 +8733,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n  \"fan\": {\n    \"firstname\": \"Fan\",\n    \"lastname\": \"Tracker\"\n  },\n  \"profiles\": [\n    {\n      \"active\": \"1\",\n      \"type\": \"Email\",\n      \"profile\": \"{{FT_EMAIL_1}}\"\n    },\n    {\n      \"active\": \"1\",\n      \"type\": \"SMS\",\n      \"profile\": \"{{FT_SMS_1}}\"\n    }\n  ]\n}"
+              "body": "{\"fan\":{\"firstname\":\"Fan\",\"lastname\":\"Tracker\"},\"profiles\":[{\"active\":\"1\",\"type\":\"Email\",\"profile\":\"{{FT_EMAIL_1}}\"},{\"active\":\"1\",\"type\":\"SMS\",\"profile\":\"{{FT_SMS_1}}\"}]}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -8807,7 +8807,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\r\n  \"cancelled\": 0,\r\n  \"emailenabled\": 0,\r\n  \"enddate\": \"2016-09-25\",\r\n  \"facebookenabled\": 0,\r\n  \"instagramenabled\": 0,\r\n  \"mobileenabled\": 0,\r\n  \"name\": \"Win the Things!\",\r\n  \"processing\": 0,\r\n  \"selectedallwinners\": 0,\r\n  \"smsenabled\": 0,\r\n  \"startdate\": \"2016-09-24T16:32:00.000Z\",\r\n  \"twitterenabled\": 1,\r\n  \"type\": \"Manual\",\r\n  \"winnermessage\": \"woohoo. you win!\"\r\n}"
+              "body": "{\"cancelled\":0,\"emailenabled\":0,\"enddate\":\"2016-09-25\",\"facebookenabled\":0,\"instagramenabled\":0,\"mobileenabled\":0,\"name\":\"Win the Things!\",\"processing\":0,\"selectedallwinners\":0,\"smsenabled\":0,\"startdate\":\"2016-09-24T16:32:00Z\",\"twitterenabled\":1,\"type\":\"Manual\",\"winnermessage\":\"woohoo. you win!\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -8912,7 +8912,7 @@
                 "Vary": "Accept-Encoding",
                 "X-Powered-By": "Express"
               },
-              "body": "{\"result\":{\"startdate\":\"2015-10-18T22:30:00.000Z\",\"selectedallwinners\":0,\"enddate\":\"2015-10-25T22:30:00.000Z\",\"cancelled\":1,\"facebookenabled\":0,\"emailenabled\":0,\"twitterenabled\":1,\"createddate\":\"2015-10-18T22:30:08.788Z\",\"client_id\":\"388e16d6-d35e-4f8c-bba5-b1147b824473\",\"createdby_id\":\"o.patsalo@svitla.com\",\"description\":\"Manual Description Edit\",\"processing\":0,\"id\":\"00331d63-fd62-42c1-b8ce-f3d86c16ef99\",\"smsenabled\":1,\"lastmodifieddate\":\"2015-10-18T22:30:47.573Z\",\"mobileenabled\":0,\"lastmodifiedby_id\":\"o.patsalo@svitla.com\",\"name\":\"AutoTest Contests Manual Edit\",\"instagramenabled\":0,\"type\":\"Manual\"},\"error\":null,\"next_key\":null,\"status\":200}"
+              "body": "{\"result\":{\"startdate\":\"2015-10-18T22:30:00Z\",\"selectedallwinners\":0,\"enddate\":\"2015-10-25T22:30:00Z\",\"cancelled\":1,\"facebookenabled\":0,\"emailenabled\":0,\"twitterenabled\":1,\"createddate\":\"2015-10-18T22:30:08.788Z\",\"client_id\":\"388e16d6-d35e-4f8c-bba5-b1147b824473\",\"createdby_id\":\"o.patsalo@svitla.com\",\"description\":\"Manual Description Edit\",\"processing\":0,\"id\":\"00331d63-fd62-42c1-b8ce-f3d86c16ef99\",\"smsenabled\":1,\"lastmodifieddate\":\"2015-10-18T22:30:47.573Z\",\"mobileenabled\":0,\"lastmodifiedby_id\":\"o.patsalo@svitla.com\",\"name\":\"AutoTest Contests Manual Edit\",\"instagramenabled\":0,\"type\":\"Manual\"},\"error\":null,\"next_key\":null,\"status\":200}"
             },
             "x-testShouldPass": true,
             "x-testEnabled": true,
@@ -9427,7 +9427,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\":\"Gold\",\n\t\"loyaltyprogram_id\":\"20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7\",\n\t\"pointmultiplier\": 1,\n\t\"points\":1000\n}"
+              "body": "{\"name\":\"Gold\",\"loyaltyprogram_id\":\"20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7\",\"pointmultiplier\":1,\"points\":1000}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -9501,7 +9501,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"name\":\"Gold\",\n\t\"loyaltyprogram_id\":\"20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7\",\n\t\"pointmultiplier\": 1,\n\t\"points\":1000\n}"
+              "body": "{\"name\":\"Gold\",\"loyaltyprogram_id\":\"20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7\",\"pointmultiplier\":1,\"points\":1000}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -9575,7 +9575,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n  \"pointsearned\":11\n}"
+              "body": "{\"pointsearned\":11}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -9649,7 +9649,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"type\":\"Join\",\n\t\"pointsearned\":20,\n\t\"loyaltyprogram_id\":\"20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7\"\n}"
+              "body": "{\"type\":\"Join\",\"pointsearned\":20,\"loyaltyprogram_id\":\"20c2f2e0-5e3a-11e6-9e0c-852ae2232ea7\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -10819,7 +10819,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n  \"term\":\"SAP\",\n  \"startDate\":\"2015-04-01 01:00:00.0000000\",\n  \"endDate\":\"2017-04-01 01:00:00.0000000\"\n}"
+              "body": "{\"term\":\"SAP\",\"startDate\":\"2015-04-01 01:00:00.0000000\",\"endDate\":\"2017-04-01 01:00:00.0000000\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -11043,7 +11043,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\n\t\"Name\" : \"SUper fellah\",\n\t\"username\":\"kbernhardy3@phizzle.com\",\n\t\"password\":\"test7\",\n\t\"active\":true,\n\t\"email\":\"kbernhardy@phizzle.com\",\n\t\"permission\":\"User\"\n}"
+              "body": "{\"Name\":\"SUper fellah\",\"username\":\"kbernhardy3@phizzle.com\",\"password\":\"test7\",\"active\":true,\"email\":\"kbernhardy@phizzle.com\",\"permission\":\"User\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -11429,7 +11429,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{ \r\n   \"pong\":\"ping\" \r\n}"
+              "body": "{\"pong\":\"ping\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -11557,7 +11557,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{ \r\n\t\"url\":\"http://www.google.com\" \r\n}"
+              "body": "{\"url\":\"http://www.google.com\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -13241,34 +13241,23 @@
     },
     "SearchRequest": {
       "title": "SearchRequest",
-      "example": [
-        {
-          "or": [
-            {
-              "fan.age": {
-                "between": [
-                  29,
-                  40
-                ]
-              }
-            },
-            {
-              "fan.city": {
-                "=": "Denver"
-              }
+      "example": {
+        "or": [
+          {
+            "fan.age": {
+              "between": [
+                29,
+                40
+              ]
             }
-          ]
-        },
-        {
-          "and": [
-            {
-              "fan.firstname": {
-                "=": "Jim"
-              }
+          },
+          {
+            "fan.city": {
+              "=": "Denver"
             }
-          ]
-        }
-      ],
+          }
+        ]
+      },
       "type": "object",
       "properties": {
         "or": {
