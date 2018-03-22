@@ -13653,10 +13653,12 @@
           "$ref": "#/definitions/Result"
         },
         "error": {
-          "description": ""
+          "description": "",
+          "type": "null"
         },
         "next_key": {
-          "description": ""
+          "description": "",
+          "type": "null"
         },
         "status": {
           "description": "",
