@@ -14435,11 +14435,11 @@
         },
         "error": {
           "description": "",
-          "type": "null"
+          "type": "string"
         },
         "next_key": {
           "description": "",
-          "type": "null"
+          "type": "string"
         },
         "status": {
           "description": "",
