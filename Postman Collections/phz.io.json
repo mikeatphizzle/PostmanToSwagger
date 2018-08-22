@@ -852,7 +852,7 @@
               "headers": {
                 "Content-Type": "application/json"
               },
-              "body": "{\"Name\":\"SUper fellah\",\"username\":\"kbernhardy3@phizzle.com\",\"password\":\"test7\",\"active\":true,\"email\":\"kbernhardy@phizzle.com\",\"permission\":\"User\"}"
+              "body": "{\"active\":\"true\",\"client_id\":\"c3964f30-a573-11e8-bda1-afb1bb96d27f\",\"email\":\"zdayton@fairfield.edu\",\"name\":\"ZDayton\",\"password\":\"7038fc326f99450be4775efdecb6b072\",\"permission\":\"User\",\"permission_id\":\"9dae4627-f8b9-462c-8c8e-85741adca996\",\"timezone\":\"America/New_York\",\"token\":\"e7b112d-de8f-4ccc-a77d-36b7d3fe98e5\",\"tokentimestamp\":\"2018-04-16T17:50:24.197Z\",\"type\":\"user\",\"username\":\"ZDayton\"}"
             },
             "expectedResponse": {
               "x-allowExtraHeaders": true,
@@ -12762,53 +12762,95 @@
     "UserRequest": {
       "title": "UserRequest",
       "example": {
-        "Name": "SUper fellah",
-        "username": "kbernhardy3@phizzle.com",
-        "password": "test7",
-        "active": true,
-        "email": "kbernhardy@phizzle.com",
-        "permission": "User"
+        "active": "true",
+        "client_id": "c3964f30-a573-11e8-bda1-afb1bb96d27f",
+        "email": "zdayton@fairfield.edu",
+        "name": "ZDayton",
+        "password": "7038fc326f99450be4775efdecb6b072",
+        "permission": "User",
+        "permission_id": "9dae4627-f8b9-462c-8c8e-85741adca996",
+        "timezone": "America/New_York",
+        "token": "e7b112d-de8f-4ccc-a77d-36b7d3fe98e5",
+        "tokentimestamp": "2018-04-16T17:50:24.197Z",
+        "type": "user",
+        "username": "ZDayton"
       },
       "type": "object",
       "properties": {
-        "Name": {
+        "active": {
           "description": "",
-          "example": "SUper fellah",
+          "example": "true",
           "type": "string"
         },
-        "username": {
+        "client_id": {
           "description": "",
-          "example": "kbernhardy3@phizzle.com",
+          "example": "c3964f30-a573-11e8-bda1-afb1bb96d27f",
+          "type": "string"
+        },
+        "email": {
+          "description": "",
+          "example": "zdayton@fairfield.edu",
+          "type": "string"
+        },
+        "name": {
+          "description": "",
+          "example": "ZDayton",
           "type": "string"
         },
         "password": {
           "description": "",
-          "example": "test7",
-          "type": "string"
-        },
-        "active": {
-          "description": "",
-          "example": true,
-          "type": "boolean"
-        },
-        "email": {
-          "description": "",
-          "example": "kbernhardy@phizzle.com",
+          "example": "7038fc326f99450be4775efdecb6b072",
           "type": "string"
         },
         "permission": {
           "description": "",
           "example": "User",
           "type": "string"
+        },
+        "permission_id": {
+          "description": "",
+          "example": "9dae4627-f8b9-462c-8c8e-85741adca996",
+          "type": "string"
+        },
+        "timezone": {
+          "description": "",
+          "example": "America/New_York",
+          "type": "string"
+        },
+        "token": {
+          "description": "",
+          "example": "e7b112d-de8f-4ccc-a77d-36b7d3fe98e5",
+          "type": "string"
+        },
+        "tokentimestamp": {
+          "description": "",
+          "example": "4/16/2018 5:50:24 PM",
+          "type": "string"
+        },
+        "type": {
+          "description": "",
+          "example": "user",
+          "type": "string"
+        },
+        "username": {
+          "description": "",
+          "example": "ZDayton",
+          "type": "string"
         }
       },
       "required": [
-        "Name",
-        "username",
-        "password",
         "active",
+        "client_id",
         "email",
-        "permission"
+        "name",
+        "password",
+        "permission",
+        "permission_id",
+        "timezone",
+        "token",
+        "tokentimestamp",
+        "type",
+        "username"
       ]
     },
     "UpdateUserrequest": {
@@ -12970,74 +13012,323 @@
     "Client  postrequest": {
       "title": "Client - PostRequest",
       "example": {
-        "name": "new client 2",
-        "email": "lreese@phizzle.com",
-        "firstname": "Louisa",
-        "lastname": "reese",
-        "description": "new client 2 description",
-        "postalcode": "80021",
-        "timezone": "America/Denver",
-        "lastmodifiedby_id": "lreese",
-        "plan": "free"
+        "archive": 0,
+        "contest": 0,
+        "corporateemail": "zdayton@fairfield.edu",
+        "createdby_id": "jcrawford@phizzle.com",
+        "description": "SMS on-boarding - Sidearm",
+        "email": 0,
+        "loyalty": 0,
+        "mobileapp": 0,
+        "name": "Fairfield College",
+        "parent_id": "94ae334a-3be3-40fa-97b5-784830ff2e3f",
+        "phizzlecast": 0,
+        "phizzlemobile_clientid": 2064,
+        "plan": "free_05-16",
+        "plan_id": "free_05-16",
+        "plan_record": {
+          "api_calls": 150000,
+          "api_calls_overage": 0.0005,
+          "data(GB)": 0.5,
+          "data(gb)_overage": 35,
+          "email_overage": 0.001,
+          "emails": 2500,
+          "loyalty_members": 1000,
+          "loyalty_members_overage": 0.015,
+          "name": "Free",
+          "plan_id": "free_05-16",
+          "price": 0,
+          "push": 10000,
+          "push_overage": 0.0001,
+          "sms": 1000,
+          "sms_overage": 0.0067,
+          "standard": "true",
+          "tweets": 30000,
+          "tweets_overage": 0.0015
+        },
+        "publish": 0,
+        "sms": 0,
+        "social": 0,
+        "webanalytics": 0
       },
       "type": "object",
       "properties": {
-        "name": {
+        "archive": {
           "description": "",
-          "example": "new client 2",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "contest": {
+          "description": "",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "corporateemail": {
+          "description": "",
+          "example": "zdayton@fairfield.edu",
           "type": "string"
         },
-        "email": {
+        "createdby_id": {
           "description": "",
-          "example": "lreese@phizzle.com",
-          "type": "string"
-        },
-        "firstname": {
-          "description": "",
-          "example": "Louisa",
-          "type": "string"
-        },
-        "lastname": {
-          "description": "",
-          "example": "reese",
+          "example": "jcrawford@phizzle.com",
           "type": "string"
         },
         "description": {
           "description": "",
-          "example": "new client 2 description",
+          "example": "SMS on-boarding - Sidearm",
           "type": "string"
         },
-        "postalcode": {
+        "email": {
           "description": "",
-          "example": "80021",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "loyalty": {
+          "description": "",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "mobileapp": {
+          "description": "",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "name": {
+          "description": "",
+          "example": "Fairfield College",
           "type": "string"
         },
-        "timezone": {
+        "parent_id": {
           "description": "",
-          "example": "America/Denver",
+          "example": "94ae334a-3be3-40fa-97b5-784830ff2e3f",
           "type": "string"
         },
-        "lastmodifiedby_id": {
+        "phizzlecast": {
           "description": "",
-          "example": "lreese",
-          "type": "string"
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "phizzlemobile_clientid": {
+          "description": "",
+          "example": 2064,
+          "type": "integer",
+          "format": "int32"
         },
         "plan": {
           "description": "",
-          "example": "free",
+          "example": "free_05-16",
           "type": "string"
+        },
+        "plan_id": {
+          "description": "",
+          "example": "free_05-16",
+          "type": "string"
+        },
+        "plan_record": {
+          "$ref": "#/definitions/PlanRecord"
+        },
+        "publish": {
+          "description": "",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "sms": {
+          "description": "",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "social": {
+          "description": "",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "webanalytics": {
+          "description": "",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
         }
       },
       "required": [
-        "name",
-        "email",
-        "firstname",
-        "lastname",
+        "archive",
+        "contest",
+        "corporateemail",
+        "createdby_id",
         "description",
-        "postalcode",
-        "timezone",
-        "lastmodifiedby_id",
-        "plan"
+        "email",
+        "loyalty",
+        "mobileapp",
+        "name",
+        "parent_id",
+        "phizzlecast",
+        "phizzlemobile_clientid",
+        "plan",
+        "plan_id",
+        "plan_record",
+        "publish",
+        "sms",
+        "social",
+        "webanalytics"
+      ]
+    },
+    "PlanRecord": {
+      "title": "PlanRecord",
+      "example": {
+        "api_calls": 150000,
+        "api_calls_overage": 0.0005,
+        "data(GB)": 0.5,
+        "data(gb)_overage": 35,
+        "email_overage": 0.001,
+        "emails": 2500,
+        "loyalty_members": 1000,
+        "loyalty_members_overage": 0.015,
+        "name": "Free",
+        "plan_id": "free_05-16",
+        "price": 0,
+        "push": 10000,
+        "push_overage": 0.0001,
+        "sms": 1000,
+        "sms_overage": 0.0067,
+        "standard": "true",
+        "tweets": 30000,
+        "tweets_overage": 0.0015
+      },
+      "type": "object",
+      "properties": {
+        "api_calls": {
+          "description": "",
+          "example": 150000,
+          "type": "integer",
+          "format": "int32"
+        },
+        "api_calls_overage": {
+          "description": "",
+          "example": 0.0005,
+          "type": "number",
+          "format": "double"
+        },
+        "data(GB)": {
+          "description": "",
+          "example": 0.5,
+          "type": "number",
+          "format": "double"
+        },
+        "data(gb)_overage": {
+          "description": "",
+          "example": 35,
+          "type": "integer",
+          "format": "int32"
+        },
+        "email_overage": {
+          "description": "",
+          "example": 0.001,
+          "type": "number",
+          "format": "double"
+        },
+        "emails": {
+          "description": "",
+          "example": 2500,
+          "type": "integer",
+          "format": "int32"
+        },
+        "loyalty_members": {
+          "description": "",
+          "example": 1000,
+          "type": "integer",
+          "format": "int32"
+        },
+        "loyalty_members_overage": {
+          "description": "",
+          "example": 0.015,
+          "type": "number",
+          "format": "double"
+        },
+        "name": {
+          "description": "",
+          "example": "Free",
+          "type": "string"
+        },
+        "plan_id": {
+          "description": "",
+          "example": "free_05-16",
+          "type": "string"
+        },
+        "price": {
+          "description": "",
+          "example": 0,
+          "type": "integer",
+          "format": "int32"
+        },
+        "push": {
+          "description": "",
+          "example": 10000,
+          "type": "integer",
+          "format": "int32"
+        },
+        "push_overage": {
+          "description": "",
+          "example": 0.0001,
+          "type": "number",
+          "format": "double"
+        },
+        "sms": {
+          "description": "",
+          "example": 1000,
+          "type": "integer",
+          "format": "int32"
+        },
+        "sms_overage": {
+          "description": "",
+          "example": 0.0067,
+          "type": "number",
+          "format": "double"
+        },
+        "standard": {
+          "description": "",
+          "example": "true",
+          "type": "string"
+        },
+        "tweets": {
+          "description": "",
+          "example": 30000,
+          "type": "integer",
+          "format": "int32"
+        },
+        "tweets_overage": {
+          "description": "",
+          "example": 0.0015,
+          "type": "number",
+          "format": "double"
+        }
+      },
+      "required": [
+        "api_calls",
+        "api_calls_overage",
+        "data(GB)",
+        "data(gb)_overage",
+        "email_overage",
+        "emails",
+        "loyalty_members",
+        "loyalty_members_overage",
+        "name",
+        "plan_id",
+        "price",
+        "push",
+        "push_overage",
+        "sms",
+        "sms_overage",
+        "standard",
+        "tweets",
+        "tweets_overage"
       ]
     },
     "ClientUpdaterequest": {
@@ -14146,7 +14437,7 @@
           ],
           "type": "array",
           "items": {
-            "$ref": "#/definitions/And51"
+            "$ref": "#/definitions/And52"
           }
         }
       }
@@ -14215,8 +14506,8 @@
         "="
       ]
     },
-    "And51": {
-      "title": "And51",
+    "And52": {
+      "title": "And52",
       "example": {
         "fan.firstname": {
           "=": "Jim"
@@ -14225,15 +14516,15 @@
       "type": "object",
       "properties": {
         "fan.firstname": {
-          "$ref": "#/definitions/FanFirstname52"
+          "$ref": "#/definitions/FanFirstname53"
         }
       },
       "required": [
         "fan.firstname"
       ]
     },
-    "FanFirstname52": {
-      "title": "FanFirstname52",
+    "FanFirstname53": {
+      "title": "FanFirstname53",
       "example": {
         "=": "Jim"
       },
