@@ -1,75 +1,40 @@
 {
-  "swagger": "2.0",
   "info": {
-    "version": "1.0",
-    "title": "Activity",
-    "description": "Activity API's are used to push and list activitys for an entire account"
+    "_postman_id": "2057738-f16e8403-7ce5-7c2a-0e94-a0777a29d31f",
+    "name": "Activity",
+    "description": "Activity API's are used to push and list activitys for an entire account",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
-  "host": "phz.io",
-  "basePath": "/activity",
-  "schemes": [
-    "https"
-  ],
-  "consumes": [
-    "application/json"
-  ],
-  "produces": [
-    "application/json"
-  ],
-  "paths": {
-    "/page": {
-      "get": {
-        "description": "Get a page of activities",
-        "summary": "page",
-        "tags": [
-          "Misc"
-        ],
-        "operationId": "PageGet",
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "name": "token",
-            "in": "query",
-            "required": true,
-            "type": "string",
-            "description": ""
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": ""
-          }
+  "item": [
+    {
+      "_postman_id": "2057738-1b7774af-32a2-7344-0659-a21109b8e081",
+      "name": "page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": {
+          "raw": "https://phz.io/activity/page/?token=H6m80Gi62I.80e2a240-25c9-11e7-9719-33a7a6b886da",
+          "protocol": "https",
+          "host": [
+            "phz",
+            "io"
+          ],
+          "path": [
+            "activity",
+            "page",
+            ""
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "H6m80Gi62I.80e2a240-25c9-11e7-9719-33a7a6b886da"
+            }
+          ]
         },
-        "security": [],
-        "x-unitTests": [
-          {
-            "request": {
-              "method": "GET",
-              "uri": "/page?token=H6m80Gi62I.80e2a240-25c9-11e7-9719-33a7a6b886da"
-            },
-            "expectedResponse": {
-              "x-allowExtraHeaders": true,
-              "x-bodyMatchMode": "NONE",
-              "x-arrayOrderedMatching": false,
-              "x-arrayCheckCount": false,
-              "x-matchResponseSchema": true,
-              "headers": {}
-            },
-            "x-testShouldPass": true,
-            "x-testEnabled": true,
-            "x-testName": "page",
-            "x-testDescription": "Get a page of activities"
-          }
-        ],
-        "x-operation-settings": {
-          "CollectParameters": false,
-          "AllowDynamicQueryParameters": false,
-          "AllowDynamicFormParameters": false,
-          "IsMultiContentStreaming": false
-        }
-      }
+        "description": "Get a page of activities"
+      },
+      "response": []
     }
-  }
+  ]
 }
