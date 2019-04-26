@@ -7,12 +7,15 @@
   },
   "item": [
     {
-      "_postman_id": "2057738-1b7774af-32a2-7344-0659-a21109b8e081",
       "name": "page",
+      "_postman_id": "2057738-1b7774af-32a2-7344-0659-a21109b8e081",
       "request": {
         "method": "GET",
         "header": [],
-        "body": {},
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
         "url": {
           "raw": "https://phz.io/activity/page/?token=H6m80Gi62I.80e2a240-25c9-11e7-9719-33a7a6b886da",
           "protocol": "https",
