@@ -57,12 +57,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/activity": {
@@ -107,12 +102,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/activity/244a4f90-ea4d-11e6-bdbe-b771f3468c05": {
@@ -148,12 +138,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/activity/page": {
@@ -189,12 +174,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/app": {
@@ -239,12 +219,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "get": {
         "description": "TODO: Add Description",
@@ -278,12 +253,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/app/b4c7f870-ea56-11e6-aeff-3532e4e3a88d": {
@@ -319,12 +289,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/app/page": {
@@ -360,12 +325,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/authentication/password_reset": {
@@ -403,12 +363,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/authentication/password_reset_request/rbrady@phizzle.com": {
@@ -429,12 +384,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/authentication": {
@@ -477,12 +427,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/client/user/dford@phizzle.com": {
@@ -518,12 +463,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/client/user": {
@@ -568,12 +508,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/client/user/kbernhardy3@phizzle.com": {
@@ -618,12 +553,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/client/388e16d6-d35e-4f8c-bba5-b1147b824473/user": {
@@ -668,12 +598,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/client/388e16d6-d35e-4f8c-bba5-b1147b824473/user/kbernhardy3@phizzle.com": {
@@ -718,12 +643,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/client": {
@@ -768,12 +688,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "get": {
         "description": "Creates a new client",
@@ -807,12 +722,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/client/current_limits": {
@@ -848,12 +758,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/client/user/page": {
@@ -889,12 +794,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/group/06578da0-7530-11e6-b928-add7b838de02/group_member_count": {
@@ -923,12 +823,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/group_member/search/{search}sap": {
@@ -971,12 +866,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/member/kbernhardy@phizzle.com": {
@@ -1012,12 +902,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_sender": {
@@ -1062,12 +947,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/template": {
@@ -1112,12 +992,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/template/064df7f0-bff3-11e6-9f60-a1ab0e5d02fb": {
@@ -1146,12 +1021,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/template/1a715e70-ef23-11e6-a470-b1f443288e5a/save": {
@@ -1196,12 +1066,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/template/search": {
@@ -1237,12 +1102,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/template/page": {
@@ -1278,12 +1138,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/segment": {
@@ -1328,12 +1183,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/segment/4785e990-efe0-11e6-9f6b-d9a9f70f8ce8": {
@@ -1369,12 +1219,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "post": {
         "description": "TODO: Add Description",
@@ -1417,12 +1262,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "delete": {
         "description": "TODO: Add Description",
@@ -1465,12 +1305,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/segment/page": {
@@ -1506,12 +1341,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/group/page": {
@@ -1547,12 +1377,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/group": {
@@ -1597,12 +1422,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/group/0a4a8660-f23a-11e6-97cf-11128e490e7e": {
@@ -1638,12 +1458,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "post": {
         "description": "TODO: Add Description",
@@ -1686,12 +1501,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "delete": {
         "description": "TODO: Add Description",
@@ -1734,12 +1544,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign/75af9b36-8cd0-11e6-ae22-56b6b6499611/stats/all_time": {
@@ -1768,12 +1573,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_sender/page": {
@@ -1809,12 +1609,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_sender/dford@phizzle.com": {
@@ -1850,12 +1645,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/list/0935d4d0-635d-11e6-bf8b-5b218e0b5758/email_campaigns": {
@@ -1891,12 +1681,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign": {
@@ -1941,12 +1726,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561": {
@@ -1982,12 +1762,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "post": {
         "description": "TODO: Add Description",
@@ -2030,12 +1805,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/group": {
@@ -2080,12 +1850,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "delete": {
         "description": "TODO: Add Description",
@@ -2128,12 +1893,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/group/7bc57090-f2dd-11e6-893d-216a536d489a": {
@@ -2169,12 +1929,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/groups": {
@@ -2210,12 +1965,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/lists": {
@@ -2251,12 +2001,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/list": {
@@ -2301,12 +2046,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "delete": {
         "description": "TODO: Add Description",
@@ -2349,12 +2089,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/email_campaign/31691b50-f3b9-11e6-b9a7-1d0314e0a561/list/b2936720-b06c-11e6-b181-537bca909e2a": {
@@ -2390,12 +2125,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/list": {
@@ -2440,12 +2170,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/list/search": {
@@ -2488,12 +2213,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/list/page": {
@@ -2529,12 +2249,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/list/active/page": {
@@ -2570,12 +2285,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/list/archived/page": {
@@ -2611,12 +2321,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/list/b2936720-b06c-11e6-b181-537bca909e2a": {
@@ -2652,12 +2357,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       },
       "post": {
         "description": "TODO: Add Description",
@@ -2700,12 +2400,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/email/send": {
@@ -2750,12 +2445,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/channel": {
@@ -2791,12 +2481,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/day": {
@@ -2832,12 +2517,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/day/1,1,170,170": {
@@ -2873,12 +2553,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/day/male": {
@@ -2914,12 +2589,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/day/female": {
@@ -2955,12 +2625,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{ENGAGEMENT_ID}/activity/day/positive": {
@@ -2996,12 +2661,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/day/negative": {
@@ -3037,12 +2697,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/female": {
@@ -3078,12 +2733,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/male": {
@@ -3119,12 +2769,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/year": {
@@ -3160,12 +2805,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/month": {
@@ -3201,12 +2841,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/hour": {
@@ -3242,12 +2877,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/minute": {
@@ -3283,12 +2913,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/activity/positive": {
@@ -3324,12 +2949,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{ENGAGEMENT_ID}/activity/sentiment/positive/detail": {
@@ -3365,12 +2985,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement": {
@@ -3415,12 +3030,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/002ae1bf-5af4-4a88-ac4f-96a2a2976c21": {
@@ -3465,12 +3075,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/detail/{listening_engagement}": {
@@ -3506,12 +3111,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/engagement": {
@@ -3547,12 +3147,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/stats": {
@@ -3588,12 +3183,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/unarchived/page": {
@@ -3622,12 +3212,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/archived/page": {
@@ -3656,12 +3241,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/fans": {
@@ -3697,12 +3277,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/fans/day": {
@@ -3738,12 +3313,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/fans/hour": {
@@ -3779,12 +3349,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/fans/minute": {
@@ -3820,12 +3385,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed": {
@@ -3861,12 +3421,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/1,1,180,180": {
@@ -3902,12 +3457,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/female": {
@@ -3943,12 +3493,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/male": {
@@ -3984,12 +3529,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/day": {
@@ -4025,12 +3565,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/hour": {
@@ -4066,12 +3601,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/year": {
@@ -4107,12 +3637,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/recent": {
@@ -4148,12 +3673,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender/1,180,1,180": {
@@ -4189,12 +3709,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender/minute": {
@@ -4230,12 +3745,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender/day": {
@@ -4271,12 +3781,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender/hour": {
@@ -4312,12 +3817,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender/month": {
@@ -4353,12 +3853,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender": {
@@ -4394,12 +3889,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender/female": {
@@ -4435,12 +3925,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender/male": {
@@ -4476,12 +3961,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/gender/year": {
@@ -4517,12 +3997,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/1,1,180,180": {
@@ -4558,12 +4033,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/male": {
@@ -4599,12 +4069,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/female": {
@@ -4640,12 +4105,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/negative": {
@@ -4681,12 +4141,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/minute": {
@@ -4722,12 +4177,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/hour": {
@@ -4763,12 +4213,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/day": {
@@ -4804,12 +4249,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/month": {
@@ -4845,12 +4285,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/year": {
@@ -4886,12 +4321,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/influencers": {
@@ -4927,12 +4357,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/insights": {
@@ -4968,12 +4393,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/insights/1,1,180,180": {
@@ -5009,12 +4429,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/insights/day": {
@@ -5050,12 +4465,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/insights/minute": {
@@ -5091,12 +4501,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/insights/hour": {
@@ -5132,12 +4537,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/insights/month": {
@@ -5173,12 +4573,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/insights/year": {
@@ -5214,12 +4609,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/keyword": {
@@ -5271,12 +4661,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/keyword/9c091d00-f55f-11e6-b4cc-571eee2ba746": {
@@ -5328,12 +4713,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/detail/{ENGAGEMENT_ID}/keywords": {
@@ -5369,12 +4749,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/member": {
@@ -5426,12 +4801,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/member/TESTERSON Twitter": {
@@ -5483,12 +4853,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/member/count": {
@@ -5524,12 +4889,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/members/page": {
@@ -5565,12 +4925,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/top/members": {
@@ -5606,12 +4961,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/photos": {
@@ -5647,12 +4997,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/photos/positive": {
@@ -5688,12 +5033,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/photos/negative": {
@@ -5729,12 +5069,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/photos/minute": {
@@ -5770,12 +5105,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/photos/day": {
@@ -5811,12 +5141,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/photos/month": {
@@ -5852,12 +5177,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/photos/year": {
@@ -5893,12 +5213,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment": {
@@ -5934,12 +5249,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/minute": {
@@ -5975,12 +5285,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/hour": {
@@ -6016,12 +5321,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/day": {
@@ -6057,12 +5357,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/month": {
@@ -6098,12 +5393,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/year": {
@@ -6139,12 +5429,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/positive": {
@@ -6180,12 +5465,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/negative": {
@@ -6221,12 +5501,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/male": {
@@ -6262,12 +5537,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/sentiment/female": {
@@ -6303,12 +5573,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/topics/sentiment/positive/detail": {
@@ -6344,12 +5609,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/topics/detail": {
@@ -6385,12 +5645,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/term/stats": {
@@ -6426,12 +5681,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/detail/{FAN_ID}/activity": {
@@ -6467,12 +5717,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/detail/{fan_id}": {
@@ -6508,12 +5753,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/detail/{fan_id}/activity/geo": {
@@ -6549,12 +5789,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/detail/{fan_id}/activity/total": {
@@ -6590,12 +5825,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/detail/{fan_id}/activity/type": {
@@ -6631,12 +5861,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/detail/{fan_id}/interest": {
@@ -6672,12 +5897,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/fantracker/locate": {
@@ -6720,12 +5940,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/purchase": {
@@ -6770,12 +5985,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/{fan_id}/purchases": {
@@ -6811,12 +6021,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/{fan_id}/tickets": {
@@ -6852,12 +6057,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/detail/{fan_id}/topic/sentiment": {
@@ -6893,12 +6093,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/search": {
@@ -6946,12 +6141,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/fantracker/{fan_id}/locate": {
@@ -6987,12 +6177,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/{fan_id}/duplicates": {
@@ -7028,12 +6213,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/{fan_id}/loyaltyprograms": {
@@ -7069,12 +6249,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/fan/fantracker/create": {
@@ -7119,12 +6294,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/gamification": {
@@ -7169,12 +6339,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/4665b5a0-19e7-11e7-afd7-4fc8841a2f18": {
@@ -7268,12 +6433,7 @@
               }
             }
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/gamification/page": {
@@ -7302,12 +6462,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/gamification/{contest_id}/winner": {
@@ -7359,12 +6514,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/gamification/{contest_id}/winner/{winner_id}": {
@@ -7407,12 +6557,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/gamification/{contest_id}/winner/page": {
@@ -7448,12 +6593,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/gamification/cancelled/page": {
@@ -7482,12 +6622,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/gamification/uncancelled/page": {
@@ -7516,12 +6651,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/count": {
@@ -7550,12 +6680,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/{loyalty_id}/engagements": {
@@ -7591,12 +6716,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/{loyalty_id}": {
@@ -7632,12 +6752,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/tier/33c10ba0-b03a-11e6-bda9-c12ef41e3482": {
@@ -7682,12 +6797,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/tier": {
@@ -7732,12 +6842,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/pointrule/7535d48b-cacc-4527-b087-f204d0e5485f": {
@@ -7782,12 +6887,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/pointrule": {
@@ -7832,12 +6932,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/member/{loyalty_member}": {
@@ -7889,12 +6984,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/archived/page": {
@@ -7923,12 +7013,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/page": {
@@ -7957,12 +7042,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/{loyalty_id}/member/gender": {
@@ -8005,12 +7085,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/{loyalty_id}/member/tiers": {
@@ -8053,12 +7128,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/{program_id}/member/count": {
@@ -8101,12 +7171,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/{loyalty_id}/member": {
@@ -8149,12 +7214,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/{loyalty_id}/leaderboard/lifetime": {
@@ -8197,12 +7257,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/loyalty/{loyalty_id}/transaction": {
@@ -8245,12 +7300,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/social/feed/oembed": {
@@ -8279,12 +7329,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/loyalty/{loyaltyprogram_id}/members/day": {
@@ -8320,12 +7365,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/topics/top/hour": {
@@ -8354,12 +7394,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/engagements/recent": {
@@ -8388,12 +7423,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/activities/geo/recent": {
@@ -8422,12 +7452,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/sentiment": {
@@ -8456,12 +7481,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/trending/tweets": {
@@ -8490,12 +7510,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/activity/type": {
@@ -8524,12 +7539,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/social/feed": {
@@ -8558,12 +7568,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/fans/new/5": {
@@ -8592,12 +7597,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/fans/top": {
@@ -8626,12 +7626,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/profiles/top": {
@@ -8660,12 +7655,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/topics/search": {
@@ -8710,12 +7700,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/fans": {
@@ -8744,12 +7729,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/loyalty/{loyalty_id}/members/day": {
@@ -8785,12 +7765,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/metrics/activity/minute": {
@@ -8819,12 +7794,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/post/10119118-e501-4883-852a-b0eb6a99c23c": {
@@ -8869,12 +7839,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/post/archived/page": {
@@ -8903,12 +7868,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/post/unarchived/page": {
@@ -8937,12 +7897,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/post/{post_id}": {
@@ -8978,12 +7933,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/system/info": {
@@ -9012,12 +7962,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/system/ping": {
@@ -9046,12 +7991,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/system/time": {
@@ -9080,12 +8020,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/system/pong": {
@@ -9130,12 +8065,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/system/utctime": {
@@ -9164,12 +8094,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/tools/shortenurl": {
@@ -9214,12 +8139,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/minute": {
@@ -9255,12 +8175,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/feed/month": {
@@ -9296,12 +8211,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     },
     "/engagement/{listening_engagement}/geo/positive": {
@@ -9337,12 +8247,7 @@
             "description": "",
             "headers": {}
           }
-        },
-        "security": [
-          {
-            "auth": []
-          }
-        ]
+        }
       }
     }
   },
@@ -11533,6 +10438,11 @@
       ]
     }
   },
+  "security": [
+    {
+      "auth": []
+    }
+  ],
   "tags": [
     {
       "name": "activity"
