@@ -25,7 +25,7 @@
         "tags": [
           "Misc"
         ],
-        "operationId": "PageGet",
+        "operationId": "page",
         "deprecated": false,
         "produces": [
           "application/json"
