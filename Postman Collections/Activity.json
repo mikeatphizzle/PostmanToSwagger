@@ -46,6 +46,27 @@
           }
         }
       }
+    },
+    "//": {
+      "get": {
+        "description": "TODO: Add Description",
+        "summary": "Particle Counter Post",
+        "tags": [
+          "Misc"
+        ],
+        "operationId": "ParticleCounterPost",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
     }
   },
   "tags": [
