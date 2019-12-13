@@ -47,7 +47,7 @@
         }
       }
     },
-    "//": {
+    "/": {
       "get": {
         "description": "TODO: Add Description",
         "summary": "Particle Counter Post",
