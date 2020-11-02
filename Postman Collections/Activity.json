@@ -1,69 +1,77 @@
 {
+  "swagger": "2.0",
   "info": {
-    "_postman_id": "2057738-f16e8403-7ce5-7c2a-0e94-a0777a29d31f",
-    "name": "Activity",
+    "version": "1.0",
+    "title": "Activity",
     "description": "Activity API's are used to push and list activitys for an entire account",
-    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    "contact": {}
   },
-  "item": [
-    {
-      "name": "page",
-      "_postman_id": "2057738-1b7774af-32a2-7344-0659-a21109b8e081",
-      "request": {
-        "method": "GET",
-        "header": [],
-        "body": {
-          "mode": "formdata",
-          "formdata": []
-        },
-        "url": {
-          "raw": "https://phz.io/activity/page/?token=H6m80Gi62I.80e2a240-25c9-11e7-9719-33a7a6b886da",
-          "protocol": "https",
-          "host": [
-            "phz",
-            "io"
-          ],
-          "path": [
-            "activity",
-            "page",
-            ""
-          ],
-          "query": [
-            {
-              "key": "token",
-              "value": "H6m80Gi62I.80e2a240-25c9-11e7-9719-33a7a6b886da"
-            }
-          ]
-        },
-        "description": "Get a page of activities"
-      },
-      "response": []
+  "host": "phz.io",
+  "basePath": "/activity",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/page": {
+      "get": {
+        "description": "Get a page of activities",
+        "summary": "page",
+        "tags": [
+          "Misc"
+        ],
+        "operationId": "page",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
     },
+    "/": {
+      "get": {
+        "summary": "Particle Counter Post",
+        "tags": [
+          "Misc"
+        ],
+        "operationId": "ParticleCounterPost",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    }
+  },
+  "tags": [
     {
-      "name": "Particle Counter Post",
-      "_postman_id": "2057738-a678823a-f7ff-4fe6-a87b-3830e6e058ca",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": ""
-      },
-      "response": []
-    },
-    {
-      "name": "Particle Counter Get",
-      "_postman_id": "2057738-d18494f5-20d8-4d34-8650-fbf24bbe0978",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": ""
-      },
-      "response": []
+      "name": "Misc",
+      "description": ""
     }
   ]
 }
