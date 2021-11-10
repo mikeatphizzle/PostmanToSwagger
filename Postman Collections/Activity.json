@@ -8,6 +8,7 @@
   },
   "host": "phz.io",
   "basePath": "/activity",
+  "securityDefinitions": {},
   "schemes": [
     "https"
   ],
